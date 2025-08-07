@@ -1,0 +1,110 @@
+{
+  "domain": {
+    "name": "demo.com.au",
+    "status": "coming_soon",
+    "forSale": false,
+    "category": "basic",
+    "keywords": ["demo", "example"],
+    "description": "Demo configuration showing placeholder boxes"
+  },
+  
+  "template": {
+    "type": "hero",
+    "theme": "basic",
+    "colorMode": "light"
+  },
+  
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": false
+  },
+  
+  "contentBoxes": {
+    "hero-headline": {
+      "type": "headline",
+      "position": "hero-headline",
+      "content": {}
+    },
+    "main-content": {
+      "type": "dynamic-feed",
+      "position": "main-content",
+      "content": {}
+    },
+    "primary-content": {
+      "type": "features-grid",
+      "position": "primary-content",
+      "content": {}
+    },
+    "sidebar-1": {
+      "type": "ad-native",
+      "position": "sidebar-1",
+      "enabled": true,
+      "content": {}
+    },
+    "ad-native-1": {
+      "type": "ad-native",
+      "position": "ad-native-1",
+      "enabled": false,
+      "content": {}
+    },
+    "ad-sidebar": {
+      "type": "ad-native",
+      "position": "ad-sidebar",
+      "enabled": true,
+      "content": {}
+    },
+    "feature-grid": {
+      "type": "features-grid",
+      "position": "feature-grid",
+      "content": {}
+    },
+    "lower-content": {
+      "type": "cta",
+      "position": "lower-content",
+      "content": {}
+    },
+    "ad-alert": {
+      "type": "ad-alert",
+      "position": "ad-alert",
+      "content": {}
+    },
+    "ad-top-banner": {
+      "type": "ad-banner",
+      "position": "ad-top-banner",
+      "content": {}
+    },
+    "sidebar-2": {
+      "type": "ad-native",
+      "position": "sidebar-2",
+      "content": {}
+    },
+    "ad-mid-banner": {
+      "type": "ad-banner",
+      "position": "ad-mid-banner",
+      "content": {}
+    },
+    "ad-bottom-banner": {
+      "type": "ad-banner",
+      "position": "ad-bottom-banner",
+      "content": {}
+    }
+  },
+  
+  "ads": {
+    "enabled": true,
+    "network": "adsense"
+  },
+  
+  "emailCapture": {
+    "headline": "Get Notified",
+    "description": "Be the first to know when we launch",
+    "buttonText": "JOIN WAITLIST",
+    "successMessage": "Thanks! We'll be in touch."
+  },
+  
+  "seo": {
+    "title": "Demo.com.au - Placeholder Demo",
+    "description": "Demo showing placeholder content boxes",
+    "keywords": ["demo", "placeholder", "example"]
+  }
+}

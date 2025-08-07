@@ -1,0 +1,57 @@
+{
+  "domain": {
+    "name": "landing-demo.com.au",
+    "status": "coming_soon",
+    "forSale": true,
+    "category": "basic",
+    "keywords": ["demo", "landing"],
+    "description": "Landing template demo with placeholders"
+  },
+  
+  "template": {
+    "type": "landing",
+    "theme": "basic",
+    "colorMode": "light"
+  },
+  
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": false
+  },
+  
+  "contentBoxes": {
+    "main": {
+      "type": "headline",
+      "position": "main",
+      "content": {}
+    },
+    "ad-top-banner": {
+      "type": "ad-banner",
+      "position": "ad-top-banner",
+      "content": {}
+    },
+    "additional": {
+      "type": "cta",
+      "position": "additional",
+      "content": {}
+    }
+  },
+  
+  "ads": {
+    "enabled": true,
+    "placements": {}
+  },
+  
+  "emailCapture": {
+    "headline": "Stay Updated",
+    "description": "Enter your email to get notified when we launch",
+    "buttonText": "NOTIFY ME",
+    "successMessage": "Thanks! We'll keep you posted."
+  },
+  
+  "seo": {
+    "title": "Landing Demo - Placeholder Example",
+    "description": "Landing template demo showing placeholder boxes",
+    "keywords": ["landing", "demo", "placeholder"]
+  }
+}
