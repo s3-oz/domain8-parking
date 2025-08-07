@@ -1,0 +1,27 @@
+{
+  "domain": "tread.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Tread",
+    "tagline": "Welcome to tread.com.au",
+    "description": "Automotive (tires) e-commerce/reviews, or footwear (treads) e-commerce/blog.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Automotive (tires) e-commerce/reviews, or footwear (treads) e-commerce/blog.",
+        "aiPrompt": "Generate engaging content for a E-commerce/Review website about: Automotive (tires) e-commerce/reviews, or footwear (treads) e-commerce/blog."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

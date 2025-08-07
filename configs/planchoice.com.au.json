@@ -1,0 +1,26 @@
+{
+  "domain": "planchoice.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Planchoice",
+    "tagline": "Welcome to planchoice.com.au",
+    "description": "Comparison",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Comparison",
+        "aiPrompt": "Generate engaging content for a undefined website about: Comparison"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

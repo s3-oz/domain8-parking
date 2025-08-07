@@ -1,0 +1,26 @@
+{
+  "domain": "mobiledeals.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Mobiledeals",
+    "tagline": "Welcome to mobiledeals.com.au",
+    "description": "Aggregator/Deals",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Aggregator/Deals",
+        "aiPrompt": "Generate engaging content for a undefined website about: Aggregator/Deals"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

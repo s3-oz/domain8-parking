@@ -1,0 +1,27 @@
+{
+  "domain": "mika.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Mika",
+    "tagline": "Welcome to mika.com.au",
+    "description": "Personal brand, portfolio, or niche blog/e-commerce.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Personal brand, portfolio, or niche blog/e-commerce.",
+        "aiPrompt": "Generate engaging content for a Varies (Brandable) website about: Personal brand, portfolio, or niche blog/e-commerce."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

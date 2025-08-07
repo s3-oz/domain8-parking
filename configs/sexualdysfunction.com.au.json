@@ -1,0 +1,26 @@
+{
+  "domain": "sexualdysfunction.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Sexualdysfunction",
+    "tagline": "Welcome to sexualdysfunction.com.au",
+    "description": "Welcome to sexualdysfunction.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for sexualdysfunction.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site about sexual dysfunction, treatments, support (sensitive content). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

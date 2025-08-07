@@ -1,0 +1,26 @@
+{
+  "domain": "dietideas.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Dietideas",
+    "tagline": "Welcome to dietideas.com.au",
+    "description": "Welcome to dietideas.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for dietideas.com.au",
+        "aiPrompt": "Generate engaging content for a Collection of diet plans, recipes, and healthy eating ideas. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

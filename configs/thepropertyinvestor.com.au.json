@@ -1,0 +1,26 @@
+{
+  "domain": "thepropertyinvestor.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Thepropertyinvestor",
+    "tagline": "Welcome to thepropertyinvestor.com.au",
+    "description": "Information",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Information",
+        "aiPrompt": "Generate engaging content for a undefined website about: Information"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

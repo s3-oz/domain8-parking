@@ -1,0 +1,60 @@
+{
+  "domain": "brewhaus.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "ecommerce",
+    "brandColors": {
+      "primary": "#D97A34",
+      "secondary": "#2C1810",
+      "accent": "#7FB442"
+    }
+  },
+  "content": {
+    "title": "Brewhaus",
+    "tagline": "Welcome to brewhaus.com.au",
+    "description": "E-commerce for homebrewing supplies or a homebrewers community/info site.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "E-commerce for homebrewing supplies or a homebrewers community/info site.",
+        "aiPrompt": "Generate engaging content for a E-commerce/Information/Community website about: E-commerce for homebrewing supplies or a homebrewers community/info site."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Brewhaus",
+        "aiPrompt": "Generate a compelling headline for: E-commerce for homebrewing supplies or a homebrewers community/info site."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: E-commerce/Information/Community"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: E-commerce for homebrewing supplies or a homebrewers community/info site."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: E-commerce for homebrewing supplies or a homebrewers community/info site."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: E-commerce for homebrewing supplies or a homebrewers community/info site."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

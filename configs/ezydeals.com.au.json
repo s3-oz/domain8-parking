@@ -1,0 +1,26 @@
+{
+  "domain": "ezydeals.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Ezydeals",
+    "tagline": "Welcome to ezydeals.com.au",
+    "description": "Welcome to ezydeals.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for ezydeals.com.au",
+        "aiPrompt": "Generate engaging content for a Aggregator of 'easy' or quick deals and discounts. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

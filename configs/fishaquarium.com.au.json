@@ -1,0 +1,26 @@
+{
+  "domain": "fishaquarium.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Fishaquarium",
+    "tagline": "Welcome to fishaquarium.com.au",
+    "description": "Information/E-commerce (niche)",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Information/E-commerce (niche)",
+        "aiPrompt": "Generate engaging content for a undefined website about: Information/E-commerce (niche)"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

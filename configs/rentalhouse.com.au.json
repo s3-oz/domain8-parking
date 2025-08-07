@@ -1,0 +1,55 @@
+{
+  "domain": "rentalhouse.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Rentalhouse",
+    "tagline": "Welcome to rentalhouse.com.au",
+    "description": "Platform for house rentals or directory of rental properties.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Platform for house rentals or directory of rental properties.",
+        "aiPrompt": "Generate engaging content for a Platform/Directory website about: Platform for house rentals or directory of rental properties."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Rentalhouse",
+        "aiPrompt": "Generate a compelling headline for: Platform for house rentals or directory of rental properties."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform/Directory"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Platform for house rentals or directory of rental properties."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Platform for house rentals or directory of rental properties."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Platform for house rentals or directory of rental properties."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

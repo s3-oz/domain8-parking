@@ -1,0 +1,26 @@
+{
+  "domain": "discountphones.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Discountphones",
+    "tagline": "Welcome to discountphones.com.au",
+    "description": "Welcome to discountphones.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for discountphones.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce or deals site for discounted mobile phones. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

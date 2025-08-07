@@ -1,0 +1,55 @@
+{
+  "domain": "roundball.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Roundball",
+    "tagline": "Welcome to roundball.com.au",
+    "description": "Basketball news, scores, community, or fantasy league site.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Basketball news, scores, community, or fantasy league site.",
+        "aiPrompt": "Generate engaging content for a News/Community/Platform website about: Basketball news, scores, community, or fantasy league site."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Roundball",
+        "aiPrompt": "Generate a compelling headline for: Basketball news, scores, community, or fantasy league site."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: News/Community/Platform"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Basketball news, scores, community, or fantasy league site."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Basketball news, scores, community, or fantasy league site."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Basketball news, scores, community, or fantasy league site."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

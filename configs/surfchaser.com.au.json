@@ -1,0 +1,26 @@
+{
+  "domain": "surfchaser.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Surfchaser",
+    "tagline": "Welcome to surfchaser.com.au",
+    "description": "Welcome to surfchaser.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for surfchaser.com.au",
+        "aiPrompt": "Generate engaging content for a Surf travel blog, surf spot guide, or surf forecast site. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "broadbandguides.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Broadbandguides",
+    "tagline": "Welcome to broadbandguides.com.au",
+    "description": "Welcome to broadbandguides.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for broadbandguides.com.au",
+        "aiPrompt": "Generate engaging content for a Collection of guides on broadband internet services. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

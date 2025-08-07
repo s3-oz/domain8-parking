@@ -1,0 +1,26 @@
+{
+  "domain": "moneymaster.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Moneymaster",
+    "tagline": "Welcome to moneymaster.com.au",
+    "description": "Welcome to moneymaster.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for moneymaster.com.au",
+        "aiPrompt": "Generate engaging content for a Personal finance management tools, advice, or courses. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "wirelessguide.net.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Wirelessguide.net.au",
+    "tagline": "Welcome to wirelessguide.net.au",
+    "description": "Welcome to wirelessguide.net.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for wirelessguide.net.au",
+        "aiPrompt": "Generate engaging content for a Alternative guide to wireless technologies. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

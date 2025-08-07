@@ -1,0 +1,26 @@
+{
+  "domain": "hke.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Hke",
+    "tagline": "Welcome to hke.com.au",
+    "description": "Welcome to hke.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for hke.com.au",
+        "aiPrompt": "Generate engaging content for a Brandable short domain: tech, finance, consulting, Hong Kong enterprise. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

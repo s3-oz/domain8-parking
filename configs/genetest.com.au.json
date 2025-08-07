@@ -1,0 +1,55 @@
+{
+  "domain": "genetest.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "professional"
+  },
+  "content": {
+    "title": "Genetest",
+    "tagline": "Welcome to genetest.com.au",
+    "description": "Informational site about genetic testing or directory of testing services.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Informational site about genetic testing or directory of testing services.",
+        "aiPrompt": "Generate engaging content for a Information/Directory website about: Informational site about genetic testing or directory of testing services."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Genetest",
+        "aiPrompt": "Generate a compelling headline for: Informational site about genetic testing or directory of testing services."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Information/Directory"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Informational site about genetic testing or directory of testing services."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Informational site about genetic testing or directory of testing services."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Informational site about genetic testing or directory of testing services."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

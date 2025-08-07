@@ -1,0 +1,27 @@
+{
+  "domain": "turbo.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Turbo",
+    "tagline": "Welcome to turbo.com.au",
+    "description": "Automotive performance parts e-commerce or tech site about speed/optimization.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Automotive performance parts e-commerce or tech site about speed/optimization.",
+        "aiPrompt": "Generate engaging content for a E-commerce/Information website about: Automotive performance parts e-commerce or tech site about speed/optimization."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

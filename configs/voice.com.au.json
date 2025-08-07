@@ -1,0 +1,55 @@
+{
+  "domain": "voice.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Voice",
+    "tagline": "Welcome to voice.com.au",
+    "description": "Platform for voice artists, voice-over services, or speech technology news.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Platform for voice artists, voice-over services, or speech technology news.",
+        "aiPrompt": "Generate engaging content for a Platform/Service/News website about: Platform for voice artists, voice-over services, or speech technology news."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Voice",
+        "aiPrompt": "Generate a compelling headline for: Platform for voice artists, voice-over services, or speech technology news."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform/Service/News"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Platform for voice artists, voice-over services, or speech technology news."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Platform for voice artists, voice-over services, or speech technology news."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Platform for voice artists, voice-over services, or speech technology news."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

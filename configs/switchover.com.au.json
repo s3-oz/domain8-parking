@@ -1,0 +1,26 @@
+{
+  "domain": "switchover.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Switchover",
+    "tagline": "Welcome to switchover.com.au",
+    "description": "Welcome to switchover.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for switchover.com.au",
+        "aiPrompt": "Generate engaging content for a General provider switching service (utilities, finance, telco). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

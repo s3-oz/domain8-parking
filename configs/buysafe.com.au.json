@@ -1,0 +1,27 @@
+{
+  "domain": "buysafe.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Buysafe",
+    "tagline": "Welcome to buysafe.com.au",
+    "description": "Info on safe online shopping, product safety reviews, or security products e-commerce.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Info on safe online shopping, product safety reviews, or security products e-commerce.",
+        "aiPrompt": "Generate engaging content for a Information/Review or E-commerce website about: Info on safe online shopping, product safety reviews, or security products e-commerce."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

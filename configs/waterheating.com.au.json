@@ -1,0 +1,26 @@
+{
+  "domain": "waterheating.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Waterheating",
+    "tagline": "Welcome to waterheating.com.au",
+    "description": "Welcome to waterheating.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for waterheating.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site or e-commerce for water heating systems. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "phonefinder.net.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Phonefinder.net.au",
+    "tagline": "Welcome to phonefinder.net.au",
+    "description": "Comparison",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Comparison",
+        "aiPrompt": "Generate engaging content for a undefined website about: Comparison"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

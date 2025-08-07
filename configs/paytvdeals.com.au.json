@@ -1,0 +1,26 @@
+{
+  "domain": "paytvdeals.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Paytvdeals",
+    "tagline": "Welcome to paytvdeals.com.au",
+    "description": "Welcome to paytvdeals.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for paytvdeals.com.au",
+        "aiPrompt": "Generate engaging content for a Aggregator of deals and promotions for pay TV services. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "carbontraders.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Carbontraders",
+    "tagline": "Welcome to carbontraders.com.au",
+    "description": "Welcome to carbontraders.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for carbontraders.com.au",
+        "aiPrompt": "Generate engaging content for a Info on carbon trading, carbon credits, or sustainability investments. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

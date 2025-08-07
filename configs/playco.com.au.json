@@ -1,0 +1,54 @@
+{
+  "domain": "playco.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Playco",
+    "tagline": "Welcome to playco.com.au",
+    "description": "Welcome to playco.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for playco.com.au",
+        "aiPrompt": "Generate engaging content for a Online gaming platform, toy company, or children's play center directory. website about: "
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Playco",
+        "aiPrompt": "Generate a compelling headline for: "
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Online gaming platform, toy company, or children's play center directory."
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: "
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: "
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

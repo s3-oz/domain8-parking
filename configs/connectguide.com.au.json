@@ -1,0 +1,26 @@
+{
+  "domain": "connectguide.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Connectguide",
+    "tagline": "Welcome to connectguide.com.au",
+    "description": "Welcome to connectguide.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for connectguide.com.au",
+        "aiPrompt": "Generate engaging content for a Guide to networking, internet setup, connecting devices/services. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

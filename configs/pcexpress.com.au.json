@@ -1,0 +1,27 @@
+{
+  "domain": "pcexpress.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Pcexpress",
+    "tagline": "Welcome to pcexpress.com.au",
+    "description": "Fast PC repair services or e-commerce for express PC parts delivery.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Fast PC repair services or e-commerce for express PC parts delivery.",
+        "aiPrompt": "Generate engaging content for a Service/E-commerce website about: Fast PC repair services or e-commerce for express PC parts delivery."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

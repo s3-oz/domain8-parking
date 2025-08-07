@@ -1,0 +1,26 @@
+{
+  "domain": "electricityguide.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Electricityguide",
+    "tagline": "Welcome to electricityguide.com.au",
+    "description": "Welcome to electricityguide.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for electricityguide.com.au",
+        "aiPrompt": "Generate engaging content for a Guide to electricity bills, providers, energy saving tips. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

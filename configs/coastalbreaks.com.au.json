@@ -1,0 +1,26 @@
+{
+  "domain": "coastalbreaks.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Coastalbreaks",
+    "tagline": "Welcome to coastalbreaks.com.au",
+    "description": "Welcome to coastalbreaks.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for coastalbreaks.com.au",
+        "aiPrompt": "Generate engaging content for a Travel blog or booking site for coastal holidays. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

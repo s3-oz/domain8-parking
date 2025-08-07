@@ -1,0 +1,27 @@
+{
+  "domain": "sliced.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Sliced",
+    "tagline": "Welcome to sliced.com.au",
+    "description": "Food blog (recipes with sliced ingredients), or a tech site (slicing in 3D printing/web design).",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Food blog (recipes with sliced ingredients), or a tech site (slicing in 3D printing/web design).",
+        "aiPrompt": "Generate engaging content for a Food/Tech Blog website about: Food blog (recipes with sliced ingredients), or a tech site (slicing in 3D printing/web design)."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

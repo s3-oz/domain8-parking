@@ -1,0 +1,26 @@
+{
+  "domain": "fortunate.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Fortunate",
+    "tagline": "Welcome to fortunate.com.au",
+    "description": "Welcome to fortunate.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for fortunate.com.au",
+        "aiPrompt": "Generate engaging content for a Luxury lifestyle blog, high-end product reviews, or wealth management/investment site. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

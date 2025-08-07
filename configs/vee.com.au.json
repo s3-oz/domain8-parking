@@ -1,0 +1,26 @@
+{
+  "domain": "vee.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Vee",
+    "tagline": "Welcome to vee.com.au",
+    "description": "Welcome to vee.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for vee.com.au",
+        "aiPrompt": "Generate engaging content for a Brandable short domain (e.g., virtual services, video content). Niche specific. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

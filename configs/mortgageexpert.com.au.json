@@ -1,0 +1,55 @@
+{
+  "domain": "mortgageexpert.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "comparison"
+  },
+  "content": {
+    "title": "Mortgageexpert",
+    "tagline": "Welcome to mortgageexpert.com.au",
+    "description": "Mortgage advice, comparison, or directory of mortgage brokers.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Mortgage advice, comparison, or directory of mortgage brokers.",
+        "aiPrompt": "Generate engaging content for a Information/Comparison/Directory website about: Mortgage advice, comparison, or directory of mortgage brokers."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Mortgageexpert",
+        "aiPrompt": "Generate a compelling headline for: Mortgage advice, comparison, or directory of mortgage brokers."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Information/Comparison/Directory"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Mortgage advice, comparison, or directory of mortgage brokers."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Mortgage advice, comparison, or directory of mortgage brokers."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Mortgage advice, comparison, or directory of mortgage brokers."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

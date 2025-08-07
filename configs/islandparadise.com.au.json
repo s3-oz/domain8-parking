@@ -1,0 +1,27 @@
+{
+  "domain": "islandparadise.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Islandparadise",
+    "tagline": "Welcome to islandparadise.com.au",
+    "description": "Travel blog or booking site for island holiday destinations.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Travel blog or booking site for island holiday destinations.",
+        "aiPrompt": "Generate engaging content for a Travel/Information/Booking website about: Travel blog or booking site for island holiday destinations."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

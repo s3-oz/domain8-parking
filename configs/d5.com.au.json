@@ -1,0 +1,26 @@
+{
+  "domain": "d5.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "D5",
+    "tagline": "Welcome to d5.com.au",
+    "description": "Welcome to d5.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for d5.com.au",
+        "aiPrompt": "Generate engaging content for a Brandable short domain: design, development, digital services, modern blog/portfolio. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

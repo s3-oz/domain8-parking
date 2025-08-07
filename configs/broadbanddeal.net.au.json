@@ -1,0 +1,26 @@
+{
+  "domain": "broadbanddeal.net.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Broadbanddeal.net.au",
+    "tagline": "Welcome to broadbanddeal.net.au",
+    "description": "Welcome to broadbanddeal.net.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for broadbanddeal.net.au",
+        "aiPrompt": "Generate engaging content for a Aggregator of current broadband deals and promotions. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

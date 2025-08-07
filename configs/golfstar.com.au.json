@@ -1,0 +1,26 @@
+{
+  "domain": "golfstar.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Golfstar",
+    "tagline": "Welcome to golfstar.com.au",
+    "description": "Welcome to golfstar.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for golfstar.com.au",
+        "aiPrompt": "Generate engaging content for a Golf news, player profiles, tournament info, or golf equipment reviews. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

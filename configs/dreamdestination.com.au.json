@@ -1,0 +1,27 @@
+{
+  "domain": "dreamdestination.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Dreamdestination",
+    "tagline": "Welcome to dreamdestination.com.au",
+    "description": "Travel inspiration blog or booking site for unique dream holidays.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Travel inspiration blog or booking site for unique dream holidays.",
+        "aiPrompt": "Generate engaging content for a Travel/Information/Booking website about: Travel inspiration blog or booking site for unique dream holidays."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

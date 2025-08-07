@@ -1,0 +1,26 @@
+{
+  "domain": "seosem.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Seosem",
+    "tagline": "Welcome to seosem.com.au",
+    "description": "Welcome to seosem.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for seosem.com.au",
+        "aiPrompt": "Generate engaging content for a Agency site for SEO/SEM services or an informational blog about digital marketing. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "domain": "aussiedeal.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Aussiedeal",
+    "tagline": "Welcome to aussiedeal.com.au",
+    "description": "Australian daily deals aggregator or local discount finder.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Australian daily deals aggregator or local discount finder.",
+        "aiPrompt": "Generate engaging content for a Deals/Aggregator website about: Australian daily deals aggregator or local discount finder."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

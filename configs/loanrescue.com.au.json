@@ -1,0 +1,26 @@
+{
+  "domain": "loanrescue.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Loanrescue",
+    "tagline": "Welcome to loanrescue.com.au",
+    "description": "Information/Referral (Affiliate if appropriate)",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Information/Referral (Affiliate if appropriate)",
+        "aiPrompt": "Generate engaging content for a undefined website about: Information/Referral (Affiliate if appropriate)"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "megabucks.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Megabucks",
+    "tagline": "Welcome to megabucks.com.au",
+    "description": "Welcome to megabucks.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for megabucks.com.au",
+        "aiPrompt": "Generate engaging content for a Lottery results, jackpot info, or site about wealth/luxury. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

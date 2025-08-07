@@ -1,0 +1,26 @@
+{
+  "domain": "quickdeal.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Quickdeal",
+    "tagline": "Welcome to quickdeal.com.au",
+    "description": "Welcome to quickdeal.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for quickdeal.com.au",
+        "aiPrompt": "Generate engaging content for a Aggregator for quick deals or time-sensitive offers. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

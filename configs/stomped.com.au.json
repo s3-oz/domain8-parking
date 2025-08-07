@@ -1,0 +1,26 @@
+{
+  "domain": "stomped.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Stomped",
+    "tagline": "Welcome to stomped.com.au",
+    "description": "Welcome to stomped.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for stomped.com.au",
+        "aiPrompt": "Generate engaging content for a Extreme sports (stomping tricks), or a forceful product review site. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

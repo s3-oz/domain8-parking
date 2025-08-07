@@ -1,0 +1,26 @@
+{
+  "domain": "careersadviser.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Careersadviser",
+    "tagline": "Welcome to careersadviser.com.au",
+    "description": "Information/Directory",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Information/Directory",
+        "aiPrompt": "Generate engaging content for a undefined website about: Information/Directory"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

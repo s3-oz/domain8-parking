@@ -1,0 +1,27 @@
+{
+  "domain": "myownwebsite.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Myownwebsite",
+    "tagline": "Welcome to myownwebsite.com.au",
+    "description": "DIY website builder information or showcase of personal websites.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "DIY website builder information or showcase of personal websites.",
+        "aiPrompt": "Generate engaging content for a Information/Showcase website about: DIY website builder information or showcase of personal websites."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "domain": "switchmoney.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "comparison"
+  },
+  "content": {
+    "title": "Switchmoney",
+    "tagline": "Welcome to switchmoney.com.au",
+    "description": "Welcome to switchmoney.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for switchmoney.com.au",
+        "aiPrompt": "Generate engaging content for a Currency exchange comparison or international money transfer service info. website about: "
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Switchmoney",
+        "aiPrompt": "Generate a compelling headline for: "
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Currency exchange comparison or international money transfer service info."
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: "
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: "
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

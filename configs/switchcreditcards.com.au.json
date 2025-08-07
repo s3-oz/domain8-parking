@@ -1,0 +1,26 @@
+{
+  "domain": "switchcreditcards.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Switchcreditcards",
+    "tagline": "Welcome to switchcreditcards.com.au",
+    "description": "Welcome to switchcreditcards.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for switchcreditcards.com.au",
+        "aiPrompt": "Generate engaging content for a Service or informational site for switching credit cards. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

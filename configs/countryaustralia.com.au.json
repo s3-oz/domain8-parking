@@ -1,0 +1,27 @@
+{
+  "domain": "countryaustralia.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Countryaustralia",
+    "tagline": "Welcome to countryaustralia.com.au",
+    "description": "Travel guide/info site for rural and country Australia.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Travel guide/info site for rural and country Australia.",
+        "aiPrompt": "Generate engaging content for a Travel/Information website about: Travel guide/info site for rural and country Australia."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

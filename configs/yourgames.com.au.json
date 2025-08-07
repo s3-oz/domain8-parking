@@ -1,0 +1,26 @@
+{
+  "domain": "yourgames.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Yourgames",
+    "tagline": "Welcome to yourgames.com.au",
+    "description": "Welcome to yourgames.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for yourgames.com.au",
+        "aiPrompt": "Generate engaging content for a Personalized game recommendation site or portal for indie games. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

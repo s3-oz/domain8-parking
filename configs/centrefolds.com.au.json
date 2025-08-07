@@ -1,0 +1,26 @@
+{
+  "domain": "centrefolds.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Centrefolds",
+    "tagline": "Welcome to centrefolds.com.au",
+    "description": "Welcome to centrefolds.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for centrefolds.com.au",
+        "aiPrompt": "Generate engaging content for a Magazine/art style site or design/layout inspiration. (Consider adult content policy). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

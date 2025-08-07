@@ -1,0 +1,26 @@
+{
+  "domain": "familycooking.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Familycooking",
+    "tagline": "Welcome to familycooking.com.au",
+    "description": "Welcome to familycooking.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for familycooking.com.au",
+        "aiPrompt": "Generate engaging content for a Recipe site or blog for family-friendly meals and cooking tips. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

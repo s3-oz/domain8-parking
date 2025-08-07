@@ -1,0 +1,55 @@
+{
+  "domain": "swapper.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Swapper",
+    "tagline": "Welcome to swapper.com.au",
+    "description": "Online platform for swapping goods or services.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Online platform for swapping goods or services.",
+        "aiPrompt": "Generate engaging content for a Platform/Marketplace website about: Online platform for swapping goods or services."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Swapper",
+        "aiPrompt": "Generate a compelling headline for: Online platform for swapping goods or services."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform/Marketplace"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Online platform for swapping goods or services."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Online platform for swapping goods or services."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Online platform for swapping goods or services."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

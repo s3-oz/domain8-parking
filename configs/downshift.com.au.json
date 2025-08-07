@@ -1,0 +1,26 @@
+{
+  "domain": "downshift.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Downshift",
+    "tagline": "Welcome to downshift.com.au",
+    "description": "Information/Community",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Information/Community",
+        "aiPrompt": "Generate engaging content for a undefined website about: Information/Community"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

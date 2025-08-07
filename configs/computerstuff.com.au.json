@@ -1,0 +1,26 @@
+{
+  "domain": "computerstuff.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Computerstuff",
+    "tagline": "Welcome to computerstuff.com.au",
+    "description": "Welcome to computerstuff.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for computerstuff.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce for computer hardware/software or tech blog/review site. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

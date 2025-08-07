@@ -1,0 +1,26 @@
+{
+  "domain": "holidaysaver.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Holidaysaver",
+    "tagline": "Welcome to holidaysaver.com.au",
+    "description": "Aggregator/Deals or Information",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Aggregator/Deals or Information",
+        "aiPrompt": "Generate engaging content for a undefined website about: Aggregator/Deals or Information"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

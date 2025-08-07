@@ -1,0 +1,26 @@
+{
+  "domain": "personalloanaustralia.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Personalloanaustralia",
+    "tagline": "Welcome to personalloanaustralia.com.au",
+    "description": "Comparison/Information (Affiliate if appropriate)",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Comparison/Information (Affiliate if appropriate)",
+        "aiPrompt": "Generate engaging content for a undefined website about: Comparison/Information (Affiliate if appropriate)"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

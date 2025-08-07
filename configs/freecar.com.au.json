@@ -1,0 +1,26 @@
+{
+  "domain": "freecar.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Freecar",
+    "tagline": "Welcome to freecar.com.au",
+    "description": "Welcome to freecar.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for freecar.com.au",
+        "aiPrompt": "Generate engaging content for a Site listing car competitions/giveaways or info on car ownership savings. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

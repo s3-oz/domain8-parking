@@ -1,0 +1,27 @@
+{
+  "domain": "enjoyit.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Enjoyit",
+    "tagline": "Welcome to enjoyit.com.au",
+    "description": "Lifestyle blog on leisure activities, hobbies, entertainment.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Lifestyle blog on leisure activities, hobbies, entertainment.",
+        "aiPrompt": "Generate engaging content for a Information/Blog website about: Lifestyle blog on leisure activities, hobbies, entertainment."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

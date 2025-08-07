@@ -1,0 +1,26 @@
+{
+  "domain": "goeasy.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Goeasy",
+    "tagline": "Welcome to goeasy.com.au",
+    "description": "Welcome to goeasy.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for goeasy.com.au",
+        "aiPrompt": "Generate engaging content for a Lifestyle blog on stress reduction, simple solutions, or brand for easy-to-use products. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

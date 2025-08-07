@@ -1,0 +1,26 @@
+{
+  "domain": "australianboats.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Australianboats",
+    "tagline": "Welcome to australianboats.com.au",
+    "description": "Directory/Classifieds",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Directory/Classifieds",
+        "aiPrompt": "Generate engaging content for a undefined website about: Directory/Classifieds"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

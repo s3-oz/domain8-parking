@@ -1,0 +1,26 @@
+{
+  "domain": "dietnutrition.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Dietnutrition",
+    "tagline": "Welcome to dietnutrition.com.au",
+    "description": "Welcome to dietnutrition.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for dietnutrition.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site on dietetics, nutrition science, and healthy eating. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

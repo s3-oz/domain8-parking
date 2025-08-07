@@ -1,0 +1,27 @@
+{
+  "domain": "shopsales.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Shopsales",
+    "tagline": "Welcome to shopsales.com.au",
+    "description": "Aggregator of sales and discounts from various online shops.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Aggregator of sales and discounts from various online shops.",
+        "aiPrompt": "Generate engaging content for a Deals/Aggregator website about: Aggregator of sales and discounts from various online shops."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

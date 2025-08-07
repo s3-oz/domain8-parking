@@ -1,0 +1,26 @@
+{
+  "domain": "changeover.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Changeover",
+    "tagline": "Welcome to changeover.com.au",
+    "description": "Welcome to changeover.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for changeover.com.au",
+        "aiPrompt": "Generate engaging content for a Currency exchange info or provider switching service (utilities, finance). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

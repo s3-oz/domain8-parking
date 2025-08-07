@@ -1,0 +1,55 @@
+{
+  "domain": "selecthomes.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Selecthomes",
+    "tagline": "Welcome to selecthomes.com.au",
+    "description": "Real estate portal for selected/premium homes or curated property listings.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Real estate portal for selected/premium homes or curated property listings.",
+        "aiPrompt": "Generate engaging content for a Directory/Real Estate website about: Real estate portal for selected/premium homes or curated property listings."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Selecthomes",
+        "aiPrompt": "Generate a compelling headline for: Real estate portal for selected/premium homes or curated property listings."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Directory/Real Estate"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Real estate portal for selected/premium homes or curated property listings."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Real estate portal for selected/premium homes or curated property listings."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Real estate portal for selected/premium homes or curated property listings."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

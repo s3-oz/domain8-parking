@@ -1,0 +1,26 @@
+{
+  "domain": "superannuationaustralia.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Superannuationaustralia",
+    "tagline": "Welcome to superannuationaustralia.com.au",
+    "description": "Welcome to superannuationaustralia.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for superannuationaustralia.com.au",
+        "aiPrompt": "Generate engaging content for a Informational portal about superannuation in Australia. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "mobilephonefinder.net.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Mobilephonefinder.net.au",
+    "tagline": "Welcome to mobilephonefinder.net.au",
+    "description": "Welcome to mobilephonefinder.net.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for mobilephonefinder.net.au",
+        "aiPrompt": "Generate engaging content for a Tool for finding mobile phones based on features/price. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

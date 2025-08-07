@@ -1,0 +1,26 @@
+{
+  "domain": "webgear.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Webgear",
+    "tagline": "Welcome to webgear.com.au",
+    "description": "Review/E-commerce",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Review/E-commerce",
+        "aiPrompt": "Generate engaging content for a undefined website about: Review/E-commerce"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

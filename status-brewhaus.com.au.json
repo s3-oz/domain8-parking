@@ -1,0 +1,19 @@
+{
+  "domain": "brewhaus.com.au",
+  "tier0": {
+    "configExists": true,
+    "enabled": true,
+    "path": "/Users/oz/Sites/domain8-tier0/domain8-clean/configs/brewhaus.com.au.json",
+    "template": "hero",
+    "theme": "ecommerce",
+    "disabled": false
+  },
+  "domain8": {
+    "exists": true,
+    "phase": "design-preview-generated",
+    "status": "complete",
+    "hasBrand": true,
+    "hasWebsite": true,
+    "tier0Enabled": true
+  }
+}

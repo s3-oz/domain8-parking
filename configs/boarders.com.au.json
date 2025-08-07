@@ -1,0 +1,55 @@
+{
+  "domain": "boarders.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Boarders",
+    "tagline": "Welcome to boarders.com.au",
+    "description": "Community/e-commerce for board sports (skate, snow, surf) or accommodation directory for lodgers.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Community/e-commerce for board sports (skate, snow, surf) or accommodation directory for lodgers.",
+        "aiPrompt": "Generate engaging content for a Community/E-commerce/Directory website about: Community/e-commerce for board sports (skate, snow, surf) or accommodation directory for lodgers."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Boarders",
+        "aiPrompt": "Generate a compelling headline for: Community/e-commerce for board sports (skate, snow, surf) or accommodation directory for lodgers."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Community/E-commerce/Directory"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Community/e-commerce for board sports (skate, snow, surf) or accommodation directory for lodgers."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Community/e-commerce for board sports (skate, snow, surf) or accommodation directory for lodgers."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Community/e-commerce for board sports (skate, snow, surf) or accommodation directory for lodgers."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

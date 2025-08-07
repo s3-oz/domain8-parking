@@ -1,0 +1,26 @@
+{
+  "domain": "retailproperty.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Retailproperty",
+    "tagline": "Welcome to retailproperty.com.au",
+    "description": "Welcome to retailproperty.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for retailproperty.com.au",
+        "aiPrompt": "Generate engaging content for a Listings or information portal for retail properties for sale/lease. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

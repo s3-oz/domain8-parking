@@ -1,0 +1,55 @@
+{
+  "domain": "viewer.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Viewer",
+    "tagline": "Welcome to viewer.com.au",
+    "description": "Platform for viewing media (images, videos) or a software tool (file viewer).",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Platform for viewing media (images, videos) or a software tool (file viewer).",
+        "aiPrompt": "Generate engaging content for a Platform/Tool website about: Platform for viewing media (images, videos) or a software tool (file viewer)."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Viewer",
+        "aiPrompt": "Generate a compelling headline for: Platform for viewing media (images, videos) or a software tool (file viewer)."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform/Tool"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Platform for viewing media (images, videos) or a software tool (file viewer)."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Platform for viewing media (images, videos) or a software tool (file viewer)."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Platform for viewing media (images, videos) or a software tool (file viewer)."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

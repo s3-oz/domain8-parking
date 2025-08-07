@@ -1,0 +1,55 @@
+{
+  "domain": "yoursolution.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "professional"
+  },
+  "content": {
+    "title": "Yoursolution",
+    "tagline": "Welcome to yoursolution.com.au",
+    "description": "Consulting services or a platform offering solutions to common problems.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Consulting services or a platform offering solutions to common problems.",
+        "aiPrompt": "Generate engaging content for a Service/Platform website about: Consulting services or a platform offering solutions to common problems."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Yoursolution",
+        "aiPrompt": "Generate a compelling headline for: Consulting services or a platform offering solutions to common problems."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Service/Platform"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Consulting services or a platform offering solutions to common problems."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Consulting services or a platform offering solutions to common problems."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Consulting services or a platform offering solutions to common problems."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

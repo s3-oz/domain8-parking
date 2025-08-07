@@ -1,0 +1,54 @@
+{
+  "domain": "notwanted.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Notwanted",
+    "tagline": "Welcome to notwanted.com.au",
+    "description": "Welcome to notwanted.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for notwanted.com.au",
+        "aiPrompt": "Generate engaging content for a Platform for selling unwanted items, or a humorous site about unwanted things. website about: "
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Notwanted",
+        "aiPrompt": "Generate a compelling headline for: "
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform for selling unwanted items, or a humorous site about unwanted things."
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: "
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: "
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

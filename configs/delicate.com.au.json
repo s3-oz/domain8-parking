@@ -1,0 +1,26 @@
+{
+  "domain": "delicate.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Delicate",
+    "tagline": "Welcome to delicate.com.au",
+    "description": "Welcome to delicate.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for delicate.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce for delicate items (lingerie, jewelry) or blog on etiquette/finesse. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

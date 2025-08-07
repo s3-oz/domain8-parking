@@ -1,0 +1,26 @@
+{
+  "domain": "mbbs.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Mbbs",
+    "tagline": "Welcome to mbbs.com.au",
+    "description": "Welcome to mbbs.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for mbbs.com.au",
+        "aiPrompt": "Generate engaging content for a Information portal for medical students (MBBS degree) or doctors. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

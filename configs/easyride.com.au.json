@@ -1,0 +1,55 @@
+{
+  "domain": "easyride.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "comparison"
+  },
+  "content": {
+    "title": "Easyride",
+    "tagline": "Welcome to easyride.com.au",
+    "description": "Ridesharing comparison/booking, or site for carpooling/bike commuting.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Ridesharing comparison/booking, or site for carpooling/bike commuting.",
+        "aiPrompt": "Generate engaging content for a Comparison/Platform website about: Ridesharing comparison/booking, or site for carpooling/bike commuting."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Easyride",
+        "aiPrompt": "Generate a compelling headline for: Ridesharing comparison/booking, or site for carpooling/bike commuting."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Comparison/Platform"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Ridesharing comparison/booking, or site for carpooling/bike commuting."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Ridesharing comparison/booking, or site for carpooling/bike commuting."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Ridesharing comparison/booking, or site for carpooling/bike commuting."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

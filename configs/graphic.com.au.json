@@ -1,0 +1,55 @@
+{
+  "domain": "graphic.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "creative"
+  },
+  "content": {
+    "title": "Graphic",
+    "tagline": "Welcome to graphic.com.au",
+    "description": "Graphic design portfolio site, stock graphics marketplace, or graphic design trends blog.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Graphic design portfolio site, stock graphics marketplace, or graphic design trends blog.",
+        "aiPrompt": "Generate engaging content for a Platform/Information/Marketplace website about: Graphic design portfolio site, stock graphics marketplace, or graphic design trends blog."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Graphic",
+        "aiPrompt": "Generate a compelling headline for: Graphic design portfolio site, stock graphics marketplace, or graphic design trends blog."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform/Information/Marketplace"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Graphic design portfolio site, stock graphics marketplace, or graphic design trends blog."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Graphic design portfolio site, stock graphics marketplace, or graphic design trends blog."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Graphic design portfolio site, stock graphics marketplace, or graphic design trends blog."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "domain": "soccerstar.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Soccerstar",
+    "tagline": "Welcome to soccerstar.com.au",
+    "description": "Welcome to soccerstar.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for soccerstar.com.au",
+        "aiPrompt": "Generate engaging content for a Soccer news, player profiles, fan community, or youth soccer development. website about: "
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Soccerstar",
+        "aiPrompt": "Generate a compelling headline for: "
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Soccer news, player profiles, fan community, or youth soccer development."
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: "
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: "
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

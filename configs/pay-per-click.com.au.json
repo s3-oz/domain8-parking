@@ -1,0 +1,26 @@
+{
+  "domain": "pay-per-click.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Pay Per Click",
+    "tagline": "Welcome to pay-per-click.com.au",
+    "description": "Welcome to pay-per-click.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for pay-per-click.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site or agency services for PPC advertising. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

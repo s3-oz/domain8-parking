@@ -1,0 +1,26 @@
+{
+  "domain": "paytvguide.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Paytvguide",
+    "tagline": "Welcome to paytvguide.com.au",
+    "description": "Information/Review",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Information/Review",
+        "aiPrompt": "Generate engaging content for a undefined website about: Information/Review"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

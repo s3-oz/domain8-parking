@@ -1,0 +1,54 @@
+{
+  "domain": "aussiesavers.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Aussiesavers",
+    "tagline": "Welcome to aussiesavers.com.au",
+    "description": "Welcome to aussiesavers.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for aussiesavers.com.au",
+        "aiPrompt": "Generate engaging content for a Blog/community for money-saving tips and budget advice in Australia. website about: "
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Aussiesavers",
+        "aiPrompt": "Generate a compelling headline for: "
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Blog/community for money-saving tips and budget advice in Australia."
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: "
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: "
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

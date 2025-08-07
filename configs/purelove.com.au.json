@@ -1,0 +1,26 @@
+{
+  "domain": "purelove.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Purelove",
+    "tagline": "Welcome to purelove.com.au",
+    "description": "Welcome to purelove.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for purelove.com.au",
+        "aiPrompt": "Generate engaging content for a Dating site, relationship advice blog, or site for romantic gifts. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

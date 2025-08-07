@@ -1,0 +1,54 @@
+{
+  "domain": "kliq.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Kliq",
+    "tagline": "Welcome to kliq.com.au",
+    "description": "Welcome to kliq.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for kliq.com.au",
+        "aiPrompt": "Generate engaging content for a Social app, photo sharing, or 'clique'/group-forming platform. website about: "
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Kliq",
+        "aiPrompt": "Generate a compelling headline for: "
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Social app, photo sharing, or 'clique'/group-forming platform."
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: "
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: "
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

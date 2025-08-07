@@ -1,0 +1,26 @@
+{
+  "domain": "waterguide.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Waterguide",
+    "tagline": "Welcome to waterguide.com.au",
+    "description": "Welcome to waterguide.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for waterguide.com.au",
+        "aiPrompt": "Generate engaging content for a Guide to water conservation, water filters, or local water quality info. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

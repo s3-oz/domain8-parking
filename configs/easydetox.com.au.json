@@ -1,0 +1,26 @@
+{
+  "domain": "easydetox.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Easydetox",
+    "tagline": "Welcome to easydetox.com.au",
+    "description": "Welcome to easydetox.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for easydetox.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site on detox methods, recipes, health benefits. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

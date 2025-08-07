@@ -1,0 +1,26 @@
+{
+  "domain": "adulttoyshop.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Adulttoyshop",
+    "tagline": "Welcome to adulttoyshop.com.au",
+    "description": "Welcome to adulttoyshop.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for adulttoyshop.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce store for adult toys, reviews, and guides. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

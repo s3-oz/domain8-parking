@@ -1,0 +1,26 @@
+{
+  "domain": "compareproviders.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Compareproviders",
+    "tagline": "Welcome to compareproviders.com.au",
+    "description": "Comparison",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Comparison",
+        "aiPrompt": "Generate engaging content for a undefined website about: Comparison"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

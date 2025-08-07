@@ -1,0 +1,26 @@
+{
+  "domain": "computingworld.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Computingworld",
+    "tagline": "Welcome to computingworld.com.au",
+    "description": "Welcome to computingworld.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for computingworld.com.au",
+        "aiPrompt": "Generate engaging content for a Tech news, reviews, articles about computing. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

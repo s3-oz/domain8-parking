@@ -1,0 +1,26 @@
+{
+  "domain": "health-beauty.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Health Beauty",
+    "tagline": "Welcome to health-beauty.com.au",
+    "description": "Welcome to health-beauty.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for health-beauty.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce or review site for health and beauty products. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

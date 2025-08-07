@@ -1,0 +1,26 @@
+{
+  "domain": "makecash.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Makecash",
+    "tagline": "Welcome to makecash.com.au",
+    "description": "Welcome to makecash.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for makecash.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site on ways to make money online or side hustles. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

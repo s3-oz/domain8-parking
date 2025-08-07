@@ -1,0 +1,54 @@
+{
+  "domain": "youcompare.net.au",
+  "template": {
+    "type": "hero",
+    "theme": "comparison"
+  },
+  "content": {
+    "title": "Youcompare.net.au",
+    "tagline": "Welcome to youcompare.net.au",
+    "description": "Welcome to youcompare.net.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for youcompare.net.au",
+        "aiPrompt": "Generate engaging content for a General comparison website. website about: "
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Youcompare.net.au",
+        "aiPrompt": "Generate a compelling headline for: "
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: General comparison website."
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: "
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: "
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

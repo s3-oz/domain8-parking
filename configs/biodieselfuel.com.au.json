@@ -1,0 +1,26 @@
+{
+  "domain": "biodieselfuel.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Biodieselfuel",
+    "tagline": "Welcome to biodieselfuel.com.au",
+    "description": "Welcome to biodieselfuel.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for biodieselfuel.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site on biodiesel fuel, benefits, production, and suppliers. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "domain": "chances.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Chances",
+    "tagline": "Welcome to chances.com.au",
+    "description": "Competition/giveaway listing or site about probability in games.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Competition/giveaway listing or site about probability in games.",
+        "aiPrompt": "Generate engaging content for a Directory/Information website about: Competition/giveaway listing or site about probability in games."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Chances",
+        "aiPrompt": "Generate a compelling headline for: Competition/giveaway listing or site about probability in games."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Directory/Information"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Competition/giveaway listing or site about probability in games."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Competition/giveaway listing or site about probability in games."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Competition/giveaway listing or site about probability in games."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

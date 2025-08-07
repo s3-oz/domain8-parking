@@ -1,0 +1,26 @@
+{
+  "domain": "yourgeek.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Yourgeek",
+    "tagline": "Welcome to yourgeek.com.au",
+    "description": "Welcome to yourgeek.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for yourgeek.com.au",
+        "aiPrompt": "Generate engaging content for a Tech support services, gadget reviews, or a blog for 'geek' culture. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

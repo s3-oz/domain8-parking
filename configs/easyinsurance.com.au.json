@@ -1,0 +1,55 @@
+{
+  "domain": "easyinsurance.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "finance"
+  },
+  "content": {
+    "title": "Easyinsurance",
+    "tagline": "Welcome to easyinsurance.com.au",
+    "description": "Simplified insurance comparison or guide for easy understanding.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Simplified insurance comparison or guide for easy understanding.",
+        "aiPrompt": "Generate engaging content for a Comparison/Information website about: Simplified insurance comparison or guide for easy understanding."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Easyinsurance",
+        "aiPrompt": "Generate a compelling headline for: Simplified insurance comparison or guide for easy understanding."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Comparison/Information"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Simplified insurance comparison or guide for easy understanding."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Simplified insurance comparison or guide for easy understanding."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Simplified insurance comparison or guide for easy understanding."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

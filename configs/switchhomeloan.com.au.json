@@ -1,0 +1,26 @@
+{
+  "domain": "switchhomeloan.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Switchhomeloan",
+    "tagline": "Welcome to switchhomeloan.com.au",
+    "description": "Welcome to switchhomeloan.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for switchhomeloan.com.au",
+        "aiPrompt": "Generate engaging content for a Service or informational site for switching home loans. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

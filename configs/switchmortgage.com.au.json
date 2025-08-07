@@ -1,0 +1,26 @@
+{
+  "domain": "switchmortgage.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Switchmortgage",
+    "tagline": "Welcome to switchmortgage.com.au",
+    "description": "Welcome to switchmortgage.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for switchmortgage.com.au",
+        "aiPrompt": "Generate engaging content for a Service or informational site for switching mortgages. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

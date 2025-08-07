@@ -1,0 +1,26 @@
+{
+  "domain": "bubbly.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Bubbly",
+    "tagline": "Welcome to bubbly.com.au",
+    "description": "Welcome to bubbly.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for bubbly.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce for sparkling beverages, party supplies, or lifestyle blog on celebrations. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

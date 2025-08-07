@@ -1,0 +1,26 @@
+{
+  "domain": "crushed.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Crushed",
+    "tagline": "Welcome to crushed.com.au",
+    "description": "Welcome to crushed.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for crushed.com.au",
+        "aiPrompt": "Generate engaging content for a Humorous content (fails, pranks) or stress relief/venting site. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

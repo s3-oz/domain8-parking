@@ -1,0 +1,27 @@
+{
+  "domain": "breadcrumb.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Breadcrumb",
+    "tagline": "Welcome to breadcrumb.com.au",
+    "description": "Tech/UI info (navigation patterns) or travel blog (following a trail).",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Tech/UI info (navigation patterns) or travel blog (following a trail).",
+        "aiPrompt": "Generate engaging content for a Information/Blog website about: Tech/UI info (navigation patterns) or travel blog (following a trail)."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

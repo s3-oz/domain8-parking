@@ -1,0 +1,55 @@
+{
+  "domain": "bubble.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Bubble",
+    "tagline": "Welcome to bubble.com.au",
+    "description": "Social platform, kids' products/entertainment, or general fun content site.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Social platform, kids' products/entertainment, or general fun content site.",
+        "aiPrompt": "Generate engaging content for a Platform/E-commerce/Entertainment website about: Social platform, kids' products/entertainment, or general fun content site."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Bubble",
+        "aiPrompt": "Generate a compelling headline for: Social platform, kids' products/entertainment, or general fun content site."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform/E-commerce/Entertainment"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Social platform, kids' products/entertainment, or general fun content site."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Social platform, kids' products/entertainment, or general fun content site."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Social platform, kids' products/entertainment, or general fun content site."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

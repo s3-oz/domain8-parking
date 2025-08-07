@@ -1,0 +1,26 @@
+{
+  "domain": "uze.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Uze",
+    "tagline": "Welcome to uze.com.au",
+    "description": "Welcome to uze.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for uze.com.au",
+        "aiPrompt": "Generate engaging content for a Brandable short domain (e.g., 'use' something). Niche specific. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

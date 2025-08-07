@@ -1,0 +1,26 @@
+{
+  "domain": "planningfinancial.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Planningfinancial",
+    "tagline": "Welcome to planningfinancial.com.au",
+    "description": "Welcome to planningfinancial.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for planningfinancial.com.au",
+        "aiPrompt": "Generate engaging content for a Resources and guides for financial planning. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

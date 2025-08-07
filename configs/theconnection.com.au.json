@@ -1,0 +1,26 @@
+{
+  "domain": "theconnection.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Theconnection",
+    "tagline": "Welcome to theconnection.com.au",
+    "description": "Welcome to theconnection.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for theconnection.com.au",
+        "aiPrompt": "Generate engaging content for a Social or professional networking site. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

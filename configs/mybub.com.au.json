@@ -1,0 +1,26 @@
+{
+  "domain": "mybub.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Mybub",
+    "tagline": "Welcome to mybub.com.au",
+    "description": "Welcome to mybub.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for mybub.com.au",
+        "aiPrompt": "Generate engaging content for a Parenting blog or e-commerce for baby products (short & brandable). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

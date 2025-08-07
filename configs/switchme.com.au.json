@@ -1,0 +1,26 @@
+{
+  "domain": "switchme.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "technology"
+  },
+  "content": {
+    "title": "Switchme",
+    "tagline": "Welcome to switchme.com.au",
+    "description": "Platform/Comparison (Affiliate if appropriate)",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Platform/Comparison (Affiliate if appropriate)",
+        "aiPrompt": "Generate engaging content for a undefined website about: Platform/Comparison (Affiliate if appropriate)"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

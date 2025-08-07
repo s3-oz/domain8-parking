@@ -1,0 +1,26 @@
+{
+  "domain": "medicalschool.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Medicalschool",
+    "tagline": "Welcome to medicalschool.com.au",
+    "description": "Welcome to medicalschool.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for medicalschool.com.au",
+        "aiPrompt": "Generate engaging content for a Guide to Australian medical schools, application tips, student resources. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

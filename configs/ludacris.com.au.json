@@ -1,0 +1,26 @@
+{
+  "domain": "ludacris.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Ludacris",
+    "tagline": "Welcome to ludacris.com.au",
+    "description": "Welcome to ludacris.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for ludacris.com.au",
+        "aiPrompt": "Generate engaging content for a Music fan site (TM dependent) or site for 'ludicrous' news/entertainment. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

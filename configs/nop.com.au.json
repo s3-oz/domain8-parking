@@ -1,0 +1,26 @@
+{
+  "domain": "nop.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Nop",
+    "tagline": "Welcome to nop.com.au",
+    "description": "Welcome to nop.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for nop.com.au",
+        "aiPrompt": "Generate engaging content for a Brandable short domain, could be tech, services, or a playful content site. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "domain": "gaymatch.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Gaymatch",
+    "tagline": "Welcome to gaymatch.com.au",
+    "description": "Dating or social networking site for the LGBTQ+ community.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Dating or social networking site for the LGBTQ+ community.",
+        "aiPrompt": "Generate engaging content for a Platform (Dating) website about: Dating or social networking site for the LGBTQ+ community."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Gaymatch",
+        "aiPrompt": "Generate a compelling headline for: Dating or social networking site for the LGBTQ+ community."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: Platform (Dating)"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Dating or social networking site for the LGBTQ+ community."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Dating or social networking site for the LGBTQ+ community."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Dating or social networking site for the LGBTQ+ community."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

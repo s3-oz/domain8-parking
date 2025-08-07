@@ -1,0 +1,26 @@
+{
+  "domain": "oca.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Oca",
+    "tagline": "Welcome to oca.com.au",
+    "description": "Welcome to oca.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for oca.com.au",
+        "aiPrompt": "Generate engaging content for a Brandable (e.g., Online Course Australia, Organisation of Chartered Accountants). Niche specific. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

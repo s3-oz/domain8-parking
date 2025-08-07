@@ -1,0 +1,26 @@
+{
+  "domain": "voz.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Voz",
+    "tagline": "Welcome to voz.com.au",
+    "description": "Welcome to voz.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for voz.com.au",
+        "aiPrompt": "Generate engaging content for a Spanish/Portuguese for 'voice'. Similar to voice.com.au, or content for Spanish/Portuguese speakers. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "schoolstationary.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Schoolstationary",
+    "tagline": "Welcome to schoolstationary.com.au",
+    "description": "Welcome to schoolstationary.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for schoolstationary.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce for school stationery supplies. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

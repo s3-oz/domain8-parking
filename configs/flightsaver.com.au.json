@@ -1,0 +1,27 @@
+{
+  "domain": "flightsaver.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Flightsaver",
+    "tagline": "Welcome to flightsaver.com.au",
+    "description": "Flight deal aggregator or blog with tips for saving on flights.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Flight deal aggregator or blog with tips for saving on flights.",
+        "aiPrompt": "Generate engaging content for a Deals/Aggregator or Information website about: Flight deal aggregator or blog with tips for saving on flights."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

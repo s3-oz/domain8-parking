@@ -1,0 +1,27 @@
+{
+  "domain": "smasher.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Smasher",
+    "tagline": "Welcome to smasher.com.au",
+    "description": "Gaming site (e.g., Super Smash Bros related), or a site for 'smashing' deals/prices.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Gaming site (e.g., Super Smash Bros related), or a site for 'smashing' deals/prices.",
+        "aiPrompt": "Generate engaging content for a Gaming/Deals website about: Gaming site (e.g., Super Smash Bros related), or a site for 'smashing' deals/prices."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}

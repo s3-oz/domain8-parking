@@ -1,0 +1,26 @@
+{
+  "domain": "weloanmoney.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Weloanmoney",
+    "tagline": "Welcome to weloanmoney.com.au",
+    "description": "Welcome to weloanmoney.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for weloanmoney.com.au",
+        "aiPrompt": "Generate engaging content for a Lead generation site for personal or business loans. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

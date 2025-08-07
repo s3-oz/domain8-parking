@@ -1,0 +1,26 @@
+{
+  "domain": "electricalsales.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "ecommerce"
+  },
+  "content": {
+    "title": "Electricalsales",
+    "tagline": "Welcome to electricalsales.com.au",
+    "description": "Welcome to electricalsales.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for electricalsales.com.au",
+        "aiPrompt": "Generate engaging content for a E-commerce or deals site for electrical goods and appliances. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

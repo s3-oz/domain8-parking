@@ -1,0 +1,26 @@
+{
+  "domain": "planguide.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Planguide",
+    "tagline": "Welcome to planguide.com.au",
+    "description": "Welcome to planguide.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for planguide.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site guiding users through choosing various plans (financial, travel, etc.). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

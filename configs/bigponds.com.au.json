@@ -1,0 +1,26 @@
+{
+  "domain": "bigponds.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Bigponds",
+    "tagline": "Welcome to bigponds.com.au",
+    "description": "Welcome to bigponds.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for bigponds.com.au",
+        "aiPrompt": "Generate engaging content for a Informational site on large water features, garden ponds, aquatic landscaping (avoiding Telstra TM). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "domain": "beerwine.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Beerwine",
+    "tagline": "Welcome to beerwine.com.au",
+    "description": "Information/Directory/Review",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Information/Directory/Review",
+        "aiPrompt": "Generate engaging content for a undefined website about: Information/Directory/Review"
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

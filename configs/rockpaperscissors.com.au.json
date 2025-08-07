@@ -1,0 +1,26 @@
+{
+  "domain": "rockpaperscissors.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Rockpaperscissors",
+    "tagline": "Welcome to rockpaperscissors.com.au",
+    "description": "Welcome to rockpaperscissors.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for rockpaperscissors.com.au",
+        "aiPrompt": "Generate engaging content for a Online game of Rock Paper Scissors, or a blog about game theory/decision making. website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

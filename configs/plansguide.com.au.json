@@ -1,0 +1,26 @@
+{
+  "domain": "plansguide.com.au",
+  "template": {
+    "type": "landing",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Plansguide",
+    "tagline": "Welcome to plansguide.com.au",
+    "description": "Welcome to plansguide.com.au",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Content for plansguide.com.au",
+        "aiPrompt": "Generate engaging content for a Guide to various types of plans (e.g., mobile, insurance, financial). website about: "
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": false
+    }
+  }
+}

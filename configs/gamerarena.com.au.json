@@ -1,0 +1,55 @@
+{
+  "domain": "gamerarena.com.au",
+  "template": {
+    "type": "hero",
+    "theme": "basic"
+  },
+  "content": {
+    "title": "Gamerarena",
+    "tagline": "Welcome to gamerarena.com.au",
+    "description": "Esports news, tournament listings, or gamer community platform.",
+    "contentBoxes": {
+      "main": {
+        "type": "text",
+        "content": "Esports news, tournament listings, or gamer community platform.",
+        "aiPrompt": "Generate engaging content for a News/Directory/Platform website about: Esports news, tournament listings, or gamer community platform."
+      },
+      "hero-headline": {
+        "type": "text",
+        "content": "Discover Gamerarena",
+        "aiPrompt": "Generate a compelling headline for: Esports news, tournament listings, or gamer community platform."
+      },
+      "hero-cta": {
+        "type": "button",
+        "content": "Get Started",
+        "aiPrompt": "Generate a call-to-action button text for: News/Directory/Platform"
+      },
+      "feature-1": {
+        "type": "feature",
+        "title": "Feature 1",
+        "content": "Key feature description",
+        "aiPrompt": "Generate first key feature for: Esports news, tournament listings, or gamer community platform."
+      },
+      "feature-2": {
+        "type": "feature",
+        "title": "Feature 2",
+        "content": "Key feature description",
+        "aiPrompt": "Generate second key feature for: Esports news, tournament listings, or gamer community platform."
+      },
+      "feature-3": {
+        "type": "feature",
+        "title": "Feature 3",
+        "content": "Key feature description",
+        "aiPrompt": "Generate third key feature for: Esports news, tournament listings, or gamer community platform."
+      }
+    }
+  },
+  "monetization": {
+    "forSale": true,
+    "price": "$2,500",
+    "ads": {
+      "enabled": true,
+      "network": "adsense"
+    }
+  }
+}
