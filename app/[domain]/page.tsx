@@ -33,8 +33,8 @@ export default async function DomainPage({ params }: { params: Promise<{ domain:
       if (!adsEnabled) return
       
       // Check specific ad position toggle
-      const positionKey = box.position.replace('ad-', '').replace('-', '') as keyof NonNullable<NonNullable<DomainConfig['controls']>['ads']>['positions']
-      const positionMappings: Record<string, keyof NonNullable<NonNullable<DomainConfig['controls']>['ads']>['positions']> = {
+      const positionKey = box.position.replace('ad-', '').replace('-', '')
+      const positionMappings: Record<string, string> = {
         'topbanner': 'topBanner',
         'alert': 'alert', 
         'sidebar': 'sidebar',
@@ -44,7 +44,7 @@ export default async function DomainPage({ params }: { params: Promise<{ domain:
         'native2': 'native2'
       }
       
-      const mappedKey = positionMappings[positionKey]
+      const mappedKey = positionMappings[positionKey] as keyof NonNullable<NonNullable<DomainConfig['controls']>['ads']>['positions']
       const positionEnabled = config.controls?.ads?.positions?.[mappedKey] ?? box.enabled !== false
       if (!positionEnabled) return
     } else if (box.type === 'cta') {
