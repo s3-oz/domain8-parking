@@ -2,7 +2,7 @@
   "domain": {
     "name": "voz.com.au",
     "status": "coming_soon",
-    "forSale": false,
+    "forSale": true,
     "category": "professional",
     "keywords": [
       "voz",
@@ -38,7 +38,7 @@
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": false,
+      "domainInquiry": true,
       "businessInquiry": false
     },
     "ads": {

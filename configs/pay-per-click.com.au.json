@@ -2,7 +2,7 @@
   "domain": {
     "name": "pay-per-click.com.au",
     "status": "coming_soon",
-    "forSale": false,
+    "forSale": true,
     "category": "professional",
     "keywords": [
       "pay per click",
@@ -38,7 +38,7 @@
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": false,
+      "domainInquiry": true,
       "businessInquiry": false
     },
     "ads": {

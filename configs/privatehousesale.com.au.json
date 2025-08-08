@@ -2,7 +2,7 @@
   "domain": {
     "name": "privatehousesale.com.au",
     "status": "coming_soon",
-    "forSale": false,
+    "forSale": true,
     "category": "ecommerce",
     "keywords": [
       "privatehousesale",
@@ -38,7 +38,7 @@
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": false,
+      "domainInquiry": true,
       "businessInquiry": false
     },
     "ads": {

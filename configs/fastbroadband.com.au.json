@@ -2,7 +2,7 @@
   "domain": {
     "name": "fastbroadband.com.au",
     "status": "coming_soon",
-    "forSale": false,
+    "forSale": true,
     "category": "comparison",
     "keywords": [
       "fastbroadband",
@@ -38,7 +38,7 @@
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": false,
+      "domainInquiry": true,
       "businessInquiry": false
     },
     "ads": {
