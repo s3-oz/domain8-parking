@@ -1,54 +1,170 @@
 {
-  "domain": "engineer.com.au",
-  "template": {
-    "type": "hero",
-    "theme": "basic"
+  "domain": {
+    "name": "engineer.com.au",
+    "status": "coming_soon",
+    "forSale": true,
+    "category": "technology",
+    "keywords": [
+      "technology",
+      "innovation",
+      "data flow",
+      "system optimization",
+      "tech solutions",
+      "digital transformation"
+    ],
+    "description": "Advanced technology solutions and system optimization platform. Coming soon.",
+    "logo": "",
+    "logoSize": "large"
   },
-  "content": {
-    "title": "Engineer",
-    "tagline": "Welcome to engineer.com.au",
-    "description": "Welcome to engineer.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for engineer.com.au",
-        "aiPrompt": "Generate engaging content for a Job board for engineers, engineering community/forum, or engineering news. website about: "
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Engineer",
-        "aiPrompt": "Generate a compelling headline for: "
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Job board for engineers, engineering community/forum, or engineering news."
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: "
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: "
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: "
+  "template": {
+    "type": "landing",
+    "theme": "terminal",
+    "colorMode": "dark",
+    "brandColors": {
+      "primary": "#00ff41",
+      "secondary": "#00ff41",
+      "accent": "#ffd700"
+    }
+  },
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": true,
+      "businessInquiry": false
+    },
+    "ads": {
+      "globalEnabled": true,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
+  },
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  "contentBoxes": {
+    "hero-headline": {
+      "type": "headline",
+      "position": "hero-headline",
+      "content": {
+        "title": "[TECHFLOW.COM.AU]",
+        "subtitle": "Advanced technology infrastructure and optimization protocols. Preparing to revolutionize your digital operations."
+      }
+    },
+    "main-content": {
+      "type": "text",
+      "position": "main-content",
+      "content": {
+        "text": "$ analyze --domain techflow.com.au\n> Initializing analysis...\n> Scanning digital infrastructure...\n> 247 optimization opportunities identified\n\n$ optimize --performance --security\n> Loading optimization modules...\n> Applying performance enhancements...\n> Security protocols updated\n\n$ status --system\n> All systems operational\n> Performance: 99.9% optimal\n> Security: Maximum protection enabled"
+      }
+    },
+    "primary-content": {
+      "type": "features-grid",
+      "position": "primary-content",
+      "content": {
+        "title": "System Capabilities",
+        "features": [
+          {
+            "title": "Analysis Engine",
+            "icon": "🔍",
+            "description": "Deep scanning and pattern recognition"
+          },
+          {
+            "title": "Optimization Core",
+            "icon": "⚡",
+            "description": "Performance enhancement algorithms"
+          },
+          {
+            "title": "Data Processor",
+            "icon": "📊",
+            "description": "Real-time metrics and reporting"
+          }
+        ]
+      }
+    },
+    "sidebar-1": {
+      "type": "metrics",
+      "position": "sidebar-1",
+      "content": {
+        "title": "System Status",
+        "metrics": [
+          {
+            "label": "CPU Usage",
+            "value": "23%"
+          },
+          {
+            "label": "Memory",
+            "value": "1.2GB"
+          },
+          {
+            "label": "Processes",
+            "value": "47"
+          },
+          {
+            "label": "Uptime",
+            "value": "99.9%"
+          }
+        ]
+      }
+    },
+    "lower-content": {
+      "type": "cta",
+      "position": "lower-content",
+      "content": {
+        "text": "// EARLY ACCESS PROTOCOL",
+        "buttonText": ">>> INITIALIZE ACCESS",
+        "description": "Register for priority access when the system goes live. Limited slots available.",
+        "showForm": true
+      }
+    },
+    "ad-top-banner": {
+      "type": "ad-banner",
+      "position": "ad-top-banner",
+      "enabled": true,
+      "content": {
+        "sponsor": "TechCorp Solutions",
+        "message": "Enterprise Cloud Infrastructure - 99.9% Uptime Guaranteed",
+        "link": "#"
+      }
+    },
+    "ad-alert": {
+      "type": "ad-alert",
+      "position": "ad-alert",
+      "enabled": true,
+      "content": {
+        "sponsor": "CloudHost Pro",
+        "message": "Limited Time: 50% off premium hosting",
+        "link": "#"
       }
     }
   },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
-    "ads": {
-      "enabled": false
-    }
+  "ads": {
+    "enabled": true,
+    "network": "adsense"
+  },
+  "emailCapture": {
+    "headline": "// PRIORITY ACCESS REGISTRATION",
+    "description": "Get notified when TechFlow launches. Be the first to access our revolutionary platform.",
+    "buttonText": "REGISTER",
+    "successMessage": "✓ Registration successful. Access granted for early launch."
+  },
+  "seo": {
+    "title": "TechFlow - Advanced Technology Solutions | System Optimization",
+    "description": "Revolutionary technology platform for system optimization and digital transformation. Coming soon.",
+    "keywords": [
+      "technology solutions",
+      "system optimization",
+      "digital transformation",
+      "tech platform",
+      "innovation"
+    ]
   }
 }

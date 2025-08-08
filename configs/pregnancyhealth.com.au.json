@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Pregnancyhealth",
-    "tagline": "Welcome to pregnancyhealth.com.au",
-    "description": "Welcome to pregnancyhealth.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for pregnancyhealth.com.au",
-        "aiPrompt": "Generate engaging content for a Informational site about health during pregnancy. website about: "
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

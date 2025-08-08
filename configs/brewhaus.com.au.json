@@ -1,60 +1,288 @@
 {
-  "domain": "brewhaus.com.au",
+  "domain": {
+    "name": "brewhaus.com.au",
+    "status": "coming_soon",
+    "forSale": false,
+    "category": "ecommerce",
+    "keywords": [
+      "craft beer",
+      "breweries",
+      "taprooms",
+      "beer finder",
+      "brewery map",
+      "live tap list",
+      "beer events",
+      "Australian beer",
+      "Brunswick breweries",
+      "Melbourne craft beer"
+    ],
+    "description": "Discover craft beer venues across Australia with live tap updates, interactive brewery maps, and exclusive events. Find what's pouring near you in real-time.",
+    "logo": "/domains/brewhaus.com.au/logo.png?v=2",
+    "logoSize": "xl"
+  },
   "template": {
     "type": "hero",
-    "theme": "ecommerce",
+    "theme": "basic",
+    "colorMode": "light",
     "brandColors": {
       "primary": "#D97A34",
       "secondary": "#2C1810",
       "accent": "#7FB442"
     }
   },
-  "content": {
-    "title": "Brewhaus",
-    "tagline": "Welcome to brewhaus.com.au",
-    "description": "E-commerce for homebrewing supplies or a homebrewers community/info site.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "E-commerce for homebrewing supplies or a homebrewers community/info site.",
-        "aiPrompt": "Generate engaging content for a E-commerce/Information/Community website about: E-commerce for homebrewing supplies or a homebrewers community/info site."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Brewhaus",
-        "aiPrompt": "Generate a compelling headline for: E-commerce for homebrewing supplies or a homebrewers community/info site."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: E-commerce/Information/Community"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: E-commerce for homebrewing supplies or a homebrewers community/info site."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: E-commerce for homebrewing supplies or a homebrewers community/info site."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: E-commerce for homebrewing supplies or a homebrewers community/info site."
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
+    "ads": {
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": false,
+        "alert": false,
+        "sidebar": false,
+        "midBanner": false,
+        "bottomBanner": false,
+        "native1": false,
+        "native2": true
       }
+    },
+    "analytics": true
+  },
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  "contentBoxes": {
+    "hero-headline": {
+      "type": "headline",
+      "position": "hero-headline",
+      "content": {
+        "title": "Where Craft Beer Flows",
+        "subtitle": "Australia's craft beer platform connecting venues, breweries and beer lovers in real-time. Interactive venue maps, live tap updates, new beer alerts, exclusive brewery events, and special taproom deals."
+      }
+    },
+    "main-content": {
+      "type": "map",
+      "position": "main-content",
+      "content": {
+        "center": [
+          -37.77,
+          144.965
+        ],
+        "zoom": 14,
+        "height": "450px",
+        "showRadius": false,
+        "locations": [
+          {
+            "id": "1",
+            "name": "The Foreigner Brewing Company",
+            "lat": -37.764278,
+            "lng": 144.954567,
+            "type": "Craft Brewery",
+            "icon": "🍺",
+            "address": "Factory 12/102 Henkel St, Brunswick",
+            "description": "International beer styles with a local twist"
+          },
+          {
+            "id": "2",
+            "name": "Co-conspirators Brewpub",
+            "lat": -37.766241,
+            "lng": 144.956814,
+            "type": "Brewpub",
+            "icon": "🍻",
+            "address": "377 Victoria St, Brunswick",
+            "description": "Small batch brewing with experimental flavours"
+          },
+          {
+            "id": "3",
+            "name": "Inner North Brewing Company",
+            "lat": -37.767283,
+            "lng": 144.957925,
+            "type": "Microbrewery",
+            "icon": "🏭",
+            "address": "10A Russell St, Brunswick",
+            "description": "Local favourites brewed fresh on-site"
+          },
+          {
+            "id": "4",
+            "name": "Gales Brewery",
+            "lat": -37.769012,
+            "lng": 144.97336,
+            "type": "Brewery & Bar",
+            "icon": "🌊",
+            "address": "28 Gale St, Brunswick East",
+            "description": "Traditional meets modern brewing techniques"
+          },
+          {
+            "id": "5",
+            "name": "Bridge Road Brewers Brunswick",
+            "lat": -37.771694,
+            "lng": 144.979303,
+            "type": "Taproom",
+            "icon": "🌉",
+            "address": "137/141 Nicholson St, Brunswick East",
+            "description": "Award-winning Beechworth brewery's Melbourne home"
+          },
+          {
+            "id": "6",
+            "name": "Rocky Ridge Brunswick",
+            "lat": -37.777302,
+            "lng": 144.970208,
+            "type": "Brewery & Kitchen",
+            "icon": "⛰️",
+            "address": "130 Barkly St, Brunswick",
+            "description": "WA craft beer legends with a Melbourne outpost"
+          }
+        ]
+      }
+    },
+    "primary-content": {
+      "type": "features-grid",
+      "position": "primary-content",
+      "content": {
+        "features": [
+          {
+            "title": "Live Tap Updates",
+            "description": "Know what's pouring before you arrive",
+            "icon": "🍺"
+          },
+          {
+            "title": "Discover Local Breweries",
+            "description": "Find craft beer venues near you",
+            "icon": "🏭"
+          },
+          {
+            "title": "Simple & Fast",
+            "description": "One-click updates for venue owners",
+            "icon": "⚡"
+          }
+        ]
+      }
+    },
+    "sidebar-1": {
+      "type": "ad-native",
+      "position": "sidebar-1",
+      "enabled": false,
+      "content": {}
+    },
+    "ad-native-1": {
+      "type": "ad-native",
+      "position": "ad-native-1",
+      "enabled": false,
+      "content": {}
+    },
+    "ad-sidebar": {
+      "type": "ad-native",
+      "position": "ad-sidebar",
+      "enabled": false,
+      "content": {}
+    },
+    "feature-grid": {
+      "type": "features-grid",
+      "position": "feature-grid",
+      "enabled": false,
+      "content": {
+        "features": [
+          {
+            "title": "For Venues",
+            "description": "Update your tap list once, sync everywhere instantly",
+            "icon": "🏪"
+          },
+          {
+            "title": "For Breweries",
+            "description": "Track distribution and connect with your market",
+            "icon": "🍻"
+          },
+          {
+            "title": "For Beer Lovers",
+            "description": "Discover what's on tap near you in real-time",
+            "icon": "📍"
+          },
+          {
+            "title": "Real-Time Updates",
+            "description": "Always accurate, always current tap information",
+            "icon": "🔄"
+          },
+          {
+            "title": "Australian Made",
+            "description": "Built by locals who understand craft beer",
+            "icon": "🇦🇺"
+          },
+          {
+            "title": "Simple Pricing",
+            "description": "Fair plans that work for small venues too",
+            "icon": "💰"
+          }
+        ]
+      }
+    },
+    "lower-content": {
+      "type": "cta",
+      "position": "lower-content",
+      "content": {
+        "text": "Are You a Venue Owner or Brewery?",
+        "buttonText": "Get Early Access",
+        "description": "Be one of the first venues to join our platform. Free setup for early adopters.",
+        "showForm": true
+      }
+    },
+    "ad-alert": {
+      "type": "ad-alert",
+      "position": "ad-alert",
+      "enabled": false,
+      "content": {}
+    },
+    "ad-top-banner": {
+      "type": "ad-banner",
+      "position": "ad-top-banner",
+      "enabled": false,
+      "content": {}
+    },
+    "sidebar-2": {
+      "type": "ad-native",
+      "position": "sidebar-2",
+      "enabled": false,
+      "content": {}
+    },
+    "ad-mid-banner": {
+      "type": "ad-banner",
+      "position": "ad-mid-banner",
+      "enabled": false,
+      "content": {}
+    },
+    "ad-bottom-banner": {
+      "type": "ad-banner",
+      "position": "ad-bottom-banner",
+      "enabled": false,
+      "content": {}
     }
   },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
-    "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+  "ads": {
+    "enabled": false,
+    "network": "adsense"
+  },
+  "emailCapture": {
+    "headline": "Join the Brewhaus Community",
+    "description": "Be first to discover Australia's revolutionary craft beer platform. Get exclusive beta access and special brewery deals.",
+    "buttonText": "Get Early Access",
+    "successMessage": "Cheers! You're on the list. We'll notify you when Brewhaus launches!"
+  },
+  "seo": {
+    "title": "Brewhaus - Australia's Live Craft Beer Platform | Find What's On Tap",
+    "description": "Discover craft beer venues across Australia with real-time tap lists, interactive brewery maps, and exclusive events. Find what's pouring near you instantly.",
+    "keywords": [
+      "craft beer Australia",
+      "brewery finder",
+      "live tap list",
+      "beer venues Melbourne",
+      "Brunswick breweries",
+      "taproom map",
+      "what's on tap",
+      "Australian craft beer",
+      "beer events",
+      "brewery directory"
+    ]
   }
 }

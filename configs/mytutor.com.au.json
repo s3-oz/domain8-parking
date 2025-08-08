@@ -4,52 +4,24 @@
     "type": "hero",
     "theme": "basic"
   },
-  "content": {
-    "title": "Mytutor",
-    "tagline": "Welcome to mytutor.com.au",
-    "description": "Platform connecting students with tutors or a directory of tutors.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Platform connecting students with tutors or a directory of tutors.",
-        "aiPrompt": "Generate engaging content for a Platform/Directory website about: Platform connecting students with tutors or a directory of tutors."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Mytutor",
-        "aiPrompt": "Generate a compelling headline for: Platform connecting students with tutors or a directory of tutors."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Platform/Directory"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Platform connecting students with tutors or a directory of tutors."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Platform connecting students with tutors or a directory of tutors."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Platform connecting students with tutors or a directory of tutors."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

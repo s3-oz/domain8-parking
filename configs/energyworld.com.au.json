@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Energyworld",
-    "tagline": "Welcome to energyworld.com.au",
-    "description": "News/info portal about the global energy sector (oil, gas, renewables).",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "News/info portal about the global energy sector (oil, gas, renewables).",
-        "aiPrompt": "Generate engaging content for a Information/News website about: News/info portal about the global energy sector (oil, gas, renewables)."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

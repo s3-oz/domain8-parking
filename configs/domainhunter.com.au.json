@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "professional"
   },
-  "content": {
-    "title": "Domainhunter",
-    "tagline": "Welcome to domainhunter.com.au",
-    "description": "Service/tool for finding/acquiring domain names, backordering, auction alerts.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Service/tool for finding/acquiring domain names, backordering, auction alerts.",
-        "aiPrompt": "Generate engaging content for a Tool/Service website about: Service/tool for finding/acquiring domain names, backordering, auction alerts."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

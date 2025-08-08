@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Uze",
-    "tagline": "Welcome to uze.com.au",
-    "description": "Welcome to uze.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for uze.com.au",
-        "aiPrompt": "Generate engaging content for a Brandable short domain (e.g., 'use' something). Niche specific. website about: "
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

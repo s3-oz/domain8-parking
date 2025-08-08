@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "finance"
   },
-  "content": {
-    "title": "Propertyinvester",
-    "tagline": "Welcome to propertyinvester.com.au",
-    "description": "Misspelling of 'investor'. Could be a redirect or a site for property investment information.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Misspelling of 'investor'. Could be a redirect or a site for property investment information.",
-        "aiPrompt": "Generate engaging content for a Information/Redirect website about: Misspelling of 'investor'. Could be a redirect or a site for property investment information."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

@@ -4,52 +4,24 @@
     "type": "hero",
     "theme": "professional"
   },
-  "content": {
-    "title": "Twohands",
-    "tagline": "Welcome to twohands.com.au",
-    "description": "Marketplace for handmade goods or services requiring 'two hands' (manual labor).",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Marketplace for handmade goods or services requiring 'two hands' (manual labor).",
-        "aiPrompt": "Generate engaging content for a Marketplace/Directory website about: Marketplace for handmade goods or services requiring 'two hands' (manual labor)."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Twohands",
-        "aiPrompt": "Generate a compelling headline for: Marketplace for handmade goods or services requiring 'two hands' (manual labor)."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Marketplace/Directory"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Marketplace for handmade goods or services requiring 'two hands' (manual labor)."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Marketplace for handmade goods or services requiring 'two hands' (manual labor)."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Marketplace for handmade goods or services requiring 'two hands' (manual labor)."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "ecommerce"
   },
-  "content": {
-    "title": "Smoothskin",
-    "tagline": "Welcome to smoothskin.com.au",
-    "description": "E-commerce for skincare products for smooth skin, or beauty blog with skincare tips.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "E-commerce for skincare products for smooth skin, or beauty blog with skincare tips.",
-        "aiPrompt": "Generate engaging content for a E-commerce/Information website about: E-commerce for skincare products for smooth skin, or beauty blog with skincare tips."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

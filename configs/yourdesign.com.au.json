@@ -4,52 +4,24 @@
     "type": "hero",
     "theme": "professional"
   },
-  "content": {
-    "title": "Yourdesign",
-    "tagline": "Welcome to yourdesign.com.au",
-    "description": "Platform for custom design services or showcasing user designs.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Platform for custom design services or showcasing user designs.",
-        "aiPrompt": "Generate engaging content for a Platform/Service website about: Platform for custom design services or showcasing user designs."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Yourdesign",
-        "aiPrompt": "Generate a compelling headline for: Platform for custom design services or showcasing user designs."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Platform/Service"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Platform for custom design services or showcasing user designs."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Platform for custom design services or showcasing user designs."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Platform for custom design services or showcasing user designs."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

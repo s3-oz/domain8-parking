@@ -1,0 +1,124 @@
+{
+  "domain": {
+    "name": "fitzone.com.au",
+    "status": "coming_soon",
+    "forSale": false,
+    "category": "professional",
+    "keywords": [
+      "fitness",
+      "gym",
+      "health",
+      "wellness",
+      "training",
+      "workout"
+    ],
+    "description": "Your ultimate fitness destination. Coming soon to revolutionize health and wellness in Australia."
+  },
+  "template": {
+    "type": "hero",
+    "theme": "basic",
+    "colorMode": "light",
+    "brandColors": {
+      "primary": "#FF4458",
+      "secondary": "#1A1A2E",
+      "accent": "#16C79A"
+    }
+  },
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
+    "ads": {
+      "globalEnabled": true,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
+  },
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  "contentBoxes": {
+    "hero-headline": {
+      "type": "headline",
+      "position": "hero-headline",
+      "content": {
+        "title": "Transform Your Fitness Journey",
+        "subtitle": "Premium fitness programs, expert trainers, and state-of-the-art facilities. Join the revolution in health and wellness."
+      }
+    },
+    "main-content": {
+      "type": "text",
+      "position": "main-content",
+      "content": {
+        "text": "FitZone is launching soon with cutting-edge training programs, nutrition guidance, and a community of fitness enthusiasts. Whether you're a beginner or an athlete, we have the perfect program for you.",
+        "title": "Coming Early 2025"
+      }
+    },
+    "primary-content": {
+      "type": "features-grid",
+      "position": "primary-content",
+      "content": {
+        "features": [
+          {
+            "title": "Expert Trainers",
+            "description": "Certified professionals to guide your journey",
+            "icon": "💪"
+          },
+          {
+            "title": "Custom Programs",
+            "description": "Tailored workouts for your goals",
+            "icon": "📋"
+          },
+          {
+            "title": "Nutrition Plans",
+            "description": "Science-based meal planning",
+            "icon": "🥗"
+          }
+        ]
+      }
+    },
+    "lower-content": {
+      "type": "cta",
+      "position": "lower-content",
+      "content": {
+        "text": "Are You a Fitness Professional?",
+        "buttonText": "Partner With Us",
+        "description": "Join our network of trainers and wellness experts.",
+        "showForm": true
+      }
+    }
+  },
+  "ads": {
+    "enabled": true,
+    "network": "adsense"
+  },
+  "emailCapture": {
+    "headline": "Get Exclusive Launch Offers",
+    "description": "Be first to access special founding member rates and benefits.",
+    "buttonText": "Join Waitlist",
+    "successMessage": "Welcome to the FitZone family! Check your email for exclusive updates."
+  },
+  "seo": {
+    "title": "FitZone - Transform Your Fitness Journey | Coming Soon",
+    "description": "Join Australia's newest fitness revolution. Expert trainers, custom programs, and nutrition guidance. Register for exclusive launch offers.",
+    "keywords": [
+      "fitness Australia",
+      "gym membership",
+      "personal training",
+      "workout programs",
+      "nutrition plans",
+      "health wellness"
+    ]
+  }
+}

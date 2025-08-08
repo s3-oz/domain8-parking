@@ -9,52 +9,24 @@
       "accent": "#52B788"
     }
   },
-  "content": {
-    "title": "Renovation",
-    "tagline": "Welcome to renovation.com.au",
-    "description": "Home renovation ideas, contractor directory, or DIY renovation guides.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Home renovation ideas, contractor directory, or DIY renovation guides.",
-        "aiPrompt": "Generate engaging content for a Information/Directory website about: Home renovation ideas, contractor directory, or DIY renovation guides."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Renovation",
-        "aiPrompt": "Generate a compelling headline for: Home renovation ideas, contractor directory, or DIY renovation guides."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Information/Directory"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Home renovation ideas, contractor directory, or DIY renovation guides."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Home renovation ideas, contractor directory, or DIY renovation guides."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Home renovation ideas, contractor directory, or DIY renovation guides."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

@@ -11,18 +11,38 @@ export function DomainInquiry({ config }: DomainInquiryProps) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     offer: '',
     message: ''
   })
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
   
   const isDark = config.template.colorMode === 'dark'
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // In production, this would send to your backend
-    console.log('Domain inquiry:', formData)
-    setSubmitted(true)
+    setLoading(true)
+    
+    try {
+      const response = await fetch('/api/submissions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'domain',
+          domain: config.domain.name,
+          data: formData
+        })
+      })
+      
+      if (response.ok) {
+        setSubmitted(true)
+      }
+    } catch (error) {
+      console.error('Submission error:', error)
+    } finally {
+      setLoading(false)
+    }
   }
 
   if (submitted) {
@@ -70,6 +90,18 @@ export function DomainInquiry({ config }: DomainInquiryProps) {
           required
         />
         <input
+          type="tel"
+          placeholder="Phone Number"
+          value={formData.phone}
+          onChange={(e) => setFormData({...formData, phone: e.target.value})}
+          className={`w-full px-3 py-2 rounded text-sm ${
+            isDark 
+              ? 'bg-gray-900 border border-gray-700 text-white placeholder-gray-500' 
+              : 'bg-white border border-gray-300 text-gray-900 placeholder-gray-400'
+          }`}
+          required
+        />
+        <input
           type="text"
           placeholder="Offer Amount (AUD)"
           value={formData.offer}
@@ -93,13 +125,16 @@ export function DomainInquiry({ config }: DomainInquiryProps) {
         />
         <button
           type="submit"
+          disabled={loading}
           className={`w-full py-2 px-4 rounded font-bold text-sm transition ${
-            isDark 
-              ? 'bg-blue-600 hover:bg-blue-700 text-white' 
-              : 'bg-blue-600 hover:bg-blue-700 text-white'
+            loading 
+              ? 'bg-gray-500 cursor-not-allowed' 
+              : isDark 
+                ? 'bg-blue-600 hover:bg-blue-700 text-white' 
+                : 'bg-blue-600 hover:bg-blue-700 text-white'
           }`}
         >
-          SUBMIT INQUIRY
+          {loading ? 'SUBMITTING...' : 'SUBMIT INQUIRY'}
         </button>
       </form>
     </div>

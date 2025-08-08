@@ -6,14 +6,44 @@ export interface DomainConfig {
     category: 'basic' | 'comparison' | 'technology' | 'finance' | 'creative' | 'professional' | 'ecommerce' | 'terminal'
     keywords: string[]
     description: string
+    logo?: string
+    logoSize?: 'small' | 'medium' | 'large' | 'xl' // h-8, h-12, h-16, h-20
   }
   
   template: {
     type: 'landing' | 'hero'
     theme: 'basic' | 'comparison' | 'technology' | 'finance' | 'creative' | 'professional' | 'ecommerce' | 'terminal'
     colorMode: 'light' | 'dark'
+    brandColors?: {
+      primary: string
+      secondary: string
+      accent?: string
+    }
   }
   
+  // NEW: Consolidated controls at the top for easy toggling
+  controls?: {
+    forms?: {
+      emailCapture?: boolean
+      domainInquiry?: boolean  // Replaces domain.forSale
+      businessInquiry?: boolean
+    }
+    ads?: {
+      globalEnabled?: boolean  // Master switch for all ads
+      positions?: {
+        topBanner?: boolean
+        alert?: boolean
+        sidebar?: boolean
+        midBanner?: boolean
+        bottomBanner?: boolean
+        native1?: boolean
+        native2?: boolean
+      }
+    }
+    analytics?: boolean
+  }
+  
+  // LEGACY: Kept for backwards compatibility
   features: {
     showEmailCapture: boolean
     enableAnalytics: boolean
@@ -43,7 +73,7 @@ export interface DomainConfig {
 }
 
 export interface ContentBox {
-  type: 'headline' | 'text' | 'features-grid' | 'metrics' | 'bullet-list' | 'cta' | 'testimonials' | 'faq' | 'comparison-table' | 'dynamic-feed' | 'ad-banner' | 'ad-native' | 'ad-alert'
+  type: 'headline' | 'text' | 'features-grid' | 'metrics' | 'bullet-list' | 'cta' | 'testimonials' | 'faq' | 'comparison-table' | 'dynamic-feed' | 'map' | 'ad-banner' | 'ad-native' | 'ad-alert' | 'terminal-log'
   position: 
     // Landing template positions
     | 'main' 

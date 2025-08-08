@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Smaller",
-    "tagline": "Welcome to smaller.com.au",
-    "description": "Blog about minimalism, tiny homes, or products for small spaces.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Blog about minimalism, tiny homes, or products for small spaces.",
-        "aiPrompt": "Generate engaging content for a Information/Blog website about: Blog about minimalism, tiny homes, or products for small spaces."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

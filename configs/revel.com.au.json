@@ -4,52 +4,24 @@
     "type": "hero",
     "theme": "basic"
   },
-  "content": {
-    "title": "Revel",
-    "tagline": "Welcome to revel.com.au",
-    "description": "Event discovery platform, nightlife guide, or a general entertainment site.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Event discovery platform, nightlife guide, or a general entertainment site.",
-        "aiPrompt": "Generate engaging content for a Directory/Information/Entertainment website about: Event discovery platform, nightlife guide, or a general entertainment site."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Revel",
-        "aiPrompt": "Generate a compelling headline for: Event discovery platform, nightlife guide, or a general entertainment site."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Directory/Information/Entertainment"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Event discovery platform, nightlife guide, or a general entertainment site."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Event discovery platform, nightlife guide, or a general entertainment site."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Event discovery platform, nightlife guide, or a general entertainment site."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

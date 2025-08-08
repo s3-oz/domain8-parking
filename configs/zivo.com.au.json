@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Zivo",
-    "tagline": "Welcome to zivo.com.au",
-    "description": "Welcome to zivo.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for zivo.com.au",
-        "aiPrompt": "Generate engaging content for a Brandable (e.g., 'live' in some Slavic languages). Could be lifestyle, events, or a dynamic content site. website about: "
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

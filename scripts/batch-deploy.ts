@@ -115,64 +115,76 @@ async function generateConfig(domain: DomainRecord): Promise<any> {
   const theme = selectTheme(domain)
   const adNetwork = determineAdNetwork(domain)
   
+  const domainTitle = domain.Name.replace('.com.au', '').replace('.net.au', '').replace(/-/g, ' ').split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+  
   const config = {
-    domain: domain.Name,
+    domain: {
+      name: domain.Name,
+      status: 'coming_soon' as const,
+      forSale: true,
+      category: theme as any,
+      keywords: domain['Business Idea']?.split(' ').slice(0, 5) || [],
+      description: domain['Business Idea'] || `Welcome to ${domain.Name}`
+    },
     template: {
       type: template,
-      theme: theme
+      theme: theme,
+      colorMode: 'light' as const
     },
-    content: {
-      title: domain.Name.replace('.com.au', '').replace(/-/g, ' ').split(' ')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
-      tagline: `Welcome to ${domain.Name}`,
-      description: domain['Business Idea'] || `Welcome to ${domain.Name}`,
-      contentBoxes: {
-        'main': {
-          type: 'text',
-          content: domain['Business Idea'] || `Content for ${domain.Name}`,
+    features: {
+      showEmailCapture: true,
+      enableAnalytics: true
+    },
+    emailCapture: {
+      headline: "Stay Updated",
+      description: "Get notified when this domain launches",
+      buttonText: "Subscribe",
+      successMessage: "Thank you for subscribing!"
+    },
+    seo: {
+      title: `${domainTitle} - ${domain['Model Type'] || 'Coming Soon'}`,
+      description: domain['Business Idea'] || `${domainTitle} is coming soon`,
+      keywords: domain['Business Idea']?.split(' ').slice(0, 10) || [domainTitle]
+    },
+    contentBoxes: {
+      'main': {
+        type: 'text' as const,
+        position: template === 'hero' ? 'main-content' as const : 'main' as const,
+        content: {
+          text: domain['Business Idea'] || `Content for ${domain.Name}`,
           aiPrompt: `Generate engaging content for a ${domain['Model Type']} website about: ${domain['Business Idea']}`
         }
       }
     },
-    monetization: {
-      forSale: true,
-      price: "$2,500",
-      ads: {
-        enabled: adNetwork !== 'none',
-        network: adNetwork !== 'none' ? adNetwork : undefined
-      }
+    ads: {
+      enabled: adNetwork !== 'none',
+      network: adNetwork !== 'none' ? adNetwork : undefined
     }
   }
   
   // Add hero-specific content boxes
   if (template === 'hero') {
-    config.content.contentBoxes['hero-headline'] = {
-      type: 'text',
-      content: `Discover ${config.content.title}`,
-      aiPrompt: `Generate a compelling headline for: ${domain['Business Idea']}`
+    config.contentBoxes['hero-headline'] = {
+      type: 'headline' as const,
+      position: 'hero-headline' as const,
+      content: {
+        title: `Discover ${domainTitle}`,
+        subtitle: domain['Model Type'] || '',
+        aiPrompt: `Generate a compelling headline for: ${domain['Business Idea']}`
+      }
     }
-    config.content.contentBoxes['hero-cta'] = {
-      type: 'button',
-      content: 'Get Started',
-      aiPrompt: `Generate a call-to-action button text for: ${domain['Model Type']}`
-    }
-    config.content.contentBoxes['feature-1'] = {
-      type: 'feature',
-      title: 'Feature 1',
-      content: 'Key feature description',
-      aiPrompt: `Generate first key feature for: ${domain['Business Idea']}`
-    }
-    config.content.contentBoxes['feature-2'] = {
-      type: 'feature',
-      title: 'Feature 2',
-      content: 'Key feature description',
-      aiPrompt: `Generate second key feature for: ${domain['Business Idea']}`
-    }
-    config.content.contentBoxes['feature-3'] = {
-      type: 'feature',
-      title: 'Feature 3',
-      content: 'Key feature description',
-      aiPrompt: `Generate third key feature for: ${domain['Business Idea']}`
+    config.contentBoxes['primary-content'] = {
+      type: 'features-grid' as const,
+      position: 'primary-content' as const,
+      content: {
+        features: [
+          { title: 'Feature 1', description: 'Key feature description' },
+          { title: 'Feature 2', description: 'Key feature description' },
+          { title: 'Feature 3', description: 'Key feature description' }
+        ],
+        aiPrompt: `Generate three key features for: ${domain['Business Idea']}`
+      }
     }
   }
   

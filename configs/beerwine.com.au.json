@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Beerwine",
-    "tagline": "Welcome to beerwine.com.au",
-    "description": "Information/Directory/Review",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Information/Directory/Review",
-        "aiPrompt": "Generate engaging content for a undefined website about: Information/Directory/Review"
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "technology"
   },
-  "content": {
-    "title": "Switchme",
-    "tagline": "Welcome to switchme.com.au",
-    "description": "Platform/Comparison (Affiliate if appropriate)",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Platform/Comparison (Affiliate if appropriate)",
-        "aiPrompt": "Generate engaging content for a undefined website about: Platform/Comparison (Affiliate if appropriate)"
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

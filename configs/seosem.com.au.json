@@ -1,26 +1,242 @@
 {
-  "domain": "seosem.com.au",
-  "template": {
-    "type": "landing",
-    "theme": "basic"
+  "domain": {
+    "name": "seosem.com.au",
+    "status": "coming_soon",
+    "forSale": true,
+    "category": "technology",
+    "keywords": ["SEO", "SEM", "search engine optimization", "digital marketing", "Google Ads", "PPC", "keyword research", "link building"],
+    "description": "Advanced SEO/SEM analytics and optimization platform for Australian businesses.",
+    "logo": "",
+    "logoSize": "large"
   },
-  "content": {
-    "title": "Seosem",
-    "tagline": "Welcome to seosem.com.au",
-    "description": "Welcome to seosem.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for seosem.com.au",
-        "aiPrompt": "Generate engaging content for a Agency site for SEO/SEM services or an informational blog about digital marketing. website about: "
+  
+  "template": {
+    "type": "hero",
+    "theme": "terminal",
+    "colorMode": "dark",
+    "brandColors": {
+      "primary": "#00ff41",
+      "secondary": "#00ff41",
+      "accent": "#ffd700"
+    }
+  },
+  
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": true,
+      "businessInquiry": false
+    },
+    "ads": {
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": false,
+        "alert": false,
+        "sidebar": false,
+        "midBanner": false,
+        "bottomBanner": false,
+        "native1": false,
+        "native2": false
+      }
+    },
+    "analytics": true
+  },
+  
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  
+  "contentBoxes": {
+    "hero-headline": {
+      "type": "headline",
+      "position": "hero-headline",
+      "content": {
+        "title": "[SEOSEM.COM.AU]",
+        "subtitle": "Real-time SEO/SEM command center. Monitor rankings, analyze competitors, and optimize your digital presence."
+      }
+    },
+    "main-content": {
+      "type": "terminal-log",
+      "position": "main-content",
+      "content": {
+        "title": "seo-terminal@seosem",
+        "autoPlay": true,
+        "playInterval": 5000,
+        "maxCommands": 15,
+        "loop": true,
+        "showTimestamp": true,
+        "allowInput": false,
+        "commands": [
+          {
+            "command": "seo-audit --domain example.com.au --deep-scan",
+            "output": [
+              "Initializing comprehensive SEO audit...",
+              "Scanning meta tags... ✓ PASSED",
+              "Analyzing page speed... ⚠ WARNING: 3.2s load time",
+              "Checking mobile optimization... ✓ PASSED",
+              "Validating schema markup... ✗ FAILED: No structured data",
+              "Overall SEO Score: 73/100"
+            ],
+            "type": "audit"
+          },
+          {
+            "command": "keyword-tracker --update-positions",
+            "output": [
+              "Fetching current SERP positions...",
+              "Updating rank database...",
+              "Processing 247 tracked keywords...",
+              "Movement detected: +12 improved, -5 declined",
+              "Average position: 8.3 (↑ 0.7 from last week)"
+            ],
+            "type": "rank"
+          },
+          {
+            "command": "crawl-analyzer --site https://client-site.com.au",
+            "output": [
+              "Starting deep crawl analysis...",
+              "Discovered 1,247 internal links",
+              "Found 23 broken links",
+              "Identified 89 duplicate title tags",
+              "Missing alt text on 156 images",
+              "Crawl completed in 2m 34s"
+            ],
+            "type": "crawl"
+          },
+          {
+            "command": "competitor-analysis --domain competitor.com",
+            "output": [
+              "Analyzing competitor SEO strategy...",
+              "Backlink profile: 12,450 referring domains",
+              "Top performing keywords: 5,670 in top 10",
+              "Content gaps identified: 234 opportunities",
+              "Estimated organic traffic: 45,000/month"
+            ],
+            "type": "analysis"
+          },
+          {
+            "command": "google-ads --campaign-performance",
+            "output": [
+              "Fetching Google Ads data...",
+              "Active campaigns: 7",
+              "CTR: 3.8% (↑ 0.5% from last month)",
+              "Average CPC: $2.45",
+              "Quality Score: 8.2/10",
+              "Monthly spend: $4,567 / $5,000 budget"
+            ],
+            "type": "success"
+          },
+          {
+            "command": "backlink-monitor --new-links --last-7-days",
+            "output": [
+              "Scanning for new backlinks...",
+              "Found 34 new referring domains",
+              "✓ 28 high-quality links (DA 40+)",
+              "⚠ 4 medium-quality links (DA 20-40)",
+              "✗ 2 low-quality/spam links detected",
+              "Recommendation: Disavow 2 toxic domains"
+            ],
+            "type": "info"
+          },
+          {
+            "command": "content-optimizer --analyze-top-pages",
+            "output": [
+              "Analyzing top performing content...",
+              "Best performer: /seo-guide (12,450 visits/month)",
+              "Optimization opportunities found:",
+              "- Add 3 more LSI keywords",
+              "- Increase word count by 500 words",
+              "- Add FAQ schema markup"
+            ],
+            "type": "success"
+          }
+        ]
+      }
+    },
+    "primary-content": {
+      "type": "features-grid",
+      "position": "primary-content",
+      "content": {
+        "title": "System Capabilities",
+        "features": [
+          {
+            "title": "Analysis Engine",
+            "icon": "🔍",
+            "description": "Deep scanning and pattern recognition"
+          },
+          {
+            "title": "Optimization Core",
+            "icon": "⚡",
+            "description": "Performance enhancement algorithms"
+          },
+          {
+            "title": "Data Processor",
+            "icon": "📊",
+            "description": "Real-time metrics and reporting"
+          }
+        ]
+      }
+    },
+    "sidebar-1": {
+      "type": "metrics",
+      "position": "sidebar-1",
+      "content": {
+        "title": "System Status",
+        "metrics": [
+          { "label": "CPU Usage", "value": "23%" },
+          { "label": "Memory", "value": "1.2GB" },
+          { "label": "Processes", "value": "47" },
+          { "label": "Uptime", "value": "99.9%" }
+        ]
+      }
+    },
+    "lower-content": {
+      "type": "cta",
+      "position": "lower-content",
+      "content": {
+        "text": "// EARLY ACCESS PROTOCOL",
+        "buttonText": ">>> INITIALIZE ACCESS",
+        "description": "Register for priority access when the system goes live. Limited slots available.",
+        "showForm": true
+      }
+    },
+    "ad-top-banner": {
+      "type": "ad-banner",
+      "position": "ad-top-banner",
+      "enabled": true,
+      "content": {
+        "sponsor": "TechCorp Solutions",
+        "message": "Enterprise Cloud Infrastructure - 99.9% Uptime Guaranteed",
+        "link": "#"
+      }
+    },
+    "ad-alert": {
+      "type": "ad-alert",
+      "position": "ad-alert",
+      "enabled": true,
+      "content": {
+        "sponsor": "CloudHost Pro",
+        "message": "Limited Time: 50% off premium hosting",
+        "link": "#"
       }
     }
   },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
-    "ads": {
-      "enabled": false
-    }
+  
+  "ads": {
+    "enabled": true,
+    "network": "adsense"
+  },
+  
+  "emailCapture": {
+    "headline": "// PRIORITY ACCESS REGISTRATION",
+    "description": "Get notified when TechFlow launches. Be the first to access our revolutionary platform.",
+    "buttonText": "REGISTER",
+    "successMessage": "✓ Registration successful. Access granted for early launch."
+  },
+  
+  "seo": {
+    "title": "TechFlow - Advanced Technology Solutions | System Optimization",
+    "description": "Revolutionary technology platform for system optimization and digital transformation. Coming soon.",
+    "keywords": ["technology solutions", "system optimization", "digital transformation", "tech platform", "innovation"]
   }
 }

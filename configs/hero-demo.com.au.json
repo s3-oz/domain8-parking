@@ -4,21 +4,41 @@
     "status": "coming_soon",
     "forSale": false,
     "category": "basic",
-    "keywords": ["demo", "example"],
+    "keywords": [
+      "demo",
+      "example"
+    ],
     "description": "Demo configuration showing placeholder boxes"
   },
-  
   "template": {
     "type": "hero",
     "theme": "basic",
     "colorMode": "light"
   },
-  
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
+    "ads": {
+      "globalEnabled": true,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": false,
+        "native2": true
+      }
+    },
+    "analytics": false
+  },
   "features": {
     "showEmailCapture": true,
     "enableAnalytics": false
   },
-  
   "contentBoxes": {
     "hero-headline": {
       "type": "headline",
@@ -89,22 +109,23 @@
       "content": {}
     }
   },
-  
   "ads": {
     "enabled": true,
     "network": "adsense"
   },
-  
   "emailCapture": {
     "headline": "Get Notified",
     "description": "Be the first to know when we launch",
     "buttonText": "JOIN WAITLIST",
     "successMessage": "Thanks! We'll be in touch."
   },
-  
   "seo": {
     "title": "Demo.com.au - Placeholder Demo",
     "description": "Demo showing placeholder content boxes",
-    "keywords": ["demo", "placeholder", "example"]
+    "keywords": [
+      "demo",
+      "placeholder",
+      "example"
+    ]
   }
 }

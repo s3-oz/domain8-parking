@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Healthnutrition",
-    "tagline": "Welcome to healthnutrition.com.au",
-    "description": "Informational site on health and nutrition, recipes, meal plans.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Informational site on health and nutrition, recipes, meal plans.",
-        "aiPrompt": "Generate engaging content for a Information website about: Informational site on health and nutrition, recipes, meal plans."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "ecommerce"
   },
-  "content": {
-    "title": "Freshcoffee",
-    "tagline": "Welcome to freshcoffee.com.au",
-    "description": "E-commerce for fresh coffee beans, brewing gear reviews, or coffee culture blog.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "E-commerce for fresh coffee beans, brewing gear reviews, or coffee culture blog.",
-        "aiPrompt": "Generate engaging content for a E-commerce/Review/Information website about: E-commerce for fresh coffee beans, brewing gear reviews, or coffee culture blog."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

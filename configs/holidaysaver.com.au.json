@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Holidaysaver",
-    "tagline": "Welcome to holidaysaver.com.au",
-    "description": "Aggregator/Deals or Information",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Aggregator/Deals or Information",
-        "aiPrompt": "Generate engaging content for a undefined website about: Aggregator/Deals or Information"
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

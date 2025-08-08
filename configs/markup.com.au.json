@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Markup",
-    "tagline": "Welcome to markup.com.au",
-    "description": "Welcome to markup.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for markup.com.au",
-        "aiPrompt": "Generate engaging content for a Tools/tutorials for web developers (HTML/CSS) or price markup calculator. website about: "
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

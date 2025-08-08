@@ -4,20 +4,12 @@ import { HeroTemplate } from '@/components/templates/HeroTemplate'
 import { EmailCapture } from '@/components/universal/EmailCapture'
 import { DomainInquiry } from '@/components/universal/DomainInquiry'
 import { notFound } from 'next/navigation'
+import { loadDomainConfig } from '@/lib/config-loader'
+import type { DomainConfig } from '@/lib/types'
 
-// Import all configs - this makes them part of the module system
-import heroDemo from '@/configs/hero-demo.com.au.json'
-import landingDemo from '@/configs/landing-demo.com.au.json'
-import { DomainConfig } from '@/lib/types'
-
-// Map of all configs
-const configs: Record<string, DomainConfig> = {
-  'hero-demo.com.au': heroDemo as DomainConfig,
-  'landing-demo.com.au': landingDemo as DomainConfig,
-}
-
-export default async function DomainPage({ params }: { params: { domain: string } }) {
-  const config = configs[params.domain]
+export default async function DomainPage({ params }: { params: Promise<{ domain: string }> }) {
+  const { domain } = await params
+  const config = await loadDomainConfig(domain)
   
   if (!config) {
     notFound()
@@ -26,18 +18,72 @@ export default async function DomainPage({ params }: { params: { domain: string 
   // Build content boxes map
   const contentBoxes = new Map<string, React.ReactNode>()
   
+  // Debug: Log what we're working with
+  console.log('Config contentBoxes:', Object.keys(config.contentBoxes))
+  
   Object.entries(config.contentBoxes).forEach(([key, box]) => {
-    // Skip disabled ad boxes
-    if (box.type?.startsWith('ad-') && box.enabled === false) {
-      return
+    console.log(`Processing box ${key}: type=${box.type}, position=${box.position}`)
+    
+    // Check if this box should be rendered based on controls
+    const isAdBox = box.type.startsWith('ad-')
+    
+    if (isAdBox) {
+      // Check master ad switch first
+      const adsEnabled = config.controls?.ads?.globalEnabled ?? config.ads.enabled
+      if (!adsEnabled) return
+      
+      // Check specific ad position toggle
+      const positionKey = box.position.replace('ad-', '').replace('-', '') as keyof NonNullable<NonNullable<DomainConfig['controls']>['ads']>['positions']
+      const positionMappings: Record<string, keyof NonNullable<NonNullable<DomainConfig['controls']>['ads']>['positions']> = {
+        'topbanner': 'topBanner',
+        'alert': 'alert', 
+        'sidebar': 'sidebar',
+        'midbanner': 'midBanner',
+        'bottombanner': 'bottomBanner',
+        'native1': 'native1',
+        'native2': 'native2'
+      }
+      
+      const mappedKey = positionMappings[positionKey]
+      const positionEnabled = config.controls?.ads?.positions?.[mappedKey] ?? box.enabled !== false
+      if (!positionEnabled) return
+    } else if (box.type === 'cta') {
+      // Check if this is a business-related CTA
+      const content = box.content as any
+      const isBusinessCTA = 
+        content?.showForm ||
+        content?.text?.toLowerCase().includes('venue') ||
+        content?.text?.toLowerCase().includes('business') ||
+        content?.text?.toLowerCase().includes('brewery') ||
+        content?.text?.toLowerCase().includes('owner') ||
+        content?.text?.toLowerCase().includes('early access') ||
+        content?.text?.toLowerCase().includes('priority access')
+      
+      // Skip business CTAs if businessInquiry is disabled
+      if (isBusinessCTA && !config.controls?.forms?.businessInquiry) {
+        return
+      }
+      
+      // Check original enabled flag
+      if (box.enabled === false) return
+    } else {
+      // Other non-ad boxes - check original enabled flag
+      if (box.enabled === false) return
     }
+    
     contentBoxes.set(box.position, renderContentBox(box, config))
   })
+  
+  console.log('ContentBoxes map keys:', Array.from(contentBoxes.keys()))
 
-  // Universal components
+  // Universal components - check controls first, then legacy
   const universalComponents = {
-    emailCapture: config.features.showEmailCapture ? <EmailCapture config={config} /> : undefined,
-    domainInquiry: config.domain.forSale ? <DomainInquiry config={config} /> : undefined,
+    emailCapture: (config.controls?.forms?.emailCapture ?? config.features.showEmailCapture) 
+      ? <EmailCapture config={config} /> 
+      : undefined,
+    domainInquiry: (config.controls?.forms?.domainInquiry ?? config.domain.forSale) 
+      ? <DomainInquiry config={config} /> 
+      : undefined,
   }
 
   // Render appropriate template
@@ -61,8 +107,9 @@ export default async function DomainPage({ params }: { params: { domain: string 
 }
 
 // Generate metadata for SEO
-export async function generateMetadata({ params }: { params: { domain: string } }) {
-  const config = configs[params.domain]
+export async function generateMetadata({ params }: { params: Promise<{ domain: string }> }) {
+  const { domain } = await params
+  const config = await loadDomainConfig(domain)
   
   if (!config) {
     return {

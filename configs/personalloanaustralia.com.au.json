@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "technology"
   },
-  "content": {
-    "title": "Personalloanaustralia",
-    "tagline": "Welcome to personalloanaustralia.com.au",
-    "description": "Comparison/Information (Affiliate if appropriate)",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Comparison/Information (Affiliate if appropriate)",
-        "aiPrompt": "Generate engaging content for a undefined website about: Comparison/Information (Affiliate if appropriate)"
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

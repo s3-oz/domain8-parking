@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "ecommerce"
   },
-  "content": {
-    "title": "Canyon",
-    "tagline": "Welcome to canyon.com.au",
-    "description": "Outdoor adventure travel, hiking/canyoning gear e-commerce, or canyon photography site.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Outdoor adventure travel, hiking/canyoning gear e-commerce, or canyon photography site.",
-        "aiPrompt": "Generate engaging content for a Travel/E-commerce/Information website about: Outdoor adventure travel, hiking/canyoning gear e-commerce, or canyon photography site."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

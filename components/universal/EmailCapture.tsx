@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { DomainConfig } from '@/lib/types'
+import { getThemeClasses, getBrandStyles } from '@/lib/brand-colors'
 
 interface EmailCaptureProps {
   config: DomainConfig
@@ -13,13 +14,37 @@ export function EmailCapture({ config }: EmailCaptureProps) {
   const [submitted, setSubmitted] = useState(false)
   
   const isDark = config.template.colorMode === 'dark'
+  const themeClasses = getThemeClasses(config)
+  const brandStyles = getBrandStyles(config)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // In production, this would send to your email service
-    console.log('Email captured:', { firstName, email })
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
+    
+    try {
+      const response = await fetch('/api/submissions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'consumer',
+          domain: config.domain.name,
+          data: {
+            firstName,
+            email
+          }
+        })
+      })
+      
+      if (response.ok) {
+        setSubmitted(true)
+        setTimeout(() => {
+          setSubmitted(false)
+          setEmail('')
+          setFirstName('')
+        }, 3000)
+      }
+    } catch (error) {
+      console.error('Submission error:', error)
+    }
   }
 
   if (submitted) {
@@ -41,11 +66,22 @@ export function EmailCapture({ config }: EmailCaptureProps) {
     <div className={`p-6 rounded-lg ${
       isDark ? 'bg-gray-800 border border-gray-700' : 'bg-gray-50 border border-gray-200'
     }`}>
-      <h3 className="text-lg font-bold mb-2">
-        {config.emailCapture.headline}
+      <div className="flex justify-center mb-3">
+        <span 
+          className="px-3 py-1.5 text-sm rounded border font-semibold animate-pulse-slow"
+          style={{
+            borderColor: config.template.brandColors?.primary || 'var(--brand-primary, #000)',
+            color: config.template.brandColors?.primary || 'var(--brand-primary, #000)'
+          }}
+        >
+          EARLY ACCESS
+        </span>
+      </div>
+      <h3 className="text-lg font-bold mb-2 text-center">
+        {config.emailCapture.headline || `Get Early Access to ${config.domain.name}`}
       </h3>
       <p className={`text-sm mb-4 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-        {config.emailCapture.description}
+        {config.emailCapture.description || `Be the first to know when ${config.domain.name} launches. Get exclusive early access and special offers.`}
       </p>
       
       <form onSubmit={handleSubmit} className="space-y-3">
@@ -75,15 +111,16 @@ export function EmailCapture({ config }: EmailCaptureProps) {
         />
         <button
           type="submit"
-          className={`w-full py-2 px-4 rounded font-bold text-sm transition ${
-            isDark 
-              ? 'bg-blue-600 hover:bg-blue-700 text-white' 
-              : 'bg-blue-600 hover:bg-blue-700 text-white'
-          }`}
+          className={`w-full py-2 px-4 ${themeClasses.primary || 'rounded font-bold text-sm transition'}`}
+          style={brandStyles.primary}
         >
           {config.emailCapture.buttonText}
         </button>
       </form>
+      
+      <p className={`text-xs mt-3 text-center ${isDark ? 'text-gray-500' : 'text-gray-500'}`}>
+        🔒 We respect your privacy. No spam, ever. Unsubscribe anytime.
+      </p>
     </div>
   )
 }

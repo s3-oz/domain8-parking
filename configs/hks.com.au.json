@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "professional"
   },
-  "content": {
-    "title": "Hks",
-    "tagline": "Welcome to hks.com.au",
-    "description": "Brandable short domain: Hong Kong services or general business.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Brandable short domain: Hong Kong services or general business.",
-        "aiPrompt": "Generate engaging content for a Varies (Brandable) website about: Brandable short domain: Hong Kong services or general business."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

@@ -4,52 +4,24 @@
     "type": "hero",
     "theme": "basic"
   },
-  "content": {
-    "title": "Nineteen",
-    "tagline": "Welcome to nineteen.com.au",
-    "description": "Lifestyle/fashion site for 19-year-olds, or content related to the number 19.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Lifestyle/fashion site for 19-year-olds, or content related to the number 19.",
-        "aiPrompt": "Generate engaging content for a Information/Blog/Community website about: Lifestyle/fashion site for 19-year-olds, or content related to the number 19."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Nineteen",
-        "aiPrompt": "Generate a compelling headline for: Lifestyle/fashion site for 19-year-olds, or content related to the number 19."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Information/Blog/Community"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Lifestyle/fashion site for 19-year-olds, or content related to the number 19."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Lifestyle/fashion site for 19-year-olds, or content related to the number 19."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Lifestyle/fashion site for 19-year-olds, or content related to the number 19."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

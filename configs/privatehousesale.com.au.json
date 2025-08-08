@@ -4,51 +4,24 @@
     "type": "hero",
     "theme": "basic"
   },
-  "content": {
-    "title": "Privatehousesale",
-    "tagline": "Welcome to privatehousesale.com.au",
-    "description": "Welcome to privatehousesale.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for privatehousesale.com.au",
-        "aiPrompt": "Generate engaging content for a Platform for private house sales (FSBO - For Sale By Owner). website about: "
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Privatehousesale",
-        "aiPrompt": "Generate a compelling headline for: "
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Platform for private house sales (FSBO - For Sale By Owner)."
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: "
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: "
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: "
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

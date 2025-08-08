@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Wirelessguide.net.au",
-    "tagline": "Welcome to wirelessguide.net.au",
-    "description": "Welcome to wirelessguide.net.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for wirelessguide.net.au",
-        "aiPrompt": "Generate engaging content for a Alternative guide to wireless technologies. website about: "
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

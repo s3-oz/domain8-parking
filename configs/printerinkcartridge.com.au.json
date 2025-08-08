@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "ecommerce"
   },
-  "content": {
-    "title": "Printerinkcartridge",
-    "tagline": "Welcome to printerinkcartridge.com.au",
-    "description": "E-commerce for printer ink cartridges.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "E-commerce for printer ink cartridges.",
-        "aiPrompt": "Generate engaging content for a E-commerce website about: E-commerce for printer ink cartridges."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

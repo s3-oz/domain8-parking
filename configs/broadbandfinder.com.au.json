@@ -4,23 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Broadbandfinder",
-    "tagline": "Welcome to broadbandfinder.com.au",
-    "description": "Welcome to broadbandfinder.com.au",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Content for broadbandfinder.com.au",
-        "aiPrompt": "Generate engaging content for a Tool/site to find and compare broadband plans by address. website about: "
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": false
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

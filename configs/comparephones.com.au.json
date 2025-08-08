@@ -4,52 +4,24 @@
     "type": "hero",
     "theme": "comparison"
   },
-  "content": {
-    "title": "Comparephones",
-    "tagline": "Welcome to comparephones.com.au",
-    "description": "Mobile phone comparison: models, features, prices, plans.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Mobile phone comparison: models, features, prices, plans.",
-        "aiPrompt": "Generate engaging content for a Comparison website about: Mobile phone comparison: models, features, prices, plans."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Comparephones",
-        "aiPrompt": "Generate a compelling headline for: Mobile phone comparison: models, features, prices, plans."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Comparison"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Mobile phone comparison: models, features, prices, plans."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Mobile phone comparison: models, features, prices, plans."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Mobile phone comparison: models, features, prices, plans."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

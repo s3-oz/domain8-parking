@@ -1,0 +1,238 @@
+{
+  "domain": {
+    "name": "techflow.com.au",
+    "status": "coming_soon",
+    "forSale": true,
+    "category": "technology",
+    "keywords": [
+      "technology",
+      "innovation",
+      "data flow",
+      "system optimization",
+      "tech solutions",
+      "digital transformation"
+    ],
+    "description": "Advanced technology solutions and system optimization platform. Coming soon.",
+    "logo": "",
+    "logoSize": "large"
+  },
+  "template": {
+    "type": "hero",
+    "theme": "terminal",
+    "colorMode": "light",
+    "brandColors": {
+      "primary": "#00ff41",
+      "secondary": "#00ff41",
+      "accent": "#ffd700"
+    }
+  },
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": true,
+      "businessInquiry": false
+    },
+    "ads": {
+      "globalEnabled": true,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
+  },
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  "contentBoxes": {
+    "hero-headline": {
+      "type": "headline",
+      "position": "hero-headline",
+      "content": {
+        "title": "[TECHFLOW.COM.AU]",
+        "subtitle": "Advanced technology infrastructure and optimization protocols. Preparing to revolutionize your digital operations."
+      }
+    },
+    "main-content": {
+      "type": "terminal-log",
+      "position": "main-content",
+      "content": {
+        "title": "system-monitor@techflow",
+        "autoPlay": true,
+        "playInterval": 4000,
+        "maxCommands": 10,
+        "loop": true,
+        "showTimestamp": true,
+        "allowInput": false,
+        "commands": [
+          {
+            "command": "analyze --domain techflow.com.au --deep-scan",
+            "output": [
+              "Initializing comprehensive analysis...",
+              "Scanning digital infrastructure...",
+              "✓ Performance metrics analyzed",
+              "✓ Security protocols verified",
+              "✓ 247 optimization opportunities identified",
+              "Analysis complete. Score: 87/100"
+            ],
+            "type": "audit"
+          },
+          {
+            "command": "optimize --performance --security --auto",
+            "output": [
+              "Loading optimization modules...",
+              "Applying performance enhancements...",
+              "⚠ Cache optimization: 23% improvement",
+              "✓ Security protocols updated",
+              "✓ SSL/TLS hardening complete",
+              "Optimization successful"
+            ],
+            "type": "success"
+          },
+          {
+            "command": "monitor --realtime --metrics",
+            "output": [
+              "Starting real-time monitoring...",
+              "CPU Usage: 23% [████░░░░░░]",
+              "Memory: 1.2GB/4GB [███████░░░]",
+              "Network I/O: 45 Mbps",
+              "Active connections: 127",
+              "All systems operational"
+            ],
+            "type": "info"
+          },
+          {
+            "command": "deploy --production --validate",
+            "output": [
+              "Preparing deployment package...",
+              "Running pre-deployment tests...",
+              "✓ Unit tests passed: 247/247",
+              "✓ Integration tests passed: 89/89",
+              "✓ Security scan passed",
+              "Deployment ready"
+            ],
+            "type": "success"
+          },
+          {
+            "command": "backup --database --incremental",
+            "output": [
+              "Initiating backup process...",
+              "Scanning for changes since last backup...",
+              "Found 1,247 modified records",
+              "Compressing data: 89MB → 12MB",
+              "✓ Backup completed successfully",
+              "Stored in: /backups/2024-08-07-1942.tar.gz"
+            ],
+            "type": "info"
+          }
+        ]
+      }
+    },
+    "primary-content": {
+      "type": "features-grid",
+      "position": "primary-content",
+      "content": {
+        "title": "System Capabilities",
+        "features": [
+          {
+            "title": "Analysis Engine",
+            "icon": "🔍",
+            "description": "Deep scanning and pattern recognition"
+          },
+          {
+            "title": "Optimization Core",
+            "icon": "⚡",
+            "description": "Performance enhancement algorithms"
+          },
+          {
+            "title": "Data Processor",
+            "icon": "📊",
+            "description": "Real-time metrics and reporting"
+          }
+        ]
+      }
+    },
+    "sidebar-1": {
+      "type": "metrics",
+      "position": "sidebar-1",
+      "content": {
+        "title": "System Status",
+        "metrics": [
+          {
+            "label": "CPU Usage",
+            "value": "23%"
+          },
+          {
+            "label": "Memory",
+            "value": "1.2GB"
+          },
+          {
+            "label": "Processes",
+            "value": "47"
+          },
+          {
+            "label": "Uptime",
+            "value": "99.9%"
+          }
+        ]
+      }
+    },
+    "lower-content": {
+      "type": "cta",
+      "position": "lower-content",
+      "content": {
+        "text": "// EARLY ACCESS PROTOCOL",
+        "buttonText": ">>> INITIALIZE ACCESS",
+        "description": "Register for priority access when the system goes live. Limited slots available.",
+        "showForm": true
+      }
+    },
+    "ad-top-banner": {
+      "type": "ad-banner",
+      "position": "ad-top-banner",
+      "enabled": true,
+      "content": {
+        "sponsor": "TechCorp Solutions",
+        "message": "Enterprise Cloud Infrastructure - 99.9% Uptime Guaranteed",
+        "link": "#"
+      }
+    },
+    "ad-alert": {
+      "type": "ad-alert",
+      "position": "ad-alert",
+      "enabled": true,
+      "content": {
+        "sponsor": "CloudHost Pro",
+        "message": "Limited Time: 50% off premium hosting",
+        "link": "#"
+      }
+    }
+  },
+  "ads": {
+    "enabled": true,
+    "network": "adsense"
+  },
+  "emailCapture": {
+    "headline": "// PRIORITY ACCESS REGISTRATION",
+    "description": "Get notified when TechFlow launches. Be the first to access our revolutionary platform.",
+    "buttonText": "REGISTER",
+    "successMessage": "✓ Registration successful. Access granted for early launch."
+  },
+  "seo": {
+    "title": "TechFlow - Advanced Technology Solutions | System Optimization",
+    "description": "Revolutionary technology platform for system optimization and digital transformation. Coming soon.",
+    "keywords": [
+      "technology solutions",
+      "system optimization",
+      "digital transformation",
+      "tech platform",
+      "innovation"
+    ]
+  }
+}

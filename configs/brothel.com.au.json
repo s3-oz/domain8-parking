@@ -9,52 +9,24 @@
       "accent": "#FAF9F7"
     }
   },
-  "content": {
-    "title": "Brothel",
-    "tagline": "Welcome to brothel.com.au",
-    "description": "Adult entertainment directory/reviews (ensure legal compliance).",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Adult entertainment directory/reviews (ensure legal compliance).",
-        "aiPrompt": "Generate engaging content for a Directory/Review (Adult) website about: Adult entertainment directory/reviews (ensure legal compliance)."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Brothel",
-        "aiPrompt": "Generate a compelling headline for: Adult entertainment directory/reviews (ensure legal compliance)."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Directory/Review (Adult)"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Adult entertainment directory/reviews (ensure legal compliance)."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Adult entertainment directory/reviews (ensure legal compliance)."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Adult entertainment directory/reviews (ensure legal compliance)."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

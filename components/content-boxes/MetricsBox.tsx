@@ -1,4 +1,5 @@
 import { DomainConfig } from '@/lib/types'
+import { TerminalWindow } from '@/components/terminal/TerminalTheme'
 
 interface Metric {
   label: string
@@ -16,6 +17,7 @@ interface MetricsBoxProps {
 
 export function MetricsBox({ content, config }: MetricsBoxProps) {
   const isDark = config.template.colorMode === 'dark'
+  const isTerminal = config.template.theme === 'terminal'
   
   const getTrendIcon = (trend?: string) => {
     switch(trend) {
@@ -26,13 +28,43 @@ export function MetricsBox({ content, config }: MetricsBoxProps) {
     }
   }
   
-  const getTrendColor = (trend?: string) => {
+  const getTrendColor = (trend?: string, terminal?: boolean) => {
+    if (terminal) {
+      switch(trend) {
+        case 'up': return 'text-green-400'
+        case 'down': return 'text-red-400'
+        case 'stable': return 'text-yellow-400'
+        default: return ''
+      }
+    }
     switch(trend) {
       case 'up': return isDark ? 'text-green-400' : 'text-green-600'
       case 'down': return isDark ? 'text-red-400' : 'text-red-600'
       case 'stable': return isDark ? 'text-yellow-400' : 'text-yellow-600'
       default: return ''
     }
+  }
+  
+  if (isTerminal) {
+    return (
+      <TerminalWindow title={content.title?.toLowerCase().replace(' ', '-') || 'system-metrics'} isLightMode={!isDark}>
+        <div className="space-y-2 text-sm">
+          {content.metrics.map((metric, index) => (
+            <div key={index} className="flex justify-between">
+              <span className={isDark ? 'text-green-300' : 'text-green-600'}>{metric.label}:</span>
+              <div className="flex items-center space-x-2">
+                <span className={isDark ? 'text-green-400' : 'text-green-700'}>{metric.value}</span>
+                {metric.trend && (
+                  <span className={getTrendColor(metric.trend, !isDark)}>
+                    {getTrendIcon(metric.trend)}
+                  </span>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </TerminalWindow>
+    )
   }
   
   return (

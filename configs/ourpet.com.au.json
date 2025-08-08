@@ -4,52 +4,24 @@
     "type": "hero",
     "theme": "professional"
   },
-  "content": {
-    "title": "Ourpet",
-    "tagline": "Welcome to ourpet.com.au",
-    "description": "Community site for pet owners, pet care blog, or local pet services directory.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Community site for pet owners, pet care blog, or local pet services directory.",
-        "aiPrompt": "Generate engaging content for a Community/Information/Directory website about: Community site for pet owners, pet care blog, or local pet services directory."
-      },
-      "hero-headline": {
-        "type": "text",
-        "content": "Discover Ourpet",
-        "aiPrompt": "Generate a compelling headline for: Community site for pet owners, pet care blog, or local pet services directory."
-      },
-      "hero-cta": {
-        "type": "button",
-        "content": "Get Started",
-        "aiPrompt": "Generate a call-to-action button text for: Community/Information/Directory"
-      },
-      "feature-1": {
-        "type": "feature",
-        "title": "Feature 1",
-        "content": "Key feature description",
-        "aiPrompt": "Generate first key feature for: Community site for pet owners, pet care blog, or local pet services directory."
-      },
-      "feature-2": {
-        "type": "feature",
-        "title": "Feature 2",
-        "content": "Key feature description",
-        "aiPrompt": "Generate second key feature for: Community site for pet owners, pet care blog, or local pet services directory."
-      },
-      "feature-3": {
-        "type": "feature",
-        "title": "Feature 3",
-        "content": "Key feature description",
-        "aiPrompt": "Generate third key feature for: Community site for pet owners, pet care blog, or local pet services directory."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

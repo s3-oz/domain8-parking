@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Yourchoices",
-    "tagline": "Welcome to yourchoices.com.au",
-    "description": "Decision-making tool or guide to making better choices in various life areas.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Decision-making tool or guide to making better choices in various life areas.",
-        "aiPrompt": "Generate engaging content for a Tool/Information website about: Decision-making tool or guide to making better choices in various life areas."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }

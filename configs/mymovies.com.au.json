@@ -4,24 +4,24 @@
     "type": "landing",
     "theme": "basic"
   },
-  "content": {
-    "title": "Mymovies",
-    "tagline": "Welcome to mymovies.com.au",
-    "description": "Personal movie collection tracker, review site, or movie streaming guide.",
-    "contentBoxes": {
-      "main": {
-        "type": "text",
-        "content": "Personal movie collection tracker, review site, or movie streaming guide.",
-        "aiPrompt": "Generate engaging content for a Tool/Information/Review website about: Personal movie collection tracker, review site, or movie streaming guide."
-      }
-    }
-  },
-  "monetization": {
-    "forSale": true,
-    "price": "$2,500",
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": false
+    },
     "ads": {
-      "enabled": true,
-      "network": "adsense"
-    }
+      "globalEnabled": false,
+      "positions": {
+        "topBanner": true,
+        "alert": true,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
   }
 }
