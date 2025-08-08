@@ -1,8 +1,39 @@
 {
-  "domain": "swapper.com.au",
+  "domain": {
+    "name": "swapper.com.au",
+    "status": "coming_soon",
+    "forSale": false,
+    "category": "technology",
+    "keywords": [
+      "swapper",
+      "Australian business",
+      "online services",
+      "technology"
+    ],
+    "description": "Swapper - Premium Australian domain for technology services.",
+    "logo": "",
+    "logoSize": "large"
+  },
+  "seo": {
+    "title": "Swapper | Australian Technology Services",
+    "description": "Discover swapper - your trusted source for technology solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "keywords": [
+      "swapper",
+      "technology Australia",
+      "Australian business",
+      "swapper services",
+      "online platform Australia"
+    ]
+  },
   "template": {
-    "type": "hero",
-    "theme": "technology"
+    "type": "landing",
+    "theme": "basic",
+    "colorMode": "light",
+    "brandColors": {
+      "primary": "#2563eb",
+      "secondary": "#1e40af",
+      "accent": "#3b82f6"
+    }
   },
   "controls": {
     "forms": {
@@ -23,5 +54,75 @@
       }
     },
     "analytics": true
+  },
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  "contentBoxes": {
+    "main-headline": {
+      "type": "headline",
+      "position": "main-headline",
+      "content": {
+        "title": "Welcome to Swapper",
+        "subtitle": "Your destination for swapper in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+      }
+    },
+    "main-content": {
+      "type": "content",
+      "position": "main-content",
+      "content": {
+        "title": "What We Offer",
+        "description": "Swapper is coming soon. We're building something special for the Australian market.",
+        "items": [
+          "Premium services solutions",
+          "Australian-focused content and services",
+          "Expert guidance and support",
+          "Innovative tools and resources"
+        ]
+      }
+    },
+    "features-grid": {
+      "type": "features-grid",
+      "position": "features-grid",
+      "content": {
+        "features": [
+          {
+            "title": "Australian Owned",
+            "description": "Proudly Australian owned and operated",
+            "icon": "🇦🇺"
+          },
+          {
+            "title": "Expert Service",
+            "description": "Professional support when you need it",
+            "icon": "⭐"
+          },
+          {
+            "title": "Coming Soon",
+            "description": "Register for early access and updates",
+            "icon": "🚀"
+          }
+        ]
+      }
+    },
+    "cta-section": {
+      "type": "cta",
+      "position": "cta-section",
+      "content": {
+        "text": "Stay Updated",
+        "buttonText": "Get Early Access",
+        "description": "Be the first to know when we launch. Join our priority access list."
+      }
+    }
+  },
+  "ads": {
+    "enabled": false,
+    "network": "adsense"
+  },
+  "emailCapture": {
+    "headline": "Get Early Access",
+    "description": "Be the first to know when Swapper launches. Join our priority access list.",
+    "buttonText": "Join Waitlist",
+    "successMessage": "Success! You're on the list. We'll notify you when we launch."
   }
 }

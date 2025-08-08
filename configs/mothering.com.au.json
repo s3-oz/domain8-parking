@@ -1,8 +1,39 @@
 {
-  "domain": "mothering.com.au",
+  "domain": {
+    "name": "mothering.com.au",
+    "status": "coming_soon",
+    "forSale": false,
+    "category": "professional",
+    "keywords": [
+      "mothering",
+      "Australian business",
+      "online services",
+      "professional"
+    ],
+    "description": "Mothering - Premium Australian domain for professional services.",
+    "logo": "",
+    "logoSize": "large"
+  },
+  "seo": {
+    "title": "Mothering | Australian Professional Services",
+    "description": "Discover mothering - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "keywords": [
+      "mothering",
+      "professional Australia",
+      "Australian business",
+      "mothering services",
+      "online platform Australia"
+    ]
+  },
   "template": {
-    "type": "hero",
-    "theme": "basic"
+    "type": "landing",
+    "theme": "basic",
+    "colorMode": "light",
+    "brandColors": {
+      "primary": "#2563eb",
+      "secondary": "#1e40af",
+      "accent": "#3b82f6"
+    }
   },
   "controls": {
     "forms": {
@@ -23,5 +54,75 @@
       }
     },
     "analytics": true
+  },
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  "contentBoxes": {
+    "main-headline": {
+      "type": "headline",
+      "position": "main-headline",
+      "content": {
+        "title": "Welcome to Mothering",
+        "subtitle": "Your destination for mothering in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+      }
+    },
+    "main-content": {
+      "type": "content",
+      "position": "main-content",
+      "content": {
+        "title": "What We Offer",
+        "description": "Mothering is coming soon. We're building something special for the Australian market.",
+        "items": [
+          "Premium services solutions",
+          "Australian-focused content and services",
+          "Expert guidance and support",
+          "Innovative tools and resources"
+        ]
+      }
+    },
+    "features-grid": {
+      "type": "features-grid",
+      "position": "features-grid",
+      "content": {
+        "features": [
+          {
+            "title": "Australian Owned",
+            "description": "Proudly Australian owned and operated",
+            "icon": "🇦🇺"
+          },
+          {
+            "title": "Expert Service",
+            "description": "Professional support when you need it",
+            "icon": "⭐"
+          },
+          {
+            "title": "Coming Soon",
+            "description": "Register for early access and updates",
+            "icon": "🚀"
+          }
+        ]
+      }
+    },
+    "cta-section": {
+      "type": "cta",
+      "position": "cta-section",
+      "content": {
+        "text": "Stay Updated",
+        "buttonText": "Get Early Access",
+        "description": "Be the first to know when we launch. Join our priority access list."
+      }
+    }
+  },
+  "ads": {
+    "enabled": false,
+    "network": "adsense"
+  },
+  "emailCapture": {
+    "headline": "Get Early Access",
+    "description": "Be the first to know when Mothering launches. Join our priority access list.",
+    "buttonText": "Join Waitlist",
+    "successMessage": "Success! You're on the list. We'll notify you when we launch."
   }
 }
