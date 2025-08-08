@@ -20,6 +20,22 @@
     "logo": "/domains/brewhaus.com.au/logo.png?v=2",
     "logoSize": "xl"
   },
+  "seo": {
+    "title": "Brewhaus - Australia's Live Craft Beer Platform | Find What's On Tap",
+    "description": "Discover craft beer venues across Australia with real-time tap lists, interactive brewery maps, and exclusive events. Find what's pouring near you instantly.",
+    "keywords": [
+      "craft beer Australia",
+      "brewery finder",
+      "live tap list",
+      "beer venues Melbourne",
+      "Brunswick breweries",
+      "taproom map",
+      "what's on tap",
+      "Australian craft beer",
+      "beer events",
+      "brewery directory"
+    ]
+  },
   "template": {
     "type": "hero",
     "theme": "basic",
@@ -268,21 +284,5 @@
     "description": "Be first to discover Australia's revolutionary craft beer platform. Get exclusive beta access and special brewery deals.",
     "buttonText": "Get Early Access",
     "successMessage": "Cheers! You're on the list. We'll notify you when Brewhaus launches!"
-  },
-  "seo": {
-    "title": "Brewhaus - Australia's Live Craft Beer Platform | Find What's On Tap",
-    "description": "Discover craft beer venues across Australia with real-time tap lists, interactive brewery maps, and exclusive events. Find what's pouring near you instantly.",
-    "keywords": [
-      "craft beer Australia",
-      "brewery finder",
-      "live tap list",
-      "beer venues Melbourne",
-      "Brunswick breweries",
-      "taproom map",
-      "what's on tap",
-      "Australian craft beer",
-      "beer events",
-      "brewery directory"
-    ]
   }
 }

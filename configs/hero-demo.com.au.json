@@ -10,6 +10,15 @@
     ],
     "description": "Demo configuration showing placeholder boxes"
   },
+  "seo": {
+    "title": "Demo.com.au - Placeholder Demo",
+    "description": "Demo showing placeholder content boxes",
+    "keywords": [
+      "demo",
+      "placeholder",
+      "example"
+    ]
+  },
   "template": {
     "type": "hero",
     "theme": "basic",
@@ -118,14 +127,5 @@
     "description": "Be the first to know when we launch",
     "buttonText": "JOIN WAITLIST",
     "successMessage": "Thanks! We'll be in touch."
-  },
-  "seo": {
-    "title": "Demo.com.au - Placeholder Demo",
-    "description": "Demo showing placeholder content boxes",
-    "keywords": [
-      "demo",
-      "placeholder",
-      "example"
-    ]
   }
 }

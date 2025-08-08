@@ -4,12 +4,36 @@
     "status": "coming_soon",
     "forSale": true,
     "category": "technology",
-    "keywords": ["SEO", "SEM", "search engine optimization", "digital marketing", "Google Ads", "PPC", "keyword research", "link building"],
+    "keywords": [
+      "SEO",
+      "SEM",
+      "search engine optimization",
+      "digital marketing",
+      "Google Ads",
+      "PPC",
+      "keyword research",
+      "link building"
+    ],
     "description": "Advanced SEO/SEM analytics and optimization platform for Australian businesses.",
     "logo": "",
     "logoSize": "large"
   },
-  
+  "seo": {
+    "title": "SEOSEM - Advanced SEO & SEM Analytics Platform | Australian Digital Marketing",
+    "description": "Real-time SEO/SEM command center for Australian businesses. Monitor rankings, analyze competitors, optimize your digital presence with advanced analytics and automation tools.",
+    "keywords": [
+      "SEO Australia",
+      "SEM analytics",
+      "search engine optimization",
+      "digital marketing Australia",
+      "Google Ads management",
+      "PPC optimization",
+      "keyword rank tracking",
+      "competitor analysis",
+      "backlink monitoring",
+      "SEO audit tools"
+    ]
+  },
   "template": {
     "type": "hero",
     "theme": "terminal",
@@ -20,7 +44,6 @@
       "accent": "#ffd700"
     }
   },
-  
   "controls": {
     "forms": {
       "emailCapture": true,
@@ -41,12 +64,10 @@
     },
     "analytics": true
   },
-  
   "features": {
     "showEmailCapture": true,
     "enableAnalytics": true
   },
-  
   "contentBoxes": {
     "hero-headline": {
       "type": "headline",
@@ -183,10 +204,22 @@
       "content": {
         "title": "System Status",
         "metrics": [
-          { "label": "CPU Usage", "value": "23%" },
-          { "label": "Memory", "value": "1.2GB" },
-          { "label": "Processes", "value": "47" },
-          { "label": "Uptime", "value": "99.9%" }
+          {
+            "label": "CPU Usage",
+            "value": "23%"
+          },
+          {
+            "label": "Memory",
+            "value": "1.2GB"
+          },
+          {
+            "label": "Processes",
+            "value": "47"
+          },
+          {
+            "label": "Uptime",
+            "value": "99.9%"
+          }
         ]
       }
     },
@@ -221,22 +254,14 @@
       }
     }
   },
-  
   "ads": {
     "enabled": true,
     "network": "adsense"
   },
-  
   "emailCapture": {
     "headline": "// PRIORITY ACCESS REGISTRATION",
     "description": "Get notified when TechFlow launches. Be the first to access our revolutionary platform.",
     "buttonText": "REGISTER",
     "successMessage": "✓ Registration successful. Access granted for early launch."
-  },
-  
-  "seo": {
-    "title": "SEOSEM - Advanced SEO & SEM Analytics Platform | Australian Digital Marketing",
-    "description": "Real-time SEO/SEM command center for Australian businesses. Monitor rankings, analyze competitors, optimize your digital presence with advanced analytics and automation tools.",
-    "keywords": ["SEO Australia", "SEM analytics", "search engine optimization", "digital marketing Australia", "Google Ads management", "PPC optimization", "keyword rank tracking", "competitor analysis", "backlink monitoring", "SEO audit tools"]
   }
 }

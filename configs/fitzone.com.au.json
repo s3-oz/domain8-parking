@@ -14,6 +14,18 @@
     ],
     "description": "Your ultimate fitness destination. Coming soon to revolutionize health and wellness in Australia."
   },
+  "seo": {
+    "title": "FitZone - Transform Your Fitness Journey | Coming Soon",
+    "description": "Join Australia's newest fitness revolution. Expert trainers, custom programs, and nutrition guidance. Register for exclusive launch offers.",
+    "keywords": [
+      "fitness Australia",
+      "gym membership",
+      "personal training",
+      "workout programs",
+      "nutrition plans",
+      "health wellness"
+    ]
+  },
   "template": {
     "type": "hero",
     "theme": "basic",
@@ -108,17 +120,5 @@
     "description": "Be first to access special founding member rates and benefits.",
     "buttonText": "Join Waitlist",
     "successMessage": "Welcome to the FitZone family! Check your email for exclusive updates."
-  },
-  "seo": {
-    "title": "FitZone - Transform Your Fitness Journey | Coming Soon",
-    "description": "Join Australia's newest fitness revolution. Expert trainers, custom programs, and nutrition guidance. Register for exclusive launch offers.",
-    "keywords": [
-      "fitness Australia",
-      "gym membership",
-      "personal training",
-      "workout programs",
-      "nutrition plans",
-      "health wellness"
-    ]
   }
 }

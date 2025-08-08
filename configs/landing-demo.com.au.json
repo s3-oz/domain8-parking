@@ -10,6 +10,15 @@
     ],
     "description": "Landing template demo with placeholders"
   },
+  "seo": {
+    "title": "Landing Demo - Placeholder Example",
+    "description": "Landing template demo showing placeholder boxes",
+    "keywords": [
+      "landing",
+      "demo",
+      "placeholder"
+    ]
+  },
   "template": {
     "type": "landing",
     "theme": "basic",
@@ -65,14 +74,5 @@
     "description": "Enter your email to get notified when we launch",
     "buttonText": "NOTIFY ME",
     "successMessage": "Thanks! We'll keep you posted."
-  },
-  "seo": {
-    "title": "Landing Demo - Placeholder Example",
-    "description": "Landing template demo showing placeholder boxes",
-    "keywords": [
-      "landing",
-      "demo",
-      "placeholder"
-    ]
   }
 }

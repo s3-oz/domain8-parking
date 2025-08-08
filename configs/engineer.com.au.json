@@ -16,6 +16,17 @@
     "logo": "",
     "logoSize": "large"
   },
+  "seo": {
+    "title": "TechFlow - Advanced Technology Solutions | System Optimization",
+    "description": "Revolutionary technology platform for system optimization and digital transformation. Coming soon.",
+    "keywords": [
+      "technology solutions",
+      "system optimization",
+      "digital transformation",
+      "tech platform",
+      "innovation"
+    ]
+  },
   "template": {
     "type": "landing",
     "theme": "terminal",
@@ -155,16 +166,5 @@
     "description": "Get notified when TechFlow launches. Be the first to access our revolutionary platform.",
     "buttonText": "REGISTER",
     "successMessage": "✓ Registration successful. Access granted for early launch."
-  },
-  "seo": {
-    "title": "TechFlow - Advanced Technology Solutions | System Optimization",
-    "description": "Revolutionary technology platform for system optimization and digital transformation. Coming soon.",
-    "keywords": [
-      "technology solutions",
-      "system optimization",
-      "digital transformation",
-      "tech platform",
-      "innovation"
-    ]
   }
 }
