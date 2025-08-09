@@ -39,7 +39,6 @@
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": false,
       "businessInquiry": true
     },
     "ads": {
