@@ -32,7 +32,7 @@
     ]
   },
   "template": {
-    "type": "hero",
+    "type": "landing",
     "theme": "professional",
     "colorMode": "light",
     "brandColors": {
@@ -66,34 +66,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "Find Your Perfect Job in 60 Seconds",
-        "subtitle": "AI-powered job matching analyzes your skills and experience to connect you with ideal opportunities instantly. No more endless scrolling through irrelevant listings.",
-        "cta": "Find My Dream Job"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "Why JobsOne Works Better",
-        "features": [
-          {
-            "title": "60-Second Applications",
-            "description": "Upload your CV once, apply to multiple perfect matches in seconds. SEEK and Indeed take 5-10 minutes per application."
-          },
-          {
-            "title": "AI-Powered Matching",
-            "description": "Our AI analyzes your actual skills and experience, not just keywords. Get better matches than traditional job boards."
-          },
-          {
-            "title": "Verified Opportunities",
-            "description": "All jobs are pre-screened for legitimacy. No fake listings, MLM schemes, or commission-only 'opportunities'."
-          }
-        ]
+        "title": "Welcome to jobsone.com.au",
+        "subtitle": "JobsOne - Apply to your perfect job in 60 seconds. AI-powered job matching that connects you to real opportunities instantly, no endless scrolling."
       }
     }
   },

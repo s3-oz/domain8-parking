@@ -30,7 +30,7 @@
     ]
   },
   "template": {
-    "type": "hero",
+    "type": "landing",
     "theme": "professional",
     "colorMode": "light",
     "brandColors": {
@@ -64,34 +64,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "Get Engineer Quotes in 24 Hours",
-        "subtitle": "Professional structural, civil and forensic engineering services. 3 verified quotes or your submission fee back.",
-        "cta": "Get Free Quotes Now"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "Why Choose InstantEngineer",
-        "features": [
-          {
-            "title": "24 Hour Guarantee",
-            "description": "Get 3 qualified engineer quotes within 24 hours or we refund your submission fee"
-          },
-          {
-            "title": "Verified Engineers",
-            "description": "All engineers are pre-vetted with current registrations and insurance verification"
-          },
-          {
-            "title": "Urgent Projects",
-            "description": "Specializing in structural assessments, forensic engineering, and emergency inspections"
-          }
-        ]
+        "title": "Welcome to engineer.com.au",
+        "subtitle": "InstantEngineer - Get 3 verified engineer quotes within 24 hours. Professional engineering services for urgent structural and forensic needs."
       }
     }
   },

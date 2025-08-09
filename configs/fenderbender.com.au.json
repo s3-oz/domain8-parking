@@ -27,7 +27,7 @@
     ]
   },
   "template": {
-    "type": "hero",
+    "type": "landing",
     "theme": "professional",
     "colorMode": "light",
     "brandColors": {

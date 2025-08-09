@@ -27,8 +27,8 @@
     ]
   },
   "template": {
-    "type": "basic",
-    "theme": "technology",
+    "type": "landing",
+    "theme": "basic",
     "colorMode": "dark",
     "brandColors": {
       "primary": "#1f2937",

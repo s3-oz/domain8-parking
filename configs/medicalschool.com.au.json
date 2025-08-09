@@ -30,7 +30,7 @@
     ]
   },
   "template": {
-    "type": "hero",
+    "type": "landing",
     "theme": "professional",
     "colorMode": "light",
     "brandColors": {
@@ -64,34 +64,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "Map Your Medical Career Journey",
-        "subtitle": "From high school to hospital - get personalized pathway recommendations with timelines, costs, and success rates for every medical profession in Australia.",
-        "cta": "Find My Path"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "Why Choose MedPath Australia",
-        "features": [
-          {
-            "title": "Complete Career Map",
-            "description": "Compare ALL medical careers - from medical assistant to specialist surgeon. See real timelines, costs and salary data"
-          },
-          {
-            "title": "Personalized Pathways",
-            "description": "Answer 10 questions, get your custom roadmap with GAMSAT prep, university options, and backup plans"
-          },
-          {
-            "title": "Real Success Rates",
-            "description": "See actual admission rates, graduate employment stats, and salary data from Australian medical schools and programs"
-          }
-        ]
+        "title": "Welcome to medicalschool.com.au",
+        "subtitle": "MedPath Australia - Your medical career navigator. Map your entire journey from high school to hospital with AI-powered pathway recommendations."
       }
     }
   },

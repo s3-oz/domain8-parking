@@ -30,8 +30,8 @@
     ]
   },
   "template": {
-    "type": "hero",
-    "theme": "creative",
+    "type": "landing",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#f97316",
@@ -64,34 +64,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "What's in Your Fridge? DinnerBot Knows What's for Dinner",
-        "subtitle": "Tell our AI assistant what ingredients you have and get perfect family dinner ideas in 10 seconds. No more staring at the fridge wondering what to cook.",
-        "cta": "Ask DinnerBot Now"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "Why Families Love DinnerBot",
-        "features": [
-          {
-            "title": "Instant Solutions",
-            "description": "Photo your pantry or list ingredients - get 3 perfect dinner ideas with recipes and shopping lists in seconds"
-          },
-          {
-            "title": "Kid-Friendly Focus",
-            "description": "AI learns your family's preferences, dietary restrictions and what the kids actually eat (not just what they should)"
-          },
-          {
-            "title": "Smart Shopping",
-            "description": "Connects with Woolworths and Coles to show you exactly where to find ingredients and current prices"
-          }
-        ]
+        "title": "Welcome to familycooking.com.au",
+        "subtitle": "FamilyCooking DinnerBot - Tell me what's in your fridge, I'll tell you what's for dinner in 10 seconds. AI-powered family meal assistant."
       }
     }
   },

@@ -28,7 +28,7 @@
   },
   "template": {
     "type": "landing",
-    "theme": "ecommerce",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#dc2626",

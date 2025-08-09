@@ -31,8 +31,8 @@
     ]
   },
   "template": {
-    "type": "hero",
-    "theme": "creative",
+    "type": "landing",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#7c3aed",
@@ -65,34 +65,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "Professional Designs in 48 Hours",
-        "subtitle": "Urgent design project? Connect with pre-vetted Australian graphic designers and get professional results fast. Speed guarantee or money back.",
-        "cta": "Get Design Quote"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "Why Choose Design Sprint",
-        "features": [
-          {
-            "title": "48 Hour Guarantee",
-            "description": "Professional designs delivered in 48 hours or less - the only Australian design service with a speed guarantee"
-          },
-          {
-            "title": "Verified Designers",
-            "description": "All designers are pre-vetted with portfolios, qualifications and client reviews. No outsourcing surprises."
-          },
-          {
-            "title": "Fixed Pricing",
-            "description": "Know exactly what you'll pay upfront. No hidden fees, scope creep or surprise charges"
-          }
-        ]
+        "title": "Welcome to graphic.com.au",
+        "subtitle": "Graphic Design Sprint - Professional designs delivered in 48 hours or less. Connect with verified Australian graphic designers for urgent design projects."
       }
     }
   },

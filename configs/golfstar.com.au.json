@@ -30,7 +30,7 @@
     ]
   },
   "template": {
-    "type": "hero",
+    "type": "landing",
     "theme": "professional",
     "colorMode": "light",
     "brandColors": {
@@ -64,34 +64,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "Last Minute Golf - Up to 50% Off Tee Times",
-        "subtitle": "Book premium golf courses within 48 hours and save big. Dynamic pricing fills empty slots while golfers get incredible deals.",
-        "cta": "Find Golf Deals"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "The Smart Way to Play Golf",
-        "features": [
-          {
-            "title": "Instant Savings",
-            "description": "Save 20-50% on premium courses by booking within 48 hours. Our dynamic pricing benefits golfers and golf courses alike"
-          },
-          {
-            "title": "Mobile-First Booking",
-            "description": "Book your tee time in under 30 seconds. GPS location shows nearest courses with immediate availability"
-          },
-          {
-            "title": "Premium Courses",
-            "description": "Access top-rated courses across Sydney, Melbourne, Brisbane and Perth. Play where you've always wanted to play"
-          }
-        ]
+        "title": "Welcome to golfstar.com.au",
+        "subtitle": "GolfStar - Last Minute Golf deals up to 50% off. Book discounted tee times within 48 hours at top Australian golf courses."
       }
     }
   },

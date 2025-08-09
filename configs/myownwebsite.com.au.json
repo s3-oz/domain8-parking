@@ -30,8 +30,8 @@
     ]
   },
   "template": {
-    "type": "hero",
-    "theme": "technology",
+    "type": "landing",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#6366f1",
@@ -64,34 +64,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "Get 3 Web Designer Quotes in 60 Seconds",
-        "subtitle": "Connect with verified Australian web designers instantly. Compare quotes, portfolios and timelines from pre-vetted professionals.",
-        "cta": "Get Designer Quotes"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "The Smart Way to Find Web Designers",
-        "features": [
-          {
-            "title": "Instant Matching",
-            "description": "Tell us your project needs and get matched with 3 perfect designers in 60 seconds - no more endless searching"
-          },
-          {
-            "title": "Verified Professionals",
-            "description": "All designers are pre-screened with portfolio reviews, client testimonials and Australian business verification"
-          },
-          {
-            "title": "Compare & Choose",
-            "description": "See quotes, timelines and work samples side-by-side. Make informed decisions with full transparency"
-          }
-        ]
+        "title": "Welcome to myownwebsite.com.au",
+        "subtitle": "MyOwnWebsite - Get 3 quotes from verified Australian web designers in 60 seconds. Instant matching for website design, development and digital services."
       }
     }
   },

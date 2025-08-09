@@ -32,8 +32,8 @@
     ]
   },
   "template": {
-    "type": "hero",
-    "theme": "creative",
+    "type": "landing",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#f97316",
@@ -66,34 +66,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero": {
-      "type": "hero",
+    "main": {
+      "type": "headline",
       "position": "main",
       "content": {
-        "title": "Find Your Perfect Fun Run in 30 Seconds",
-        "subtitle": "AI-powered matching system finds ideal running events based on your fitness level, location, and goals. Never miss another perfect race.",
-        "cta": "Find My Events"
-      }
-    },
-    "features": {
-      "type": "feature_grid",
-      "position": "secondary",
-      "content": {
-        "title": "Why Runners Love RunMatch",
-        "features": [
-          {
-            "title": "Smart Matching",
-            "description": "Answer 5 quick questions and get personalized event recommendations that match your fitness level and goals"
-          },
-          {
-            "title": "Never Miss Out",
-            "description": "Get alerts for City2Surf registrations, charity runs, and colour runs before they sell out"
-          },
-          {
-            "title": "Training Plans",
-            "description": "Integrated training plans for each event, plus group matching to find running buddies"
-          }
-        ]
+        "title": "Welcome to funrun.com.au",
+        "subtitle": "RunMatch - Find your perfect fun run in 30 seconds. AI-powered event recommendations based on your fitness level, location, and goals."
       }
     }
   },

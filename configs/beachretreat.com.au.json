@@ -27,8 +27,8 @@
     ]
   },
   "template": {
-    "type": "hero",
-    "theme": "creative",
+    "type": "landing",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#0ea5e9",

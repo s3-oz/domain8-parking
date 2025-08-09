@@ -27,12 +27,12 @@
     ]
   },
   "template": {
-    "type": "hero",
-    "theme": "technology", 
+    "type": "landing",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#0B4F71",
-      "secondary": "#00A4E4", 
+      "secondary": "#00A4E4",
       "accent": "#FF6B35"
     }
   },
@@ -100,7 +100,7 @@
     },
     "trust": {
       "type": "trust_indicators",
-      "position": "tertiary", 
+      "position": "tertiary",
       "content": {
         "title": "Australia's Trusted Broadband Authority",
         "indicators": [
