@@ -1,41 +1,8 @@
-import { NextResponse } from 'next/server'
-import fs from 'fs/promises'
-import path from 'path'
+import { NextRequest, NextResponse } from 'next/server'
+import { db, leads, type NewLead } from '@/lib/db'
+import { eq, desc } from 'drizzle-orm'
 
-const SUBMISSIONS_FILE = path.join(process.cwd(), 'data', 'submissions.json')
-
-interface Submission {
-  id: string
-  type: 'consumer' | 'domain' | 'business'
-  domain: string
-  timestamp: string
-  data: {
-    firstName?: string
-    lastName?: string
-    email: string
-    phone?: string
-    message?: string
-    [key: string]: any
-  }
-}
-
-async function ensureDataFile() {
-  const dir = path.dirname(SUBMISSIONS_FILE)
-  
-  try {
-    await fs.access(dir)
-  } catch {
-    await fs.mkdir(dir, { recursive: true })
-  }
-  
-  try {
-    await fs.access(SUBMISSIONS_FILE)
-  } catch {
-    await fs.writeFile(SUBMISSIONS_FILE, JSON.stringify({ submissions: [] }, null, 2))
-  }
-}
-
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
     
@@ -47,34 +14,45 @@ export async function POST(request: Request) {
       )
     }
     
-    // Create submission entry
-    const submission: Submission = {
-      id: `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
-      type: body.type,
+    // Get client info for tracking
+    const ipAddress = request.headers.get('x-forwarded-for') || 
+                     request.headers.get('x-real-ip') || 
+                     'unknown'
+    const userAgent = request.headers.get('user-agent') || ''
+    const referrer = request.headers.get('referer') || ''
+    
+    // Parse UTM parameters if they exist
+    const url = new URL(request.url)
+    const utmSource = url.searchParams.get('utm_source')
+    const utmMedium = url.searchParams.get('utm_medium')
+    const utmCampaign = url.searchParams.get('utm_campaign')
+    
+    // Create lead entry
+    const newLead: NewLead = {
+      leadType: body.type as 'consumer' | 'domain' | 'business',
       domain: body.domain,
-      timestamp: new Date().toISOString(),
-      data: body.data
+      email: body.data.email,
+      firstName: body.data.firstName || null,
+      lastName: body.data.lastName || null,
+      phone: body.data.phone || null,
+      company: body.data.company || null,
+      message: body.data.message || null,
+      metadata: body.data.metadata || null,
+      ipAddress: ipAddress as any, // Type assertion for inet type
+      userAgent,
+      referrer,
+      utmSource,
+      utmMedium,
+      utmCampaign,
+      status: 'new',
     }
     
-    // Ensure data file exists
-    await ensureDataFile()
-    
-    // Read existing submissions
-    const fileContent = await fs.readFile(SUBMISSIONS_FILE, 'utf-8')
-    const { submissions = [] } = JSON.parse(fileContent)
-    
-    // Add new submission
-    submissions.push(submission)
-    
-    // Write back to file
-    await fs.writeFile(
-      SUBMISSIONS_FILE,
-      JSON.stringify({ submissions }, null, 2)
-    )
+    // Insert into database
+    const [insertedLead] = await db.insert(leads).values(newLead).returning()
     
     return NextResponse.json({ 
       success: true, 
-      id: submission.id 
+      id: insertedLead.id 
     })
     
   } catch (error) {
@@ -86,13 +64,37 @@ export async function POST(request: Request) {
   }
 }
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
-    await ensureDataFile()
-    const fileContent = await fs.readFile(SUBMISSIONS_FILE, 'utf-8')
-    const data = JSON.parse(fileContent)
+    // Parse query parameters
+    const url = new URL(request.url)
+    const domain = url.searchParams.get('domain')
+    const leadType = url.searchParams.get('type')
+    const limit = parseInt(url.searchParams.get('limit') || '100')
     
-    return NextResponse.json(data)
+    // Build query
+    let query = db.select().from(leads)
+    
+    // Apply filters
+    const conditions = []
+    if (domain) {
+      conditions.push(eq(leads.domain, domain))
+    }
+    if (leadType) {
+      conditions.push(eq(leads.leadType, leadType as any))
+    }
+    
+    // Execute query with filters
+    const results = await query
+      .where(conditions.length > 0 ? conditions[0] : undefined)
+      .orderBy(desc(leads.createdAt))
+      .limit(limit)
+    
+    return NextResponse.json({
+      success: true,
+      count: results.length,
+      leads: results
+    })
   } catch (error) {
     console.error('Error reading submissions:', error)
     return NextResponse.json(
