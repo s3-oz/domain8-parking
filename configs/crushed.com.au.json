@@ -28,7 +28,7 @@
   },
   "template": {
     "type": "landing",
-    "theme": "professional",
+    "theme": "basic",
     "colorMode": "dark",
     "brandColors": {
       "primary": "#78716c",

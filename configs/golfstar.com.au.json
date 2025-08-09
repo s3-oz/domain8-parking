@@ -31,7 +31,7 @@
   },
   "template": {
     "type": "landing",
-    "theme": "professional",
+    "theme": "basic",
     "colorMode": "light",
     "brandColors": {
       "primary": "#059669",
