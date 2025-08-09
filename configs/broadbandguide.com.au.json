@@ -1,0 +1,125 @@
+{
+  "domain": {
+    "name": "broadbandguide.com.au",
+    "status": "coming_soon",
+    "forSale": false,
+    "category": "technology",
+    "keywords": [
+      "broadband comparison",
+      "internet speed test",
+      "NBN plans",
+      "Australian broadband",
+      "broadband guide"
+    ],
+    "description": "Australia's most comprehensive broadband comparison platform - compare every NBN plan, test your speed, and save hundreds.",
+    "logo": "",
+    "logoSize": "large"
+  },
+  "seo": {
+    "title": "Broadband Guide | Compare Every NBN Plan Australia",
+    "description": "Australia's most comprehensive broadband comparison platform. Test your speed, compare every provider, read expert guides, and save hundreds on your internet bill.",
+    "keywords": [
+      "broadband comparison Australia",
+      "NBN speed test",
+      "internet plans comparison",
+      "best broadband Australia",
+      "broadband guide expert reviews"
+    ]
+  },
+  "template": {
+    "type": "hero",
+    "theme": "technology", 
+    "colorMode": "light",
+    "brandColors": {
+      "primary": "#0B4F71",
+      "secondary": "#00A4E4", 
+      "accent": "#FF6B35"
+    }
+  },
+  "controls": {
+    "forms": {
+      "emailCapture": true,
+      "domainInquiry": false,
+      "businessInquiry": true
+    },
+    "ads": {
+      "globalEnabled": true,
+      "positions": {
+        "topBanner": true,
+        "alert": false,
+        "sidebar": true,
+        "midBanner": true,
+        "bottomBanner": true,
+        "native1": true,
+        "native2": true
+      }
+    },
+    "analytics": true
+  },
+  "features": {
+    "showEmailCapture": true,
+    "enableAnalytics": true
+  },
+  "contentBoxes": {
+    "main": {
+      "type": "headline",
+      "position": "main",
+      "content": {
+        "title": "Compare Every NBN Plan. Read Expert Guides. Save Hundreds.",
+        "subtitle": "Australia's most comprehensive broadband comparison platform with 15 years of helping Australians find their perfect internet solution."
+      }
+    },
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
+      "content": {
+        "title": "Why Choose Broadband Guide?",
+        "features": [
+          {
+            "icon": "speed",
+            "title": "Speed Test + Instant Savings",
+            "description": "Test your speed, then see exactly how much you're overpaying with instant switch options"
+          },
+          {
+            "icon": "search",
+            "title": "Compare Every Provider",
+            "description": "Unlike competitors who only show partners, we compare every available option in your area"
+          },
+          {
+            "icon": "location",
+            "title": "Local Performance Data",
+            "description": "Real-time suburb-level performance data and user reviews from your actual neighborhood"
+          },
+          {
+            "icon": "expert",
+            "title": "Expert Guides",
+            "description": "15 years of helping Australians with genuinely helpful guides that educate rather than just sell"
+          }
+        ]
+      }
+    },
+    "trust": {
+      "type": "trust_indicators",
+      "position": "tertiary", 
+      "content": {
+        "title": "Australia's Trusted Broadband Authority",
+        "indicators": [
+          "15+ years domain history",
+          "500,000+ pages of content",
+          "Independent & unbiased reviews",
+          "Transparent about affiliations"
+        ]
+      }
+    }
+  },
+  "ads": {
+    "enabled": true,
+    "network": "adsense"
+  },
+  "emailCapture": {
+    "headline": "Get the Latest Broadband Deals",
+    "description": "Be first to know about new plans, price drops, and exclusive deals. Join 50,000+ Australians saving on broadband.",
+    "buttonText": "Get Free Updates",
+    "successMessage": "Success! You'll be the first to know about the best broadband deals in Australia."
+  }
+}

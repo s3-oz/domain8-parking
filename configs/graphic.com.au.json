@@ -2,47 +2,52 @@
   "domain": {
     "name": "graphic.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "creative",
     "keywords": [
-      "graphic",
-      "Australian business",
-      "online services",
-      "creative"
+      "graphic design",
+      "logo design",
+      "branding",
+      "visual identity",
+      "design services",
+      "creative agency",
+      "motion graphics"
     ],
-    "description": "Graphic - Premium Australian domain for creative services.",
+    "description": "Graphic Design Sprint - Professional designs delivered in 48 hours or less. Connect with verified Australian graphic designers for urgent design projects.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Graphic | Australian Creative Services",
-    "description": "Discover graphic - your trusted source for creative solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Graphic Design Sprint - 48hr Design Turnaround | Australian Designers",
+    "description": "Professional graphic design delivered in 48 hours guaranteed. Connect with pre-vetted Australian designers for logos, branding, marketing materials and more.",
     "keywords": [
-      "graphic",
-      "creative Australia",
-      "Australian business",
-      "graphic services",
-      "online platform Australia"
+      "graphic designer near me",
+      "fast graphic design",
+      "logo design Australia",
+      "urgent design services",
+      "graphic design portfolio",
+      "professional branding",
+      "design marketplace Australia"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "creative",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#7c3aed",
+      "secondary": "#a855f7",
+      "accent": "#f59e0b"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +65,45 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
-      "type": "headline",
-      "position": "main-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "Welcome to Graphic",
-        "subtitle": "Your destination for graphic in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+        "title": "Professional Designs in 48 Hours",
+        "subtitle": "Urgent design project? Connect with pre-vetted Australian graphic designers and get professional results fast. Speed guarantee or money back.",
+        "cta": "Get Design Quote"
       }
     },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "title": "What We Offer",
-        "description": "Graphic is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
+        "title": "Why Choose Design Sprint",
         "features": [
           {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
+            "title": "48 Hour Guarantee",
+            "description": "Professional designs delivered in 48 hours or less - the only Australian design service with a speed guarantee"
           },
           {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
+            "title": "Verified Designers",
+            "description": "All designers are pre-vetted with portfolios, qualifications and client reviews. No outsourcing surprises."
           },
           {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
+            "title": "Fixed Pricing",
+            "description": "Know exactly what you'll pay upfront. No hidden fees, scope creep or surprise charges"
           }
         ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Graphic launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Instant Design Quotes",
+    "description": "Join 800+ businesses getting fast, professional graphic design. Upload your brief and get matched with expert designers.",
+    "buttonText": "GET DESIGN QUOTES",
+    "successMessage": "Perfect! We'll match you with 3 verified designers and send quotes within 2 hours."
   }
 }

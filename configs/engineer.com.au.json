@@ -2,46 +2,48 @@
   "domain": {
     "name": "engineer.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "technology",
+    "forSale": false,
+    "category": "professional",
     "keywords": [
-      "technology",
-      "innovation",
-      "data flow",
-      "system optimization",
-      "tech solutions",
-      "digital transformation"
+      "engineering services",
+      "structural engineer",
+      "civil engineer",
+      "instant quotes",
+      "professional engineering",
+      "building engineering"
     ],
-    "description": "Advanced technology solutions and system optimization platform. Coming soon.",
+    "description": "InstantEngineer - Get 3 verified engineer quotes within 24 hours. Professional engineering services for urgent structural and forensic needs.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "TechFlow - Advanced Technology Solutions | System Optimization",
-    "description": "Revolutionary technology platform for system optimization and digital transformation. Coming soon.",
+    "title": "InstantEngineer - 24hr Engineering Solutions | Get Engineer Quotes Fast",
+    "description": "Get 3 verified engineer quotes within 24 hours or your submission fee back. Professional structural, civil, and forensic engineering services across Australia.",
     "keywords": [
-      "technology solutions",
-      "system optimization",
-      "digital transformation",
-      "tech platform",
-      "innovation"
+      "structural engineer near me",
+      "engineer quotes",
+      "24 hour engineering services",
+      "building engineer",
+      "forensic engineering",
+      "drainage engineer",
+      "civil engineering consultation"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "terminal",
-    "colorMode": "dark",
+    "type": "hero",
+    "theme": "professional",
+    "colorMode": "light",
     "brandColors": {
-      "primary": "#00ff41",
-      "secondary": "#00ff41",
-      "accent": "#ffd700"
+      "primary": "#1e40af",
+      "secondary": "#3b82f6",
+      "accent": "#f59e0b"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
       "globalEnabled": true,
@@ -62,98 +64,34 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "hero-headline": {
-      "type": "headline",
-      "position": "hero-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "[TECHFLOW.COM.AU]",
-        "subtitle": "Advanced technology infrastructure and optimization protocols. Preparing to revolutionize your digital operations."
+        "title": "Get Engineer Quotes in 24 Hours",
+        "subtitle": "Professional structural, civil and forensic engineering services. 3 verified quotes or your submission fee back.",
+        "cta": "Get Free Quotes Now"
       }
     },
-    "main-content": {
-      "type": "text",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "text": "$ analyze --domain techflow.com.au\n> Initializing analysis...\n> Scanning digital infrastructure...\n> 247 optimization opportunities identified\n\n$ optimize --performance --security\n> Loading optimization modules...\n> Applying performance enhancements...\n> Security protocols updated\n\n$ status --system\n> All systems operational\n> Performance: 99.9% optimal\n> Security: Maximum protection enabled"
-      }
-    },
-    "primary-content": {
-      "type": "features-grid",
-      "position": "primary-content",
-      "content": {
-        "title": "System Capabilities",
+        "title": "Why Choose InstantEngineer",
         "features": [
           {
-            "title": "Analysis Engine",
-            "icon": "🔍",
-            "description": "Deep scanning and pattern recognition"
+            "title": "24 Hour Guarantee",
+            "description": "Get 3 qualified engineer quotes within 24 hours or we refund your submission fee"
           },
           {
-            "title": "Optimization Core",
-            "icon": "⚡",
-            "description": "Performance enhancement algorithms"
+            "title": "Verified Engineers",
+            "description": "All engineers are pre-vetted with current registrations and insurance verification"
           },
           {
-            "title": "Data Processor",
-            "icon": "📊",
-            "description": "Real-time metrics and reporting"
+            "title": "Urgent Projects",
+            "description": "Specializing in structural assessments, forensic engineering, and emergency inspections"
           }
         ]
-      }
-    },
-    "sidebar-1": {
-      "type": "metrics",
-      "position": "sidebar-1",
-      "content": {
-        "title": "System Status",
-        "metrics": [
-          {
-            "label": "CPU Usage",
-            "value": "23%"
-          },
-          {
-            "label": "Memory",
-            "value": "1.2GB"
-          },
-          {
-            "label": "Processes",
-            "value": "47"
-          },
-          {
-            "label": "Uptime",
-            "value": "99.9%"
-          }
-        ]
-      }
-    },
-    "lower-content": {
-      "type": "cta",
-      "position": "lower-content",
-      "content": {
-        "text": "// EARLY ACCESS PROTOCOL",
-        "buttonText": ">>> INITIALIZE ACCESS",
-        "description": "Register for priority access when the system goes live. Limited slots available.",
-        "showForm": true
-      }
-    },
-    "ad-top-banner": {
-      "type": "ad-banner",
-      "position": "ad-top-banner",
-      "enabled": true,
-      "content": {
-        "sponsor": "TechCorp Solutions",
-        "message": "Enterprise Cloud Infrastructure - 99.9% Uptime Guaranteed",
-        "link": "#"
-      }
-    },
-    "ad-alert": {
-      "type": "ad-alert",
-      "position": "ad-alert",
-      "enabled": true,
-      "content": {
-        "sponsor": "CloudHost Pro",
-        "message": "Limited Time: 50% off premium hosting",
-        "link": "#"
       }
     }
   },
@@ -162,9 +100,9 @@
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "// PRIORITY ACCESS REGISTRATION",
-    "description": "Get notified when TechFlow launches. Be the first to access our revolutionary platform.",
-    "buttonText": "REGISTER",
-    "successMessage": "✓ Registration successful. Access granted for early launch."
+    "headline": "Get Instant Engineering Quotes",
+    "description": "Join 500+ property owners who got fast, professional engineering assessments. No waiting weeks for quotes.",
+    "buttonText": "GET FREE QUOTES",
+    "successMessage": "Thank you! We'll connect you with 3 verified engineers within 24 hours."
   }
 }

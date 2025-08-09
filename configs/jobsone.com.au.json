@@ -2,47 +2,53 @@
   "domain": {
     "name": "jobsone.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "professional",
     "keywords": [
-      "jobsone",
-      "Australian business",
-      "online services",
-      "professional"
+      "jobs",
+      "job search",
+      "career opportunities",
+      "employment",
+      "work from home jobs",
+      "software developer jobs",
+      "instant job matching"
     ],
-    "description": "Jobsone - Premium Australian domain for professional services.",
+    "description": "JobsOne - Apply to your perfect job in 60 seconds. AI-powered job matching that connects you to real opportunities instantly, no endless scrolling.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Jobsone | Australian Professional Services",
-    "description": "Discover jobsone - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "JobsOne - One-Minute Job Match | AI-Powered Job Search Australia",
+    "description": "Apply to your perfect job in 60 seconds with AI-powered matching. Skip endless scrolling - get instant matches for software development, remote work and more.",
     "keywords": [
-      "jobsone",
-      "professional Australia",
-      "Australian business",
-      "jobsone services",
-      "online platform Australia"
+      "jobs near me",
+      "job search Australia",
+      "work from home jobs",
+      "software developer jobs",
+      "data scientist jobs",
+      "instant job matching",
+      "AI job search",
+      "career opportunities Australia"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#0ea5e9",
+      "secondary": "#0284c7",
+      "accent": "#10b981"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +66,45 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
-      "type": "headline",
-      "position": "main-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "Welcome to Jobsone",
-        "subtitle": "Your destination for jobsone in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+        "title": "Find Your Perfect Job in 60 Seconds",
+        "subtitle": "AI-powered job matching analyzes your skills and experience to connect you with ideal opportunities instantly. No more endless scrolling through irrelevant listings.",
+        "cta": "Find My Dream Job"
       }
     },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "title": "What We Offer",
-        "description": "Jobsone is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
+        "title": "Why JobsOne Works Better",
         "features": [
           {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
+            "title": "60-Second Applications",
+            "description": "Upload your CV once, apply to multiple perfect matches in seconds. SEEK and Indeed take 5-10 minutes per application."
           },
           {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
+            "title": "AI-Powered Matching",
+            "description": "Our AI analyzes your actual skills and experience, not just keywords. Get better matches than traditional job boards."
           },
           {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
+            "title": "Verified Opportunities",
+            "description": "All jobs are pre-screened for legitimacy. No fake listings, MLM schemes, or commission-only 'opportunities'."
           }
         ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Jobsone launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Instant Job Matches",
+    "description": "Join 5,000+ professionals getting AI-powered job recommendations. Skip the job board maze and get matched to perfect opportunities.",
+    "buttonText": "GET JOB MATCHES",
+    "successMessage": "Perfect! Upload your CV and we'll send you personalized job matches within minutes."
   }
 }

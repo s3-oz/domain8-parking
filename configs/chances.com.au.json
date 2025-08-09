@@ -2,27 +2,28 @@
   "domain": {
     "name": "chances.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "professional",
+    "forSale": false,
+    "category": "finance",
     "keywords": [
-      "chances",
-      "Australian business",
-      "online services",
-      "professional"
+      "second chance lottery",
+      "lottery second draws",
+      "The Lott 2nd chance",
+      "Australian lottery draws",
+      "lottery redemption"
     ],
-    "description": "Chances - Premium Australian domain for professional services.",
+    "description": "Never miss another second chance draw - track all Australian lottery redemption opportunities in one place.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Chances | Australian Professional Services",
-    "description": "Discover chances - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Chances | Australia's Second Chance Lottery Hub",
+    "description": "Australia's complete second chance lottery platform. Track all redemption opportunities, second draws, and unclaimed prizes across every lottery operator.",
     "keywords": [
-      "chances",
-      "professional Australia",
-      "Australian business",
-      "chances services",
-      "online platform Australia"
+      "second chance lottery Australia",
+      "The Lott 2nd chance draws",
+      "lottery redemption tracker",
+      "Australian second chance draws",
+      "lottery second draws calendar"
     ]
   },
   "template": {
@@ -30,16 +31,16 @@
     "theme": "basic",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#dc2626",
+      "secondary": "#059669",
+      "accent": "#fbbf24"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
       "globalEnabled": false,
@@ -60,58 +61,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Chances",
-        "subtitle": "Your destination for chances in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Chances is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Never Miss Another Second Chance Draw",
+        "subtitle": "Australia's complete second chance lottery hub. Track redemption opportunities, draw calendars, and unclaimed prizes across all lottery operators."
       }
     }
   },
@@ -120,9 +75,9 @@
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Chances launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Second Chance Alerts",
+    "description": "Never miss a second chance draw again. Get alerts for new redemption opportunities, draw deadlines, and winning announcements.",
+    "buttonText": "Get Draw Alerts",
+    "successMessage": "Success! You'll be alerted to every second chance opportunity in Australia."
   }
 }

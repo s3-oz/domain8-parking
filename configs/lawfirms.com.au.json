@@ -2,43 +2,48 @@
   "domain": {
     "name": "lawfirms.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "professional",
+    "forSale": false,
+    "category": "legal-directory",
     "keywords": [
-      "lawfirms",
-      "Australian business",
-      "online services",
-      "professional"
+      "lawyers near me",
+      "family lawyers",
+      "injury lawyers",
+      "workers comp lawyers",
+      "legal directory Australia",
+      "find a lawyer"
     ],
-    "description": "Lawfirms - Premium Australian domain for professional services.",
+    "description": "LawFirms.com.au - Australia's Smart Legal Directory. Find the right lawyer with intelligent matching tools, cost calculators, and comprehensive listings.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Lawfirms | Australian Professional Services",
-    "description": "Discover lawfirms - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "LawFirms.com.au | Find Lawyers Near You - Australia's Smart Legal Directory",
+    "description": "Find the right lawyer in Australia. Smart matching tools, workers comp calculators, family law quotes. Browse verified lawyers by practice area and location. Get instant connections.",
     "keywords": [
-      "lawfirms",
-      "professional Australia",
-      "Australian business",
-      "lawfirms services",
-      "online platform Australia"
+      "lawyers near me",
+      "workers comp lawyers",
+      "injury lawyer near me",
+      "family lawyers near me",
+      "Australian legal directory",
+      "find a lawyer Sydney",
+      "Melbourne lawyers",
+      "divorce lawyer cost calculator"
     ]
   },
   "template": {
     "type": "landing",
-    "theme": "basic",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#003D7A",
+      "secondary": "#00A651",
+      "accent": "#FF6B35"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
+      "domainInquiry": false,
       "businessInquiry": false
     },
     "ads": {
@@ -60,58 +65,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Lawfirms",
-        "subtitle": "Your destination for lawfirms in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Lawfirms is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Find the Right Lawyer in Australia",
+        "subtitle": "Smart legal directory with instant matching. Connect with verified lawyers, get cost estimates, and find fixed-price quotes for family law and compensation claims."
       }
     }
   },
@@ -120,9 +79,9 @@
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Lawfirms launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
+    "headline": "Get Matched with Top Lawyers",
+    "description": "Be first to access our smart matching system and exclusive lawyer deals.",
+    "buttonText": "Get Early Access",
     "successMessage": "Success! You're on the list. We'll notify you when we launch."
   }
 }

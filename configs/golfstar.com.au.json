@@ -2,47 +2,51 @@
   "domain": {
     "name": "golfstar.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "professional",
     "keywords": [
-      "golfstar",
-      "Australian business",
-      "online services",
-      "professional"
+      "golf courses",
+      "golf bookings",
+      "golf near me",
+      "tee times",
+      "golf deals",
+      "last minute golf"
     ],
-    "description": "Golfstar - Premium Australian domain for professional services.",
+    "description": "GolfStar - Last Minute Golf deals up to 50% off. Book discounted tee times within 48 hours at top Australian golf courses.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Golfstar | Australian Professional Services",
-    "description": "Discover golfstar - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "GolfStar - Last Minute Golf Deals | 50% Off Tee Times Australia",
+    "description": "Book last-minute tee times up to 50% off at premium Australian golf courses. Dynamic pricing fills empty slots - golfers save, courses profit.",
     "keywords": [
-      "golfstar",
-      "professional Australia",
-      "Australian business",
-      "golfstar services",
-      "online platform Australia"
+      "golf courses near me",
+      "cheap golf tee times",
+      "golf deals Australia",
+      "last minute golf bookings",
+      "golf near me",
+      "discounted golf",
+      "golf course bookings"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#059669",
+      "secondary": "#047857",
+      "accent": "#f59e0b"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +64,45 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
-      "type": "headline",
-      "position": "main-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "Welcome to Golfstar",
-        "subtitle": "Your destination for golfstar in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+        "title": "Last Minute Golf - Up to 50% Off Tee Times",
+        "subtitle": "Book premium golf courses within 48 hours and save big. Dynamic pricing fills empty slots while golfers get incredible deals.",
+        "cta": "Find Golf Deals"
       }
     },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "title": "What We Offer",
-        "description": "Golfstar is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
+        "title": "The Smart Way to Play Golf",
         "features": [
           {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
+            "title": "Instant Savings",
+            "description": "Save 20-50% on premium courses by booking within 48 hours. Our dynamic pricing benefits golfers and golf courses alike"
           },
           {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
+            "title": "Mobile-First Booking",
+            "description": "Book your tee time in under 30 seconds. GPS location shows nearest courses with immediate availability"
           },
           {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
+            "title": "Premium Courses",
+            "description": "Access top-rated courses across Sydney, Melbourne, Brisbane and Perth. Play where you've always wanted to play"
           }
         ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Golfstar launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Golf Deal Alerts",
+    "description": "Join 4,200+ golfers getting exclusive last-minute deals at premium courses. Never pay full price again.",
+    "buttonText": "GET GOLF DEALS",
+    "successMessage": "Perfect! We'll send you the best last-minute golf deals in your area within 24 hours."
   }
 }

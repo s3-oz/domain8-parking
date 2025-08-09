@@ -2,43 +2,48 @@
   "domain": {
     "name": "broken.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "professional",
+    "forSale": false,
+    "category": "marketplace",
     "keywords": [
-      "broken",
-      "Australian business",
-      "online services",
-      "professional"
+      "repair services",
+      "fix broken items",
+      "emergency repairs",
+      "mobile phone repair",
+      "window repair",
+      "appliance repair"
     ],
-    "description": "Broken - Premium Australian domain for professional services.",
+    "description": "FixHub Australia - Everything broken, fixed fast. Connect with verified repair professionals for instant quotes and guaranteed repairs.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Broken | Australian Professional Services",
-    "description": "Discover broken - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Broken.com.au | FixHub - Everything Broken, Fixed Fast | Repair Services Australia",
+    "description": "Get instant quotes for any repair. Connect with verified professionals for broken phones, windows, appliances & more. AI-powered quotes, warranty protection, 24/7 emergency booking.",
     "keywords": [
-      "broken",
-      "professional Australia",
-      "Australian business",
-      "broken services",
-      "online platform Australia"
+      "repair services Australia",
+      "fix broken phone",
+      "window repair near me",
+      "appliance repair Sydney",
+      "emergency repairs Melbourne",
+      "broken glass repair",
+      "instant repair quotes",
+      "verified repair professionals"
     ]
   },
   "template": {
     "type": "landing",
-    "theme": "basic",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
       "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "secondary": "#059669",
+      "accent": "#f97316"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
+      "domainInquiry": false,
       "businessInquiry": false
     },
     "ads": {
@@ -60,58 +65,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Broken",
-        "subtitle": "Your destination for broken in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Broken is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Everything Broken, Fixed Fast",
+        "subtitle": "Australia's unified repair marketplace. Get instant AI-powered quotes, connect with verified professionals, and enjoy warranty protection on all repairs."
       }
     }
   },
@@ -120,9 +79,9 @@
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Broken launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
+    "headline": "Get Your Repairs Fixed First",
+    "description": "Join early for exclusive discounts and priority emergency repair access.",
+    "buttonText": "Get Priority Access",
     "successMessage": "Success! You're on the list. We'll notify you when we launch."
   }
 }

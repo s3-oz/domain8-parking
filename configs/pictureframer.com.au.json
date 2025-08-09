@@ -2,47 +2,48 @@
   "domain": {
     "name": "pictureframer.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "ecommerce",
+    "forSale": false,
+    "category": "creative",
     "keywords": [
-      "pictureframer",
-      "Australian business",
-      "online services",
-      "ecommerce"
+      "instant frame quotes",
+      "picture framing near me",
+      "custom framing quotes",
+      "Australian picture framers",
+      "mobile framing quotes"
     ],
-    "description": "Pictureframer - Premium Australian domain for ecommerce services.",
+    "description": "Upload photo, get 3 quotes in 60 seconds from local framers. Australia's instant picture framing quote platform.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Pictureframer | Australian Ecommerce Services",
-    "description": "Discover pictureframer - your trusted source for ecommerce solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Picture Framer | Instant Framing Quotes Australia",
+    "description": "Australia's first instant picture framing quote platform. Upload photos of your artwork, get 3 guaranteed quotes in 60 seconds from verified local framers.",
     "keywords": [
-      "pictureframer",
-      "ecommerce Australia",
-      "Australian business",
-      "pictureframer services",
-      "online platform Australia"
+      "picture framing quotes Australia",
+      "instant framing quotes",
+      "custom framing near me",
+      "picture framer quotes online",
+      "Australian picture framing services"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "creative",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#7c2d12",
+      "secondary": "#92400e",
+      "accent": "#fbbf24"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +61,23 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Pictureframer",
-        "subtitle": "Your destination for pictureframer in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Pictureframer is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Upload Photo, Get 3 Quotes in 60 Seconds",
+        "subtitle": "Australia's first instant picture framing quote platform. Skip the hassle - get competitive quotes from verified local framers with photos."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Pictureframer launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Instant Framing Quotes",
+    "description": "Join thousands getting instant framing quotes. Be first to access Australia's fastest picture framing quote platform.",
+    "buttonText": "Get Quote Access",
+    "successMessage": "Success! You'll be first to get instant framing quotes when we launch."
   }
 }

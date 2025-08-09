@@ -2,47 +2,53 @@
   "domain": {
     "name": "funrun.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "professional",
+    "forSale": false,
+    "category": "creative",
     "keywords": [
-      "funrun",
-      "Australian business",
-      "online services",
-      "professional"
+      "fun runs",
+      "running events",
+      "5k runs",
+      "charity runs",
+      "city2surf",
+      "colour runs",
+      "marathon events"
     ],
-    "description": "Funrun - Premium Australian domain for professional services.",
+    "description": "RunMatch - Find your perfect fun run in 30 seconds. AI-powered event recommendations based on your fitness level, location, and goals.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Funrun | Australian Professional Services",
-    "description": "Discover funrun - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "RunMatch - Find Your Perfect Fun Run | AI Event Recommendations",
+    "description": "Discover fun runs near you with our AI-powered matching system. Get personalized recommendations for 5K runs, charity events, City2Surf training and more across Australia.",
     "keywords": [
-      "funrun",
-      "professional Australia",
-      "Australian business",
-      "funrun services",
-      "online platform Australia"
+      "fun runs near me",
+      "5k run events",
+      "running events Australia",
+      "charity fun runs",
+      "colour run Australia",
+      "beginner fun runs",
+      "city2surf training",
+      "running event finder"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "creative",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#f97316",
+      "secondary": "#ea580c",
+      "accent": "#22c55e"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +66,45 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
-      "type": "headline",
-      "position": "main-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "Welcome to Funrun",
-        "subtitle": "Your destination for funrun in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+        "title": "Find Your Perfect Fun Run in 30 Seconds",
+        "subtitle": "AI-powered matching system finds ideal running events based on your fitness level, location, and goals. Never miss another perfect race.",
+        "cta": "Find My Events"
       }
     },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "title": "What We Offer",
-        "description": "Funrun is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
+        "title": "Why Runners Love RunMatch",
         "features": [
           {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
+            "title": "Smart Matching",
+            "description": "Answer 5 quick questions and get personalized event recommendations that match your fitness level and goals"
           },
           {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
+            "title": "Never Miss Out",
+            "description": "Get alerts for City2Surf registrations, charity runs, and colour runs before they sell out"
           },
           {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
+            "title": "Training Plans",
+            "description": "Integrated training plans for each event, plus group matching to find running buddies"
           }
         ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Funrun launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Event Alerts",
+    "description": "Join 2,000+ runners getting early access to City2Surf, colour runs, and charity events before they sell out.",
+    "buttonText": "GET EVENT ALERTS",
+    "successMessage": "Great! We'll send you personalized fun run recommendations and early registration alerts."
   }
 }

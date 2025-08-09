@@ -2,47 +2,48 @@
   "domain": {
     "name": "buysafe.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "ecommerce",
+    "forSale": false,
+    "category": "professional",
     "keywords": [
-      "buysafe",
-      "Australian business",
-      "online services",
-      "ecommerce"
+      "safe retailer verification",
+      "trusted safe dealers",
+      "home safe reviews",
+      "safe buying guide",
+      "secure safe purchases"
     ],
-    "description": "Buysafe - Premium Australian domain for ecommerce services.",
+    "description": "Australia's trusted safe retailer verification platform - know which safe retailer to trust before you buy.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Buysafe | Australian Ecommerce Services",
-    "description": "Discover buysafe - your trusted source for ecommerce solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "BuySafe Score | Trusted Safe Retailer Verification Australia",
+    "description": "Australia's first safe retailer trust verification platform. Check verified reviews, safety scores and retailer credentials before buying home safes.",
     "keywords": [
-      "buysafe",
-      "ecommerce Australia",
-      "Australian business",
-      "buysafe services",
-      "online platform Australia"
+      "safe retailer verification Australia",
+      "trusted safe dealers",
+      "home safe buying guide",
+      "safe retailer reviews",
+      "secure safe purchases Australia"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#059669",
+      "secondary": "#047857",
+      "accent": "#fbbf24"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +61,23 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Buysafe",
-        "subtitle": "Your destination for buysafe in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Buysafe is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Know Which Safe Retailer to Trust",
+        "subtitle": "Australia's first independent safe retailer verification platform. Check trust scores, verified reviews, and retailer credentials before making your purchase."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Buysafe launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Safe Retailer Alerts",
+    "description": "Be first to know about verified retailers, new safety certifications, and retailer warnings in your area.",
+    "buttonText": "Get Trust Updates",
+    "successMessage": "Success! You'll be alerted to verified safe retailers and important safety updates."
   }
 }

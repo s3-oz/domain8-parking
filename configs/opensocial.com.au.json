@@ -2,47 +2,48 @@
   "domain": {
     "name": "opensocial.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "professional",
     "keywords": [
-      "opensocial",
-      "Australian business",
-      "online services",
-      "professional"
+      "social impact careers",
+      "social work jobs Australia",
+      "social sector careers",
+      "Australian social workers",
+      "social services employment"
     ],
-    "description": "Opensocial - Premium Australian domain for professional services.",
+    "description": "Where purpose meets profession - Australia's first social sector career ecosystem connecting social workers with meaningful opportunities.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Opensocial | Australian Professional Services",
-    "description": "Discover opensocial - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Open Social | Social Impact Careers Australia",
+    "description": "Australia's first social sector career ecosystem. Beyond job listings - career paths, salary benchmarks, skill assessments, and peer mentoring for social workers.",
     "keywords": [
-      "opensocial",
-      "professional Australia",
-      "Australian business",
-      "opensocial services",
-      "online platform Australia"
+      "social work employment Australia",
+      "social impact careers",
+      "social sector jobs Australia",
+      "social work opportunities",
+      "social services careers Australia"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#0f766e",
+      "secondary": "#134e4a",
+      "accent": "#f59e0b"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +61,23 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Opensocial",
-        "subtitle": "Your destination for opensocial in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Opensocial is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Where Purpose Meets Profession",
+        "subtitle": "Australia's first social sector career ecosystem. Beyond job listings - career paths, salary benchmarks, and peer mentoring for social workers."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Opensocial launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Social Impact Career Updates",
+    "description": "Join Australia's largest community of social sector professionals. Get career opportunities, salary insights, and professional development resources.",
+    "buttonText": "Join Community",
+    "successMessage": "Success! You'll receive exclusive social sector career opportunities and insights."
   }
 }

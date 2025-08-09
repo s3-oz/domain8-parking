@@ -2,47 +2,48 @@
   "domain": {
     "name": "fenderbender.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "professional",
     "keywords": [
-      "fenderbender",
-      "Australian business",
-      "online services",
-      "professional"
+      "panel beater quotes",
+      "car body repair near me",
+      "instant repair quotes",
+      "fender bender repair",
+      "Australian panel beaters"
     ],
-    "description": "Fenderbender - Premium Australian domain for professional services.",
+    "description": "Upload 3 photos, get 5 guaranteed panel beater quotes in 30 minutes - Australia's instant repair quote platform.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Fenderbender | Australian Professional Services",
-    "description": "Discover fenderbender - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Fender Bender | Instant Panel Beater Quotes Australia",
+    "description": "Australia's first instant panel beater quote platform. Upload photos of your car damage, get 5 guaranteed quotes in 30 minutes from verified repairers.",
     "keywords": [
-      "fenderbender",
-      "professional Australia",
-      "Australian business",
-      "fenderbender services",
-      "online platform Australia"
+      "panel beater quotes Australia",
+      "instant car repair quotes",
+      "fender bender repair quotes",
+      "panel beater near me",
+      "car body repair quotes Australia"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#dc2626",
+      "secondary": "#b91c1c",
+      "accent": "#f97316"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +61,23 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Fenderbender",
-        "subtitle": "Your destination for fenderbender in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Fenderbender is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Upload 3 Photos, Get 5 Guaranteed Quotes in 30 Minutes",
+        "subtitle": "Australia's first instant panel beater quote platform. Skip the hassle - get competitive repair quotes from verified local panel beaters instantly."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Fenderbender launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Instant Repair Quotes",
+    "description": "Join thousands getting instant panel beater quotes. Be first to access Australia's fastest car repair quote platform.",
+    "buttonText": "Get Quote Access",
+    "successMessage": "Success! You'll be first to get instant panel beater quotes when we launch."
   }
 }

@@ -2,47 +2,51 @@
   "domain": {
     "name": "myownwebsite.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "technology",
     "keywords": [
-      "myownwebsite",
-      "Australian business",
-      "online services",
-      "technology"
+      "website builder",
+      "web design",
+      "website designer",
+      "create website",
+      "web designer quotes",
+      "Australian web design"
     ],
-    "description": "Myownwebsite - Premium Australian domain for technology services.",
+    "description": "MyOwnWebsite - Get 3 quotes from verified Australian web designers in 60 seconds. Instant matching for website design, development and digital services.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Myownwebsite | Australian Technology Services",
-    "description": "Discover myownwebsite - your trusted source for technology solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "MyOwnWebsite - Get Web Designer Quotes in 60 Seconds | Australian Designers",
+    "description": "Get 3 verified web designer quotes instantly. Connect with pre-vetted Australian web designers and developers for websites, apps and digital projects.",
     "keywords": [
-      "myownwebsite",
-      "technology Australia",
-      "Australian business",
-      "myownwebsite services",
-      "online platform Australia"
+      "website designer near me",
+      "web designer quotes",
+      "website design Australia",
+      "web designer near me",
+      "website development quotes",
+      "Australian web design",
+      "local web designers"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "technology",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#6366f1",
+      "secondary": "#4f46e5",
+      "accent": "#06b6d4"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +64,45 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
-      "type": "headline",
-      "position": "main-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "Welcome to Myownwebsite",
-        "subtitle": "Your destination for myownwebsite in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+        "title": "Get 3 Web Designer Quotes in 60 Seconds",
+        "subtitle": "Connect with verified Australian web designers instantly. Compare quotes, portfolios and timelines from pre-vetted professionals.",
+        "cta": "Get Designer Quotes"
       }
     },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "title": "What We Offer",
-        "description": "Myownwebsite is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
+        "title": "The Smart Way to Find Web Designers",
         "features": [
           {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
+            "title": "Instant Matching",
+            "description": "Tell us your project needs and get matched with 3 perfect designers in 60 seconds - no more endless searching"
           },
           {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
+            "title": "Verified Professionals",
+            "description": "All designers are pre-screened with portfolio reviews, client testimonials and Australian business verification"
           },
           {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
+            "title": "Compare & Choose",
+            "description": "See quotes, timelines and work samples side-by-side. Make informed decisions with full transparency"
           }
         ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Myownwebsite launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Designer Quotes Today",
+    "description": "Join 1,200+ businesses who found their perfect web designer through our platform. Get matched with verified Australian professionals.",
+    "buttonText": "GET QUOTES NOW",
+    "successMessage": "Excellent! We'll send you 3 personalized web designer quotes within 2 hours."
   }
 }

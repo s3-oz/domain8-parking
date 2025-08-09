@@ -2,47 +2,51 @@
   "domain": {
     "name": "familycooking.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "professional",
+    "forSale": false,
+    "category": "creative",
     "keywords": [
-      "familycooking",
-      "Australian business",
-      "online services",
-      "professional"
+      "family dinner ideas",
+      "easy dinner recipes",
+      "meal planning",
+      "family recipes",
+      "dinner assistant",
+      "quick family meals"
     ],
-    "description": "Familycooking - Premium Australian domain for professional services.",
+    "description": "FamilyCooking DinnerBot - Tell me what's in your fridge, I'll tell you what's for dinner in 10 seconds. AI-powered family meal assistant.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Familycooking | Australian Professional Services",
-    "description": "Discover familycooking - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "DinnerBot - AI Family Meal Assistant | What's for Dinner Tonight?",
+    "description": "Never wonder 'what's for dinner' again. DinnerBot AI creates instant family meal plans from your pantry ingredients. Easy dinners in 10 seconds.",
     "keywords": [
-      "familycooking",
-      "professional Australia",
-      "Australian business",
-      "familycooking services",
-      "online platform Australia"
+      "easy dinner ideas for family",
+      "family dinner ideas",
+      "simple dinners for family",
+      "what's for dinner tonight",
+      "meal planning families",
+      "family recipe ideas",
+      "quick family dinners"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "creative",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#f97316",
+      "secondary": "#ea580c",
+      "accent": "#84cc16"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +64,45 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
-      "type": "headline",
-      "position": "main-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "Welcome to Familycooking",
-        "subtitle": "Your destination for familycooking in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+        "title": "What's in Your Fridge? DinnerBot Knows What's for Dinner",
+        "subtitle": "Tell our AI assistant what ingredients you have and get perfect family dinner ideas in 10 seconds. No more staring at the fridge wondering what to cook.",
+        "cta": "Ask DinnerBot Now"
       }
     },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "title": "What We Offer",
-        "description": "Familycooking is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
+        "title": "Why Families Love DinnerBot",
         "features": [
           {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
+            "title": "Instant Solutions",
+            "description": "Photo your pantry or list ingredients - get 3 perfect dinner ideas with recipes and shopping lists in seconds"
           },
           {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
+            "title": "Kid-Friendly Focus",
+            "description": "AI learns your family's preferences, dietary restrictions and what the kids actually eat (not just what they should)"
           },
           {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
+            "title": "Smart Shopping",
+            "description": "Connects with Woolworths and Coles to show you exactly where to find ingredients and current prices"
           }
         ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Familycooking launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Never Ask 'What's for Dinner?' Again",
+    "description": "Join 3,500+ parents getting personalized dinner ideas from DinnerBot AI. End mealtime stress forever.",
+    "buttonText": "GET FREE DINNER IDEAS",
+    "successMessage": "Fantastic! DinnerBot will start sending you personalized family dinner ideas right away."
   }
 }

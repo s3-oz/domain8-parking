@@ -2,47 +2,48 @@
   "domain": {
     "name": "careersadviser.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "professional",
     "keywords": [
-      "careersadviser",
-      "Australian business",
-      "online services",
-      "professional"
+      "career advisor matching",
+      "AI career guidance",
+      "Australian career advice",
+      "instant career advisor",
+      "career transition help"
     ],
-    "description": "Careersadviser - Premium Australian domain for professional services.",
+    "description": "Get matched with 3 perfect career advisors in 60 seconds using AI - Australia's first instant career advisor matching platform.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Careersadviser | Australian Professional Services",
-    "description": "Discover careersadviser - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Careers Adviser | AI Career Advisor Matching Australia",
+    "description": "Australia's first AI-powered career advisor matching platform. Get matched with 3 perfect career advisors in 60 seconds based on your goals and personality.",
     "keywords": [
-      "careersadviser",
-      "professional Australia",
-      "Australian business",
-      "careersadviser services",
-      "online platform Australia"
+      "career advisor Australia",
+      "AI career matching",
+      "instant career advice",
+      "career transition help Australia",
+      "career advisor near me"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#1e40af",
+      "secondary": "#3730a3",
+      "accent": "#10b981"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +61,23 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Careersadviser",
-        "subtitle": "Your destination for careersadviser in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Careersadviser is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Get Matched with 3 Perfect Career Advisors in 60 Seconds",
+        "subtitle": "Australia's first AI-powered career advisor matching platform. Using personality fit and career goals, we connect you with the right advisors instantly."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Careersadviser launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Career Advisor Matches",
+    "description": "Join thousands of Australians getting matched with perfect career advisors. Be first to access our AI matching platform.",
+    "buttonText": "Get Early Access",
+    "successMessage": "Success! You'll be first to access Australia's smartest career advisor matching platform."
   }
 }

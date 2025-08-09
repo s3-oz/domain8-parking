@@ -2,47 +2,51 @@
   "domain": {
     "name": "medicalschool.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "professional",
     "keywords": [
-      "medicalschool",
-      "Australian business",
-      "online services",
-      "professional"
+      "medical school",
+      "medical education",
+      "medical career",
+      "healthcare education",
+      "medical degree",
+      "GAMSAT preparation"
     ],
-    "description": "Medicalschool - Premium Australian domain for professional services.",
+    "description": "MedPath Australia - Your medical career navigator. Map your entire journey from high school to hospital with AI-powered pathway recommendations.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Medicalschool | Australian Professional Services",
-    "description": "Discover medicalschool - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "MedPath Australia - Medical Career Navigator | From High School to Hospital",
+    "description": "Map your medical career journey with AI-powered recommendations. Compare pathways, costs, timelines and success rates for all medical professions in Australia.",
     "keywords": [
-      "medicalschool",
-      "professional Australia",
-      "Australian business",
-      "medicalschool services",
-      "online platform Australia"
+      "medical school Australia",
+      "medical career pathways",
+      "how to become a doctor",
+      "medical degree requirements",
+      "GAMSAT preparation",
+      "medical education Australia",
+      "healthcare career guide"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#dc2626",
+      "secondary": "#b91c1c",
+      "accent": "#0ea5e9"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +64,45 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
-      "type": "headline",
-      "position": "main-headline",
+    "hero": {
+      "type": "hero",
+      "position": "main",
       "content": {
-        "title": "Welcome to Medicalschool",
-        "subtitle": "Your destination for medicalschool in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
+        "title": "Map Your Medical Career Journey",
+        "subtitle": "From high school to hospital - get personalized pathway recommendations with timelines, costs, and success rates for every medical profession in Australia.",
+        "cta": "Find My Path"
       }
     },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
+    "features": {
+      "type": "feature_grid",
+      "position": "secondary",
       "content": {
-        "title": "What We Offer",
-        "description": "Medicalschool is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
+        "title": "Why Choose MedPath Australia",
         "features": [
           {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
+            "title": "Complete Career Map",
+            "description": "Compare ALL medical careers - from medical assistant to specialist surgeon. See real timelines, costs and salary data"
           },
           {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
+            "title": "Personalized Pathways",
+            "description": "Answer 10 questions, get your custom roadmap with GAMSAT prep, university options, and backup plans"
           },
           {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
+            "title": "Real Success Rates",
+            "description": "See actual admission rates, graduate employment stats, and salary data from Australian medical schools and programs"
           }
         ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Medicalschool launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Your Medical Career Roadmap",
+    "description": "Join 2,800+ aspiring medical professionals getting personalized career guidance. From GAMSAT prep to medical school applications.",
+    "buttonText": "GET CAREER ROADMAP",
+    "successMessage": "Excellent! We'll send your personalized medical career pathway within 24 hours."
   }
 }

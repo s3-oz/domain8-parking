@@ -2,47 +2,48 @@
   "domain": {
     "name": "losers.com.au",
     "status": "coming_soon",
-    "forSale": true,
+    "forSale": false,
     "category": "professional",
     "keywords": [
-      "losers",
-      "Australian business",
-      "online services",
-      "professional"
+      "failure to success stories",
+      "Australian entrepreneurs",
+      "learning from failure",
+      "business resilience",
+      "failure education platform"
     ],
-    "description": "Losers - Premium Australian domain for professional services.",
+    "description": "Australia's first platform celebrating epic fails that led to massive wins - where failure becomes your greatest teacher.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Losers | Australian Professional Services",
-    "description": "Discover losers - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Losers Win | Australia's Failure to Success Platform",
+    "description": "Australia's first platform celebrating failure as learning. Discover epic fails that led to massive wins from Australian entrepreneurs, athletes, and creators.",
     "keywords": [
-      "losers",
-      "professional Australia",
-      "Australian business",
-      "losers services",
-      "online platform Australia"
+      "failure to success stories Australia",
+      "learning from failure",
+      "Australian entrepreneur failures",
+      "business resilience stories",
+      "failure education platform"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "creative",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#059669",
+      "secondary": "#047857",
+      "accent": "#f59e0b"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +61,23 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Losers",
-        "subtitle": "Your destination for losers in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Losers is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Australia's First Platform Celebrating Epic Fails That Led to Massive Wins",
+        "subtitle": "Where failure becomes your greatest teacher. Discover Australian entrepreneurs, athletes, and creators who failed their way to extraordinary success."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Losers launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Learn from Epic Failures",
+    "description": "Join thousands learning from Australia's greatest failure-to-success stories. Get weekly insights from entrepreneurs who failed their way to the top.",
+    "buttonText": "Get Success Stories",
+    "successMessage": "Success! You'll receive Australia's most inspiring failure-to-success stories."
   }
 }

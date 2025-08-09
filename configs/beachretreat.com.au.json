@@ -3,43 +3,44 @@
     "name": "beachretreat.com.au",
     "status": "coming_soon",
     "forSale": true,
-    "category": "professional",
+    "category": "creative",
     "keywords": [
-      "beachretreat",
-      "Australian business",
-      "online services",
-      "professional"
+      "beach retreat",
+      "coastal accommodation",
+      "beachfront holiday",
+      "seaside resort",
+      "ocean getaway"
     ],
-    "description": "Beachretreat - Premium Australian domain for professional services.",
+    "description": "Beach Retreat - Premium Australian domain for coastal accommodation and beach holidays.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Beachretreat | Australian Professional Services",
-    "description": "Discover beachretreat - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Beach Retreat Australia | Premium Coastal Holiday Domain For Sale",
+    "description": "Premium Australian domain perfect for beach resorts, coastal retreats, and seaside accommodation. Ideal for creating Australia's premier beachfront holiday destination website.",
     "keywords": [
-      "beachretreat",
-      "professional Australia",
-      "Australian business",
-      "beachretreat services",
-      "online platform Australia"
+      "beach retreat Australia",
+      "coastal accommodation",
+      "beachfront resort",
+      "seaside holiday",
+      "ocean retreat Australia"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "creative",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#0ea5e9",
+      "secondary": "#0284c7",
+      "accent": "#38bdf8"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
       "domainInquiry": true,
-      "businessInquiry": false
+      "businessInquiry": true
     },
     "ads": {
       "globalEnabled": false,
@@ -60,58 +61,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Beachretreat",
-        "subtitle": "Your destination for beachretreat in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Beachretreat is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Beach Retreat Australia",
+        "subtitle": "Premium domain for coastal accommodation and beachfront holidays. Perfect for resorts, retreat centers, holiday rentals, or seaside destinations. Create Australia's most memorable beach getaway experience."
       }
     }
   },
@@ -120,9 +75,9 @@
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Beachretreat launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Premium Beach Resort Domain",
+    "description": "Interested in this premium domain for coastal retreats and beach accommodation? Perfect for resort operators and holiday rental businesses.",
+    "buttonText": "Learn More",
+    "successMessage": "Thank you! We'll send you information about this premium beach retreat domain."
   }
 }

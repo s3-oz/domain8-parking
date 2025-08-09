@@ -5,41 +5,42 @@
     "forSale": true,
     "category": "comparison",
     "keywords": [
-      "comparedomains",
-      "Australian business",
-      "online services",
-      "comparison"
+      "domain comparison",
+      "domain registrar",
+      "domain prices",
+      "domain hosting",
+      "domain marketplace"
     ],
-    "description": "Comparedomains - Premium Australian domain for comparison services.",
+    "description": "Compare Domains - Premium Australian domain for domain comparison and marketplace services.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Comparedomains | Australian Comparison Services",
-    "description": "Discover comparedomains - your trusted source for comparison solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Compare Domains Australia | Premium Domain Comparison Platform For Sale",
+    "description": "Premium Australian domain perfect for domain comparison, registrar reviews, domain marketplace, and hosting comparisons. Ideal for building Australia's leading domain services platform.",
     "keywords": [
-      "comparedomains",
-      "comparison Australia",
-      "Australian business",
-      "comparedomains services",
-      "online platform Australia"
+      "compare domains Australia",
+      "domain comparison",
+      "domain registrar comparison",
+      "domain marketplace",
+      "domain price comparison"
     ]
   },
   "template": {
     "type": "landing",
-    "theme": "basic",
+    "theme": "comparison",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#7c3aed",
+      "secondary": "#6d28d9",
+      "accent": "#8b5cf6"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
       "domainInquiry": true,
-      "businessInquiry": false
+      "businessInquiry": true
     },
     "ads": {
       "globalEnabled": false,
@@ -60,58 +61,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Comparedomains",
-        "subtitle": "Your destination for comparedomains in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Comparedomains is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Compare Domains Australia",
+        "subtitle": "Premium domain for domain comparison and marketplace services. Perfect for comparing domain registrars, hosting providers, domain prices, or building a comprehensive domain services platform. Help users find the best domain deals."
       }
     }
   },
@@ -120,9 +75,9 @@
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Comparedomains launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Premium Domain Services Platform",
+    "description": "Interested in this premium domain for domain comparison and marketplace services? Perfect for tech entrepreneurs and domain industry professionals.",
+    "buttonText": "Get Details",
+    "successMessage": "Thank you! We'll provide information about this premium domain comparison platform."
   }
 }

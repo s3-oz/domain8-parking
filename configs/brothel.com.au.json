@@ -2,43 +2,46 @@
   "domain": {
     "name": "brothel.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "professional",
+    "forSale": false,
+    "category": "directory",
     "keywords": [
-      "brothel",
-      "Australian business",
-      "online services",
-      "professional"
+      "licensed establishments",
+      "legal adult services",
+      "verified directory",
+      "safety compliance",
+      "Australian regulations"
     ],
-    "description": "Brothel - Premium Australian domain for professional services.",
+    "description": "Australia's Premier Legal Adult Services Directory - Connecting Australians with licensed establishments safely and legally.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Brothel | Australian Professional Services",
-    "description": "Discover brothel - your trusted source for professional solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Brothel.com.au | Australia's Premier Legal Adult Services Directory",
+    "description": "Find licensed, legal adult establishments across Australia. Verified directory with safety standards, regulatory compliance, and professional listings in NSW, VIC, QLD, NT & ACT.",
     "keywords": [
-      "brothel",
-      "professional Australia",
-      "Australian business",
-      "brothel services",
-      "online platform Australia"
+      "legal adult services Australia",
+      "licensed establishments directory",
+      "NSW brothels legal",
+      "Victoria adult services",
+      "Queensland licensed venues",
+      "regulatory compliance",
+      "verified establishments"
     ]
   },
   "template": {
     "type": "landing",
-    "theme": "basic",
+    "theme": "professional",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#6B46C1",
+      "secondary": "#10B981",
+      "accent": "#3B82F6"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
+      "domainInquiry": false,
       "businessInquiry": false
     },
     "ads": {
@@ -60,58 +63,12 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Brothel",
-        "subtitle": "Your destination for brothel in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Brothel is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Australia's Premier Legal Adult Services Directory",
+        "subtitle": "Connecting Australians with licensed establishments safely and legally. Verified listings with safety standards and regulatory compliance across NSW, VIC, QLD, NT & ACT."
       }
     }
   },
@@ -120,9 +77,9 @@
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Brothel launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
+    "headline": "Stay Informed",
+    "description": "Get updates on verified establishments and safety resources in your state.",
+    "buttonText": "Subscribe for Updates",
     "successMessage": "Success! You're on the list. We'll notify you when we launch."
   }
 }

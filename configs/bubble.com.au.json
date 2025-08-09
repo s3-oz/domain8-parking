@@ -2,47 +2,48 @@
   "domain": {
     "name": "bubble.com.au",
     "status": "coming_soon",
-    "forSale": true,
-    "category": "ecommerce",
+    "forSale": false,
+    "category": "creative",
     "keywords": [
-      "bubble",
-      "Australian business",
-      "online services",
-      "ecommerce"
+      "bubble accommodation",
+      "unique stays Australia",
+      "glamping bubble tents",
+      "Australian glamping",
+      "bubble houses"
     ],
-    "description": "Bubble - Premium Australian domain for ecommerce services.",
+    "description": "Discover unique bubble accommodation and glamping experiences across Australia - your guide to extraordinary stays.",
     "logo": "",
     "logoSize": "large"
   },
   "seo": {
-    "title": "Bubble | Australian Ecommerce Services",
-    "description": "Discover bubble - your trusted source for ecommerce solutions in Australia. Coming soon with premium services tailored for the Australian market.",
+    "title": "Bubble Australia | Unique Bubble Accommodation & Glamping Guide",
+    "description": "Discover unique bubble tents, accommodation and glamping experiences across Australia. Your comprehensive guide to extraordinary stays in bubble houses and pods.",
     "keywords": [
-      "bubble",
-      "ecommerce Australia",
-      "Australian business",
-      "bubble services",
-      "online platform Australia"
+      "bubble accommodation Australia",
+      "glamping bubble tents",
+      "unique stays Australia",
+      "bubble houses booking",
+      "Australian bubble camping"
     ]
   },
   "template": {
-    "type": "landing",
-    "theme": "basic",
+    "type": "hero",
+    "theme": "creative",
     "colorMode": "light",
     "brandColors": {
-      "primary": "#2563eb",
-      "secondary": "#1e40af",
-      "accent": "#3b82f6"
+      "primary": "#16a34a",
+      "secondary": "#15803d",
+      "accent": "#fbbf24"
     }
   },
   "controls": {
     "forms": {
       "emailCapture": true,
-      "domainInquiry": true,
-      "businessInquiry": false
+      "domainInquiry": false,
+      "businessInquiry": true
     },
     "ads": {
-      "globalEnabled": false,
+      "globalEnabled": true,
       "positions": {
         "topBanner": true,
         "alert": true,
@@ -60,69 +61,23 @@
     "enableAnalytics": true
   },
   "contentBoxes": {
-    "main-headline": {
+    "main": {
       "type": "headline",
-      "position": "main-headline",
+      "position": "main",
       "content": {
-        "title": "Welcome to Bubble",
-        "subtitle": "Your destination for bubble in Australia. Discover premium services and solutions tailored for Australian businesses and consumers."
-      }
-    },
-    "main-content": {
-      "type": "content",
-      "position": "main-content",
-      "content": {
-        "title": "What We Offer",
-        "description": "Bubble is coming soon. We're building something special for the Australian market.",
-        "items": [
-          "Premium services solutions",
-          "Australian-focused content and services",
-          "Expert guidance and support",
-          "Innovative tools and resources"
-        ]
-      }
-    },
-    "features-grid": {
-      "type": "features-grid",
-      "position": "features-grid",
-      "content": {
-        "features": [
-          {
-            "title": "Australian Owned",
-            "description": "Proudly Australian owned and operated",
-            "icon": "🇦🇺"
-          },
-          {
-            "title": "Expert Service",
-            "description": "Professional support when you need it",
-            "icon": "⭐"
-          },
-          {
-            "title": "Coming Soon",
-            "description": "Register for early access and updates",
-            "icon": "🚀"
-          }
-        ]
-      }
-    },
-    "cta-section": {
-      "type": "cta",
-      "position": "cta-section",
-      "content": {
-        "text": "Stay Updated",
-        "buttonText": "Get Early Access",
-        "description": "Be the first to know when we launch. Join our priority access list."
+        "title": "Discover Unique Bubble Accommodation",
+        "subtitle": "Australia's comprehensive guide to bubble tents, glamping pods, and extraordinary outdoor stays. From luxury bubble domes to unique camping experiences across the continent."
       }
     }
   },
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "network": "adsense"
   },
   "emailCapture": {
-    "headline": "Get Early Access",
-    "description": "Be the first to know when Bubble launches. Join our priority access list.",
-    "buttonText": "Join Waitlist",
-    "successMessage": "Success! You're on the list. We'll notify you when we launch."
+    "headline": "Get Bubble Stay Alerts",
+    "description": "Be first to discover new bubble accommodations, special deals, and unique glamping experiences across Australia.",
+    "buttonText": "Get Stay Updates",
+    "successMessage": "Success! You'll be the first to know about amazing bubble stays and glamping deals."
   }
 }
